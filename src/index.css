@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.slider-item {
+  display: flex;
+  justify-content: center;
+  margin-top: -6px;
+  /* margin-bottom: -8px; */
+}
+
+.image-container {
+  width: 100%; /* Adjust the width as needed */
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 65%;
+}
+.slick-track{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-next {
+  right: 10px;
+  scale: 1.5;
+  top: 45%;
+}
+
+.slick-prev {
+  left: 10px;
+  scale: 1.5;
+  z-index: 1;
+  top: 45%;
+}
+
+.carousel .slick-list {
+  margin: 0 -10px;
+}
+
+.carousel .slick-slide {
+  padding: 0 10px; /* Use the same value as above */
+}
+
+.carousel .slick-dots {
+  bottom: 10px;
+}
+
+.card .slick-dots {
+  bottom: 10px;
+  cursor: poi;
+}
