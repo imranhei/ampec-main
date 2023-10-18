@@ -6,7 +6,7 @@ import Visit from './Visit';
 
 const Index = () => {
     return (
-        <div className='sm:my-20 my-16 z-10 relative'>
+        <div className='lg:my-20 my-16 z-10 relative'>
             <Contact />
             <MediaPlatform />
             <Quotation />

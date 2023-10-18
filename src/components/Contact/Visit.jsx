@@ -15,15 +15,15 @@ const Visit = () => {
         apart. Schedule a visit today to explore our capabilities and meet our
         dedicated team of experts who are ready to turn your ideas into reality.
       </div>
-      <div className="container justify-around flex text-amBlue font-khula text-xl font-semibold leading-9 tracking-wide text-center mx-auto">
+      <div className="container justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center mx-auto gap-y-6">
         <div className="w-fit space-y-8">
-          <img src={clock} alt="Clock" className="mx-auto" />
+          <img src={clock} alt="Clock" className="mx-auto h-16 w-16" />
           <p className="">
             Open Office Hours <br /> Monday - Friday: <br /> 9am - 6pm
           </p>
         </div>
         <div className="w-fit space-y-8">
-          <img src={location} alt="Location" className="mx-auto" />
+          <img src={location} alt="Location" className="mx-auto h-16 w-16" />
           <p className="">
             Ampec Technologies Pty Ltd Unit 1, <br /> 63-79 Parramatta Road
             Silverwater <br />
@@ -34,7 +34,7 @@ const Visit = () => {
           <img
             src={phone}
             alt="Phone"
-            className="rotate-180 scale-90 mx-auto"
+            className="rotate-180 scale-90 mx-auto h-16 w-16"
           />
           <p className="">
             Call us now on : <br /> +612 8741 5000 <br /> 9am - 6pm
@@ -42,7 +42,7 @@ const Visit = () => {
         </div>
       </div>
       <iframe
-        src={`https://maps.google.com/maps?q=-33.84443804107051, 151.04347149137948&z=15&output=embed`}
+        src={`https://maps.google.com/maps?q=-33.84454094962137, 151.043490731228734&z=15&output=embed`}
         className="w-full h-[450px] mt-20"
         title="google map"
       ></iframe>

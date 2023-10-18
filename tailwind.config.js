@@ -15,6 +15,7 @@ export default {
         amBlue: "#093f68", // Changed from am-blue to amBlue
         amYellow: "#ffd020",
         amCard: "#ebebeb",
+        amGray: "#415473",
         bg: "#f8fafc",
       },
       boxShadow: {

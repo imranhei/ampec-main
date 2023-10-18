@@ -18,16 +18,19 @@ const Home = () => {
       icon: engineering,
       title: "Engineering",
       para: "Transform ideas into reality through simulation & precision 2D/ 3D drawing",
+      link: "#",
     },
     {
       icon: manufacturing,
       title: "Manufacturing",
       para: "Cost effective from prototype to scale",
+      link: "/manufacturing",
     },
     {
       icon: quality,
       title: "Quality",
       para: "Excellence You Can Trust: ISO 9001, UL Listed and IPC Certified Manufacturing",
+      link: "/quality",
     },
   ];
 

@@ -127,6 +127,7 @@ const Nav = () => {
           className={`sm:font-semibold px-2 hover:text-amYellow ${
             location.pathname === option.link ? "text-amYellow" : "text-amBlue"
           }`}
+          onClick={() => setOpenNav(false)}
         >
           {option.label}
         </Link>
@@ -225,7 +226,7 @@ const Nav = () => {
             </svg>
           </div>
         </div>
-        <Link to='/'><img className="sm:w-32 w-20" src={logo} alt="ampec technologies" /></Link>
+        <Link to='/'><img className="sm:w-32 w-20 mr-6" src={logo} alt="ampec technologies" /></Link>
       </div>
       <Collapse open={openNav}>
         <div className="container mx-auto">{navList}</div>

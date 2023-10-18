@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Card = ({ props, index }) => {
   return (
@@ -18,7 +19,7 @@ const Card = ({ props, index }) => {
       <p className="font-lato font-semibold text-amBlue sm:w-60 tracking-wider">
         {props.para}
       </p>
-      <button className="flex absolute bottom-6 gap-2 group">
+      <Link to={props.link} className="flex absolute bottom-6 gap-2 group">
         <p className="text-gray-400 font-lato font-semibold tracking-widest">
           Read more
         </p>
@@ -34,7 +35,7 @@ const Card = ({ props, index }) => {
             d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5h-2Z"
           />
         </svg>
-      </button>
+      </Link>
     </div>
   );
 };

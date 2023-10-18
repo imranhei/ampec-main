@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:pb-20 pb-10">
         <Button />
-        <button className="bg-gray-400 sm:font-semibold font-lato text-white sm:py-4 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
+        <button className="bg-amGray sm:font-semibold font-lato text-white sm:py-4 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
           See Our Solutions
         </button>
       </div>

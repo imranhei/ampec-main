@@ -7,8 +7,9 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Index";
 import Footer from "./components/Footer";
-// import Contact from "./components/Contact/Contact";
 import Contact from "./components/Contact/Index";
+import Quality from "./components/Quality/Index";
+import Manufacturing from "./components/Manufacturing/Index";
 
 function App() {
   
@@ -31,6 +32,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/quality" element={<Quality />} />
+          <Route path="/manufacturing" element={<Manufacturing />} />
         </Routes>
         <Footer />
       </div>
