@@ -42,7 +42,7 @@ const QualityAssurance = () => {
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         Quality Assurance at Every Stage
       </p>
-      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 sm:w-[1300px] mx-4 px-10">
+      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 lg:w-[1300px] mx-4 px-10">
         Quality is not a static goal but an ongoing pursuit. We continuously
         seek ways to improve our processes and products, ensuring that we stay
         at the forefront of technological advancements and industry standards.

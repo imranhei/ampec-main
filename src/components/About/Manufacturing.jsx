@@ -1,5 +1,5 @@
 import React from "react";
-import australia from "../../assets/australia_01.png";
+import australia from "../../assets/australia.png";
 import asia from "../../assets/asia.png";
 
 const Manufacturing = () => {
@@ -9,7 +9,7 @@ const Manufacturing = () => {
         Our Manufacturing
       </p>
       <div>
-        <div className="max-w-[1300px] mx-auto text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wider font-khula sm:pb-16 pb-8 px-10">
+        <div className="max-w-[1300px] mx-auto sm:text-center text-justify text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wider font-khula sm:pb-16 pb-8 px-10">
           We understand that the best manufacturing decisions are made with the
           product and markets in mind. We work closely with you to ensure that
           your design meets your market and is optimized for fast and timely
@@ -55,11 +55,11 @@ const Manufacturing = () => {
             in Routech, Hong Kong.
           </p>
         </div>
-        <div className="flex w-auto h-64 lg:mb-0 mb-10">
+        <div className="flex w-auto sm:h-64 lg:mb-0 mb-10">
           <img
             src={asia}
             alt=""
-            className="w-auto h-full object-cover brightness-75 scale-90"
+            className="w-auto h-full object-cover"
           />
         </div>
       </div>

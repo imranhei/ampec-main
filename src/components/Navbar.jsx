@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
-import {
-  Button,
-  Collapse,
-} from "@material-tailwind/react";
+import logo_phone from "../assets/logo_phone.jpg";
+import { Button, Collapse } from "@material-tailwind/react";
 
 const Nav = () => {
   const location = useLocation();
@@ -226,7 +224,22 @@ const Nav = () => {
             </svg>
           </div>
         </div>
-        <Link to='/'><img className="sm:w-32 w-20 mr-6" src={logo} alt="ampec technologies" /></Link>
+        <div>
+          <Link to="/">
+            <img
+              className="sm:w-32 w-20 mr-6 sm:block hidden"
+              src={logo}
+              alt="ampec technologies"
+            />
+          </Link>
+          <Link to="/">
+            <img
+              className="w-8 mr-6 sm:hidden block"
+              src={logo_phone}
+              alt="ampec technologies"
+            />
+          </Link>
+        </div>
       </div>
       <Collapse open={openNav}>
         <div className="container mx-auto">{navList}</div>

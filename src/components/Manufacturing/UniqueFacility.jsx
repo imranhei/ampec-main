@@ -23,11 +23,13 @@ const UniqueFacility = () => {
           See Our Solutions
         </button>
       </div>
-      <img
-        className="w-full py-24"
-        src={manufacturing_bg}
-        alt="Manufacturing background"
-      />
+      <div className="my-24 w-full">
+        <img
+          className="w-full object-cover h-full"
+          src={manufacturing_bg}
+          alt="Manufacturing background"
+        />
+      </div>
       <div className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[788px] h-96 lg:w-[622px] w-[334px] text-center">
         <img
           className="lg:h-60 h-40 w-auto mx-auto  lg:m-10"

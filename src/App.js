@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact/Index";
 import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
+import Industry from "./components/Industry/Index";
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
+          <Route path="/industries" element={<Industry />} />
         </Routes>
         <Footer />
       </div>
