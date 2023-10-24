@@ -9,7 +9,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="flex w-full flex-col items-center justify-center relative z-10 lg:pt-44 sm:pt-36 pt-24">
+    <div className="w-full relative z-10 lg:pt-44 sm:pt-36 pt-24">
       <Quality />
       <Certifications />
       <QualityAssurance />

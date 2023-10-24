@@ -3,6 +3,7 @@ import cable_assembly from "../../assets/Services/cable_assembly.png";
 import box_build_assembly from "../../assets/Services/box_build.png";
 import engineering_design from "../../assets/Services/engineering_design.png";
 import strategic_sourcing from "../../assets/Services/strategic_sourcing.png";
+import { Link } from "react-router-dom";
 
 const OurServices = () => {
   const data = [
@@ -12,6 +13,7 @@ const OurServices = () => {
       image: cable_assembly,
       description:
         "When you need flexible, responsive and quality guaranteed cables, come to us first. Our experience covers requirements for thousands of identical custom cables through to multiple wiring harnesses and assemblies of more than 50 custom cables and connections used in each product. We can build any custom cable from scratch, build custom wiring harnesses and manufacture your finished product connecting any mix of cabling your product requires.",
+      link: '/services/cable'
     },
     {
       id: 2,
@@ -19,6 +21,7 @@ const OurServices = () => {
       image: box_build_assembly,
       description:
         "Once you have your components ready to go, you need a well-designed housing and our experience with building boxes and panels means we can build what you need to your exact specifications. Or design the optimum configuration for your product. By considering the box build early in the design process we can ensure that your ideal product is easily manufactured by designing for ease of servicing and optimum performance with custom placement of all components. If you need a low-complexity assembly for your custom cabling or a complex finished product integrating PCBs in the enclosure or on a panel, we can make it happen for you.",
+      link: '/services/box-build'
     },
     {
       id: 3,
@@ -26,6 +29,7 @@ const OurServices = () => {
       image: engineering_design,
       description:
         "When you need flexible, responsive and quality guaranteed cables, come to us first. Our experience covers requirements for thousands of identical custom cables through to multiple wiring harnesses and assemblies of more than 50 custom cables and connections used in each product. We can build any custom cable from scratch, build custom wiring harnesses and manufacture your finished product connecting any mix of cabling your product requires.",
+      link: '/services/engineering-design'
     },
     {
       id: 4,
@@ -33,6 +37,7 @@ const OurServices = () => {
       image: strategic_sourcing,
       description:
         "When you need flexible, responsive and quality guaranteed cables, come to us first. Our experience covers requirements for thousands of identical custom cables through to multiple wiring harnesses and assemblies of more than 50 custom cables and connections used in each product. We can build any custom cable from scratch, build custom wiring harnesses and manufacture your finished product connecting any mix of cabling your product requires.",
+      link: '/services/strategic-sourcing'
     },
   ];
 
@@ -66,21 +71,21 @@ const OurServices = () => {
             <p className="text-amBlue sm:text-base text-sm sm:leading-9 leading-6 tracking-wide font-khula lg:pb-8 pb-4 text-justify">
               {item.description}
             </p>
-            <button className="text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-amBlue/30 px-10 py-3 rounded hover:bg-amBlue">
+            <Link to={item.link} className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-amBlue/30 px-10 py-3 rounded hover:bg-amBlue group">
               <p>Read more</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="text-amYellow rotate-45 group-hover:ml-1"
+                className="text-amBlue rotate-45 group-hover:translate-x-1 group-hover:text-amYellow duration-300"
               >
                 <path
                   fill="currentColor"
                   d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5h-2Z"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       ))}

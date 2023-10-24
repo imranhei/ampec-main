@@ -1,8 +1,9 @@
 import React from "react";
+import bg from "./assets/background.jpeg";
 import { Routes, Route } from "react-router-dom";
+// import Scroll from "./SmoothScroll";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
-import bg from "./assets/background.jpeg";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Index";
@@ -11,9 +12,9 @@ import Contact from "./components/Contact/Index";
 import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
 import Industry from "./components/Industry/Index";
+import Cable from "./components/Services/Cable/Cable";
 
 function App() {
-  
   return (
     <div className="relative">
       <div
@@ -26,6 +27,7 @@ function App() {
         }}
       ></div>
       <div className="bg-nav">
+        {/* <Scroll /> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,6 +38,7 @@ function App() {
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
           <Route path="/industries" element={<Industry />} />
+          <Route path="/services/cable" element={<Cable />} />
         </Routes>
         <Footer />
       </div>
