@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cable_01 from "../../../assets/Services/cable_01.png";
 import cable_02 from "../../../assets/Services/cable_02.png";
 import cable_03 from "../../../assets/Services/cable_03.png";
@@ -8,6 +8,10 @@ import { Link } from "react-router-dom";
 import Button from "../../Custom/Button";
 
 const Cable = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full relative z-10 lg:pt-44 sm:pt-36 pt-24 flex flex-col items-center">
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
