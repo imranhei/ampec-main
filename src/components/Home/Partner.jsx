@@ -14,10 +14,10 @@ const Partner = () => {
     dots: true,
     infinite: true,
     slidesToShow: 5,
-    speed: 500,
+    speed: 1500,
     slidesPerRow: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 0,
     initialSlide: 0,
     arrows: false,
     responsive: [
