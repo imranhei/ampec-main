@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
 import manufacturing_bg from "../../assets/Manufacturing/manufacturing_bg.png";
 import supply_icon from "../../assets/Manufacturing/supply_icon.png";
 import time_icon from "../../assets/Manufacturing/time_icon.png";

@@ -5,7 +5,7 @@ import cable_03 from "../../../assets/Services/cable_03.png";
 import cable_04 from "../../../assets/Services/cable_04.png";
 import cable_05 from "../../../assets/Services/cable_05.png";
 import { Link } from "react-router-dom";
-import Button from "../../Custom/Button";
+import Button from "../../Custom/ButtonBuy";
 
 const Cable = () => {
   useEffect(() => {
@@ -132,11 +132,11 @@ const Cable = () => {
           to provide the technical support and guidance you need.
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:pb-20 pb-10">
-        <Button />
-        <button className="sm:font-semibold font-lato text-amGray text-lg border hover:text-white hover:bg-amGray border-amGray sm:py-3 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
-          See Our Solutions
-        </button>
-      </div>
+          <Button />
+          <button className="sm:font-semibold font-lato text-amGray text-lg border hover:text-white hover:bg-amGray border-amGray sm:py-3 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
+            See Our Solutions
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ props, index }) => {
   return (
-    <div className="bg-amCard rounded-xl p-10 sm:w-[354px] w-72 sm:h-[390px] h-[350px] lg:shadow-lg space-y-2 relative z-10">
+    <div className="bg-amCard hover:bg-gray-100 rounded-xl p-10 sm:w-[354px] w-72 sm:h-[390px] h-[350px] lg:shadow-lg space-y-2 relative z-10">
       <div className="sm:h-40 h-24 sm:w-40 w-24 mx-auto flex justify-center items-center">
         <img
           src={props.icon}
@@ -13,13 +13,13 @@ const Card = ({ props, index }) => {
           }`}
         />
       </div>
-      <p className="font-bold font-lato text-amYellow pt-4 tracking-widest">
+      <p className="font-bold sm:text-lg font-lato text-amYellow pt-2 tracking-widest">
         {props.title}
       </p>
       <p className="font-lato font-semibold text-amBlue sm:w-60 tracking-wider">
         {props.para}
       </p>
-      <Link to={props.link} className="flex absolute bottom-6 gap-2 group">
+      <Link to={props.link} className="flex absolute bottom-8 gap-2 group">
         <p className="text-gray-400 font-lato font-semibold tracking-widest">
           Read more
         </p>
@@ -28,7 +28,7 @@ const Card = ({ props, index }) => {
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          className="text-amYellow rotate-45 group-hover:ml-1"
+          className="text-amYellow rotate-45 group-hover:ml-2 group-hover:rotate-90 duration-300"
         >
           <path
             fill="currentColor"

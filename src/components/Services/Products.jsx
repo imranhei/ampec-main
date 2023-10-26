@@ -3,7 +3,7 @@ import pem from "../../assets/Services/pem.png";
 import holin_logo from "../../assets/holin_logo.png";
 import ad from "../../assets/Services/ad.png";
 import cde_logo from "../../assets/cde_logo.png";
-import Button from '../Custom/Button'
+import Button from "../Custom/ButtonBuy";
 
 const Products = () => {
   const data = [
@@ -48,9 +48,18 @@ const Products = () => {
       </div>
       <div className="flex flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10 px-10">
         {data.map((item) => (
-          <div key={item.id} className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[440px] h-96 lg:w-[580px] w-[334px] text-center">
-              <img className="lg:h-28 h-20 w-auto mx-auto p-4 lg:m-2" src={item.icon} alt="icon" />
-            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">{item.detail}</p>
+          <div
+            key={item.id}
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[440px] h-96 lg:w-[580px] w-[334px] text-center"
+          >
+            <img
+              className="lg:h-28 h-20 w-auto mx-auto p-4 lg:m-2"
+              src={item.icon}
+              alt="icon"
+            />
+            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">
+              {item.detail}
+            </p>
             <Button />
           </div>
         ))}

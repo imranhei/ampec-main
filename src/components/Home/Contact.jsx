@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonSubmit from "../Custom/ButtonSubmit";
 
 const Contact = () => {
   return (
@@ -66,24 +67,7 @@ const Contact = () => {
         <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>
       </div>
       <div className="sm:pt-6">
-        <button className="text-amBlue tracking-widest font-bold sm:text-xl flex  justify-center gap-4 bg-amYellow w-64 sm:py-4 py-2 border-2 font-lato border-amYellow sm:rounded-lg rounded hover:shadow-button duration-100">
-          Submit
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            className="text-white"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2.5"
-              d="M6 19L19 6m0 0v12.48M19 6H6.52"
-            />
-          </svg>
-        </button>
+        <ButtonSubmit />
       </div>
     </div>
   );

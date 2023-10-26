@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
 import case_01 from "../../assets/Projects/case_01.png";
 import case_02 from "../../assets/Projects/case_02.png";
 import case_03 from "../../assets/Projects/case_03.png";

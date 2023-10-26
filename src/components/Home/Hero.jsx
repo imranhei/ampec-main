@@ -1,6 +1,7 @@
 import React from "react";
 import hero from "../../assets/hero.jpg";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
+import ButtonSolution from "../Custom/ButtonSolution";
 
 const Hero = () => {
   return (
@@ -14,9 +15,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:pb-20 pb-10">
         <Button />
-        <button className="sm:font-semibold font-lato text-amGray text-lg border hover:text-white hover:bg-amGray border-amGray sm:py-3 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
-          See Our Solutions
-        </button>
+        <ButtonSolution />
       </div>
       <img
         className="w-full sm:h-[478px] h-60 object-cover"

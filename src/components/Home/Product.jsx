@@ -88,11 +88,6 @@ const Product = () => {
           ))}
         </Slider>
       </div>
-      {/* <div className="lg:flex gap-10 lg:mt-28 mt-20 w-full justify-center hidden">
-        {product.map((item, index) => (
-          <ProductCard key={index} product={item} />
-        ))}
-      </div> */}
     </div>
   );
 };

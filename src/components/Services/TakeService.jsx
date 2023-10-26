@@ -1,6 +1,7 @@
 import React from "react";
 import take_service from "../../assets/Services/service_take.png";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
+import ButtonSolution from "../Custom/ButtonSolution";
 
 const TakeService = () => {
   return (
@@ -16,15 +17,15 @@ const TakeService = () => {
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:font-semibold font-lato px-10 sm:pb-20 pb-10">
         <Button />
-        <button className="bg-gray-400 text-white sm:py-4 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
-          See Our Solutions
-        </button>
+        <ButtonSolution />
       </div>
-    <img className="w-full" src={take_service} alt="Take our Service to Improve your Business" />
+      <img
+        className="w-full"
+        src={take_service}
+        alt="Take our Service to Improve your Business"
+      />
     </div>
   );
 };
 
 export default TakeService;
-
-

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import watlow_logo from "../../assets/watlow_logo.png";
 import oupiin_logo from "../../assets/oupiin_logo.png";
 import cde_logo from "../../assets/cde_logo.png";
@@ -8,8 +8,14 @@ import sakae_logo from "../../assets/sakae_logo.png";
 import pem_logo from "../../assets/pem_logo.png";
 import avatar from "../../assets/avatar.jpg";
 import Slider from "react-slick";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Partner = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -17,7 +23,7 @@ const Partner = () => {
     speed: 1500,
     slidesPerRow: 1,
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 100,
     initialSlide: 0,
     arrows: false,
     responsive: [
@@ -99,14 +105,14 @@ const Partner = () => {
         </Slider>
       </div>
       <div className="lg:px-10 lg:flex gap-20 container mx-auto pt-28 items-center justify-evenly px-10">
-        <div className="w-60 text-center lg:mx-0 mx-auto lg:pb-0 pb-6">
+        <div data-aos="fade-right" className="w-60 text-center lg:mx-0 mx-auto lg:pb-0 pb-6">
           <div className="h-40 w-40 rounded-lg overflow-hidden mx-auto mb-4">
             <img src={avatar} alt="" className="w-full h-full object-cover" />
           </div>
           <p className="font-khula font-bold text-lg">Sr. Engineer</p>
           <p>Large Electrical Device OEM</p>
         </div>
-        <div className="lg:w-1/2 text-justify leading-8 font-khula tracking-wider relative text-amBlue">
+        <div data-aos="fade-left" className="lg:w-1/2 text-justify leading-8 font-khula tracking-wider relative text-amBlue">
           <span className="text-8xl text-amYellow absolute -left-14 -top-5 italic">
             "
           </span>
@@ -125,7 +131,7 @@ const Partner = () => {
         </div>
       </div>
       <div className="lg:px-10 flex flex-col-reverse lg:flex-row lg:gap-20 container mx-auto sm:pt-32 pt-20 items-center justify-evenly px-10">
-        <div className="lg:w-1/2 text-justify leading-8 font-khula tracking-wider relative text-amBlue">
+        <div data-aos="fade-right" className="lg:w-1/2 text-justify leading-8 font-khula tracking-wider relative text-amBlue">
           <span className="text-8xl text-amYellow absolute -left-14 -top-5 italic">
             "
           </span>
@@ -142,7 +148,7 @@ const Partner = () => {
             "
           </span>
         </div>
-        <div className="w-60 text-center lg:pb-0 pb-6">
+        <div data-aos="fade-left" className="w-60 text-center lg:pb-0 pb-6">
           <div className="h-40 w-40 rounded-lg overflow-hidden mx-auto mb-4">
             <img
               src={avatar}

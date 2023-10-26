@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
 import manu_icon from "../../assets/Quality/manu_icon.png";
 import material_icon from "../../assets/Quality/material_icon.png";
 import design_icon from "../../assets/Quality/design_icon.png";
@@ -55,10 +55,21 @@ const QualityAssurance = () => {
       </div>
       <div className="flex flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10 px-10">
         {data.map((item) => (
-          <div key={item.id} className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[553px] h-96 lg:w-[564px] w-[334px] text-center">
-              <img className="lg:h-40 h-20 w-auto mx-auto  lg:m-5" src={item.icon} alt="icon" />
-            <p className="text-amBlue font-bold text-2xl py-5 font-lato">{item.title}</p>
-            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">{item.detail}</p>
+          <div
+            key={item.id}
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[553px] h-96 lg:w-[564px] w-[334px] text-center"
+          >
+            <img
+              className="lg:h-40 h-20 w-auto mx-auto  lg:m-5"
+              src={item.icon}
+              alt="icon"
+            />
+            <p className="text-amBlue font-bold text-2xl py-5 font-lato">
+              {item.title}
+            </p>
+            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">
+              {item.detail}
+            </p>
           </div>
         ))}
       </div>

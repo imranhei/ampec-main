@@ -71,7 +71,7 @@ const OurServices = () => {
             <p className="text-amBlue sm:text-base text-sm sm:leading-9 leading-6 tracking-wide font-khula lg:pb-8 pb-4 text-justify">
               {item.description}
             </p>
-            <Link to={item.link} className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-amBlue/30 px-10 py-3 rounded hover:bg-amBlue group">
+            <Link to={item.link} className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-amBlue/30 px-10 py-3 rounded hover:bg-amBlue group duration-300">
               <p>Read more</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

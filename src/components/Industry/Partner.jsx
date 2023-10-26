@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Custom/Button";
+import Button from "../Custom/ButtonBuy";
 
 const Partner = () => {
   return (
