@@ -19,8 +19,8 @@ const Card = ({ props, index }) => {
       <p className="font-lato font-semibold text-amBlue sm:w-60 tracking-wider">
         {props.para}
       </p>
-      <Link to={props.link} className="flex absolute bottom-8 gap-2 group">
-        <p className="text-gray-400 font-lato font-semibold tracking-widest">
+      <Link to={props.link} className="flex absolute bottom-6 gap-2 group py-2">
+        <p className="text-amber-400 font-lato font-semibold tracking-widest">
           Read more
         </p>
         <svg

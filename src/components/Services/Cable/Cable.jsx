@@ -13,7 +13,7 @@ const Cable = () => {
   }, []);
 
   return (
-    <div className="w-full relative z-10 lg:pt-44 sm:pt-36 pt-24 flex flex-col items-center">
+    <div className="container mx-auto relative z-10 lg:pt-44 sm:pt-36 pt-24 flex flex-col items-center">
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         Cable Assembly
       </p>
@@ -36,17 +36,17 @@ const Cable = () => {
           <img src={cable_02} alt="" className="w-full h-auto" />
         </div>
         <div className="w-1/2">
-          <p className="lg:text-4xl sm:text-3xl text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
+          <p className="lg:text-4xl sm:text-3xl text-2xl font-bold tracking-wide font-exo lg:pb-8 sm:pb-6 pb-4 px-6 text-amBlue text-center mx-auto">
             Experience You Can Trust
           </p>
-          <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+          <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm lg:leading-10 leading-6 tracking-wide font-khula sm:pb-6 pb-2">
             Our experience is as diverse as the unique needs of our clients.
             Whether you're in need of thousands of identical custom cables or
             complex wiring harnesses and assemblies containing over 50 custom
             cables and connections within each product, we have the knowledge
             and capability to deliver. Our portfolio is a testament to our
             ability to meet your demands, no matter how intricate they may be.
-            <br />
+            <div className="h-6" />
             When it comes to flexible, responsive, and quality-guaranteed cable
             assemblies, Ampec Technologies is the name you can trust. Contact us
             today, and let's discuss how we can create custom solutions that
@@ -77,7 +77,7 @@ const Cable = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           Bespoke Cable Assemblies from Scratch
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           At Ampec, we understand that each project is unique, and off-the-shelf
           solutions may not always fit. That's why we take pride in our ability
           to build custom cables from scratch. Our team of expert engineers and
@@ -91,7 +91,7 @@ const Cable = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           Custom Wiring Harnesses
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           In addition to custom cables, we specialize in crafting custom wiring
           harnesses. These harnesses are meticulously designed and manufactured
           to integrate seamlessly into your systems, ensuring that your devices
@@ -104,7 +104,7 @@ const Cable = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           Complete Product Integration
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           Our commitment to your success extends beyond just cables and wiring
           harnesses. We can take your project to the next level by manufacturing
           your finished product. This means we can assemble and connect any mix
@@ -123,7 +123,7 @@ const Cable = () => {
         <p className="lg:text-4xl sm:text-3xl text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
           Dedicated to Your Success
         </p>
-        <div className="text-justify text-amBlue font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-center text-amBlue font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           We're not just a supplier; we're a partner dedicated to your success.
           We pride ourselves on being flexible and responsive to your needs. Our
           commitment to quality is unwavering, ensuring that every cable

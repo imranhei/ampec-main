@@ -10,7 +10,7 @@ const Button = ( ) => {
             width="20"
             height="20"
             viewBox="0 0 24 24"
-            className="text-white group-hover:translate-x-1 group-hover:text-amBlue duration-300"
+            className="text-white group-hover:translate-x-2 group-hover:text-amBlue duration-300"
           >
             <path
               stroke="currentColor"

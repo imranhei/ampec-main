@@ -10,7 +10,7 @@ const UniqueFacility = () => {
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         Discover Our Unique Facilities and Expert Services :
       </p>
-      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 sm:w-[1300px] mx-4 px-10">
+      <div className="lg:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1280px] mx-4 px-10">
         Our team of skilled technicians and engineers deliver top-tier services,
         offering custom solutions and unparalleled quality for all your wiring
         and assembly needs. Experience the difference with us, where innovation
