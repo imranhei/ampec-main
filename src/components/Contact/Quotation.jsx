@@ -3,16 +3,16 @@ import React from "react";
 const Quotation = () => {
   return (
     <div className="flex flex-col items-center space-y-6 py-10">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:py-16 py-10 z-10">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:py-16 py-10 z-10">
         Priority Quotation Requests
       </p>
       <div className="text-center text-amBlue lg:text-3xl sm:text-xl text-base font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10">
         Cable Assembly / Sub-Assembly (Box Build) Quotation:
       </div>
 
-      <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
+      <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6 font-exo text-amBlue">
         <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-          <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+          <p className="lg:text-2xl sm:text-xl tracking-wide">
             First Name :
           </p>
           <input
@@ -21,7 +21,7 @@ const Quotation = () => {
           />
         </div>
         <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-          <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+          <p className="lg:text-2xl sm:text-xl tracking-wide">
             Last Name :
           </p>
           <input
@@ -30,9 +30,9 @@ const Quotation = () => {
           />
         </div>
       </div>
-      <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between">
+      <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between font-exo text-amBlue">
         <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-          <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+          <p className="lg:text-2xl sm:text-xl tracking-wide">
             Email Address :
           </p>
           <input
@@ -41,7 +41,7 @@ const Quotation = () => {
           />
         </div>
         <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-          <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+          <p className="lg:text-2xl sm:text-xl tracking-wide">
             Contact Number :
           </p>
           <input
@@ -50,14 +50,14 @@ const Quotation = () => {
           />
         </div>
       </div>
-      <div className="sm:space-y-4 space-y-2 lg:w-[850px] sm:w-[700px] w-[360px] px-5">
-        <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+      <div className="sm:space-y-4 space-y-2 lg:w-[850px] sm:w-[700px] w-[360px] px-5 font-exo text-amBlue">
+        <p className="lg:text-2xl sm:text-xl tracking-wide">
           Cable or Sub-Assembly Description :
         </p>
         <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>
       </div>
-      <div className="sm:space-y-4 space-y-2 lg:w-[850px] sm:w-[700px] w-[360px] px-5">
-        <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+      <div className="sm:space-y-4 space-y-2 lg:w-[850px] sm:w-[700px] w-[360px] px-5 font-exo text-amBlue">
+        <p className="lg:text-2xl sm:text-xl tracking-wide">
           Date Required :
         </p>
         <textarea className="w-full lg:h-24 sm:h-44 h-16 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>

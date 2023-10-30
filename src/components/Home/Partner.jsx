@@ -48,7 +48,7 @@ const Partner = () => {
 
   return (
     <div className="lg:py-24 sm:py-20 py-16 -mt-10 sm:px-20 px-10">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-20 sm:pb-14 pb-10">
+      <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-20 sm:pb-14 pb-10">
         Our Business Partners
       </p>
       <div className="w-full">
@@ -104,7 +104,7 @@ const Partner = () => {
           </div>
         </Slider>
       </div>
-      <div className="lg:flex gap-20 container mx-auto pt-28 items-center justify-evenly">
+      <div className="lg:flex gap-20 container mx-auto pt-28 items-center justify-evenly sm:text-base text-sm">
         <div data-aos="fade-right" className="w-60 text-center lg:mx-0 mx-auto lg:pb-0 pb-6">
           <div className="sm:h-40 h-28 sm:w-40 w-28 rounded-lg overflow-hidden mx-auto mb-4">
             <img src={avatar} alt="" className="w-full h-full object-cover" />
@@ -130,7 +130,7 @@ const Partner = () => {
           </span>
         </div>
       </div>
-      <div className="lg:px-10 flex flex-col-reverse lg:flex-row lg:gap-20 container mx-auto sm:pt-32 pt-20 items-center justify-evenly px-10">
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-20 container mx-auto sm:pt-32 pt-20 items-center justify-evenly  sm:text-base text-sm">
         <div data-aos="fade-right" className="lg:w-1/2 text-justify leading-8 font-khula tracking-wider relative text-amBlue">
           <span className="text-8xl text-amYellow absolute -left-14 -top-5 italic">
             "

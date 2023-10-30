@@ -6,7 +6,7 @@ import phone from "../../assets/icons/phone.png";
 const Visit = () => {
   return (
     <div className="py-20">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Visit Our Office
       </p>
       <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
@@ -41,11 +41,6 @@ const Visit = () => {
           </p>
         </div>
       </div>
-      {/* <iframe
-        src={`https://maps.google.com/maps?q=-33.8445359,151.043503&z=15&output=embed`}
-        className="w-full h-[450px] mt-20"
-        title="google map"
-      ></iframe> */}
       <iframe
         className="w-full h-[450px] mt-20"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1656.8753930164162!2d151.041056049308!3d-33.844537048338765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a35361e85ffb%3A0xe93545b983760c4!2sAmpec%20Technologies!5e0!3m2!1sen!2sus!4v1698123230901!5m2!1sen!2sus"

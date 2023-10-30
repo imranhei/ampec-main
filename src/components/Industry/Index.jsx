@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Industries from './Industries';
-import Partner from './Partner';
+import Partner from '../Shared/PartnerWithUs';
 
 const Index = () => {
     useEffect(() => {

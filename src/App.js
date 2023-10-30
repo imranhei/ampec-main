@@ -13,6 +13,7 @@ import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
 import Industry from "./components/Industry/Index";
 import Cable from "./components/Services/Cable/Cable";
+import Defence from "./components/Industry/Defence/Index";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/manufacturing" element={<Manufacturing />} />
           <Route path="/industries" element={<Industry />} />
           <Route path="/services/cable" element={<Cable />} />
+          <Route path="/industries/defence" element={<Defence />} />
         </Routes>
         <Footer />
         

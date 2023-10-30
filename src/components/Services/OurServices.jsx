@@ -42,8 +42,8 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="sm:pt-24 pt-20 flex flex-col items-center z-10 relative container mx-auto">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+    <div className="sm:pt-24 pt-20 flex flex-col items-center container mx-auto">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Services
       </p>
       <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
@@ -65,7 +65,7 @@ const OurServices = () => {
             <img className="w-full h-full object-cover" src={item.image} alt={item.title} />
           </div>
           <div className="lg:w-1/2 w-full">
-            <p className="text-amYellow lg:text-4xl sm:text-2xl text-xl font-exo tracking-wide lg:pb-10 pb-4">
+            <p className="text-amYellow lg:text-4xl sm:text-2xl text-xl font-exo font-bold tracking-wide lg:pb-10 pb-4">
               {item.title}
             </p>
             <p className="text-amBlue sm:text-base text-sm sm:leading-9 leading-6 tracking-wide font-khula lg:pb-8 pb-4 text-justify">

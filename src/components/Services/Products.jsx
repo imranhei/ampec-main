@@ -34,8 +34,8 @@ const Products = () => {
   ];
 
   return (
-    <div className="lg:pt-24 sm:pt-20 pt-10 flex flex-col items-center z-10 relative container mx-auto">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+    <div className="lg:pt-24 sm:pt-20 pt-10 flex flex-col items-center container mx-auto">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Products
       </p>
       <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">

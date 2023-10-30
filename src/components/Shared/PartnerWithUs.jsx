@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
 
-const Partner = () => {
+const PartnerWithUs = () => {
   return (
     <div className="flex w-full flex-col items-center">
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
@@ -25,4 +25,4 @@ const Partner = () => {
   );
 };
 
-export default Partner;
+export default PartnerWithUs;

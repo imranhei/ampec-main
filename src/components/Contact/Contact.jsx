@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className="sm:py-24 py-20 flex flex-col items-center">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Contact Us
       </p>
       <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
@@ -16,10 +16,10 @@ const Contact = () => {
         team is here to assist you with any questions, concerns, or suggestions
         you may have about our technology products and services.
       </div>
-      <div className="space-y-6 mt-4">
+      <div className="space-y-6 mt-4 font-exo text-amBlue">
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-            <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+            <p className="lg:text-2xl sm:text-xl tracking-wide">
               First Name :
             </p>
             <input
@@ -28,7 +28,7 @@ const Contact = () => {
             />
           </div>
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-            <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+            <p className="lg:text-2xl sm:text-xl tracking-wide">
               Last Name :
             </p>
             <input
@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-            <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+            <p className="lg:text-2xl sm:text-xl tracking-wide">
               Email Address :
             </p>
             <input
@@ -48,7 +48,7 @@ const Contact = () => {
             />
           </div>
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
-            <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+            <p className="lg:text-2xl sm:text-xl tracking-wide">
               Contact Number :
             </p>
             <input
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="sm:space-y-4 space-y-2 lg:w-[850px] sm:w-[700px] w-[360px] px-5">
-          <p className="font-lato lg:text-2xl sm:text-xl tracking-wide">
+          <p className="lg:text-2xl sm:text-xl tracking-wide">
             Message :
           </p>
           <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>

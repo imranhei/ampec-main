@@ -53,8 +53,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="sm:pt-24 pt-20 flex flex-col items-center z-10 relative mx-auto">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+    <div className="sm:pt-24 pt-20 flex flex-col items-center mx-auto">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Projects
       </p>
       <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">

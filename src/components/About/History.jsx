@@ -8,8 +8,8 @@ const History = () => {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <div className="sm:py-24 flex flex-col z-10 relative container mx-auto">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+    <div className="sm:py-24 flex flex-col container mx-auto">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our History
       </p>
       <div className={`max-w-[1300px] mx-auto text-justify text-amBlue sm:text-base text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula px-10 ${readMore ? 'line-clamp-none' : 'sm:line-clamp-none line-clamp-5'}`}>

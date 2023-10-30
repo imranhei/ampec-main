@@ -4,8 +4,8 @@ import asia from "../../assets/asia.png";
 
 const Manufacturing = () => {
   return (
-    <div className="sm:py-24 py-16 flex flex-col items-center z-10 relative container mx-auto">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+    <div className="sm:py-24 py-16 flex flex-col items-center container mx-auto">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Manufacturing
       </p>
       <div>
@@ -27,7 +27,7 @@ const Manufacturing = () => {
           <img src={australia} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="lg:w-3/5 text-justify">
-          <p className="font-exo lg:text-4xl sm:text-3xl text-xl text-amBlue tracking-wide sm:pb-8 pb-6 z-10 lg:text-left text-center">
+          <p className="font-exo lg:text-4xl sm:text-3xl text-xl text-amBlue font-bold tracking-wide sm:pb-8 pb-6 z-10 lg:text-left text-center">
             Australia
           </p>
           <p className="text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wider font-khula">
@@ -42,7 +42,7 @@ const Manufacturing = () => {
       </div>
       <div className="flex lg:flex-row flex-col-reverse lg:w-4/5 justify-between items-center sm:py-20 py-0 lg:px-0 px-10">
         <div className="lg:w-3/5 text-justify">
-          <p className="font-exo lg:text-4xl sm:text-3xl text-xl text-amBlue tracking-wide sm:pb-8 pb-6 z-10 lg:text-left text-center">
+          <p className="font-exo lg:text-4xl font-bold sm:text-3xl text-xl text-amBlue tracking-wide sm:pb-8 pb-6 z-10 lg:text-left text-center">
             Asia
           </p>
           <p className="text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wider font-khula">

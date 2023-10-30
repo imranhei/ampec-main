@@ -49,7 +49,7 @@ const Nav = () => {
         <Link
           key={index}
           to={option.link}
-          className={`sm:font-semibold px-2 hover:text-amYellow ${
+          className={`sm:font-semibold px-2 py-4 hover:text-amYellow ${
             location.pathname === option.link ? "text-amYellow" : "text-amBlue"
           }`}
           onClick={() => setOpenNav(false)}
