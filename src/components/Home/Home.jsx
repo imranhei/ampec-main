@@ -70,11 +70,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden relative z-10">
       <Hero />
       <Slider
         {...settings}
-        className="card container mx-auto pb-10 overflow-hidden z-10 -mt-10 lg:hidden"
+        className="card container mx-auto pb-10 overflow-hidden -mt-10 lg:hidden"
       >
         {engage.map((item, index) => (
           <div key={index} className="w-full h-full flex justify-center">

@@ -4,10 +4,10 @@ import ButtonSubmit from "../Custom/ButtonSubmit";
 const Contact = () => {
   return (
     <div className="flex flex-col items-center lg:py-24 sm:py-20 py-16 sm:space-y-10 space-y-6 relative z-10">
-      <p className="font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-6">
+      <p className="font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-6 sm:px-20 px-10">
         Get in Touch with Us
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-xl text-sm tracking-wide text-center lg:leading-9 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center lg:leading-9 sm:px-20 px-10">
         We innovate relentlessly, transforming possibilities into realities.
         Together, we lead the charge <br className="lg:block hidden" /> in
         shaping a connected future. Join us as we revolutionize the world with

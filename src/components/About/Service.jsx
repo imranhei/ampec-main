@@ -386,7 +386,7 @@ const Service = () => {
         {services.map((item, index) => (
           <div key={index} className="w-full h-full flex justify-center p-4">
             <div className="flex justify-center">
-              <div className="bg-amCard hover:bg-gray-100 rounded-xl p-8 sm:w-[354px] w-72 sm:h-[300px] h-[250px] shadow-md space-y-2 relative z-10">
+              <div className="bg-amCard hover:ring-1 ring-amYellow/30 hover:bg-gray-100 rounded-xl p-8 sm:w-[354px] w-72 sm:h-[300px] h-[250px] shadow-md space-y-2 relative z-10">
                 <div className="sm:h-40 h-24 sm:w-40 w-24 mx-auto flex justify-center items-center">
                     {item.icon}
                 </div>

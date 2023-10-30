@@ -64,14 +64,14 @@ const Contact = () => {
           <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>
         </div>
         <div className="sm:pt-6">
-          <button className="mx-auto text-amBlue tracking-widest font-bold sm:text-xl flex justify-center gap-4 bg-amYellow w-64 sm:py-4 py-2 border-2 font-lato border-amYellow sm:rounded-lg rounded hover:shadow-button duration-100">
+          <button className="mx-auto text-amBlue tracking-widest font-bold sm:text-xl flex justify-center gap-4 bg-amYellow w-64 sm:py-4 py-2 border-2 font-lato border-amYellow sm:rounded-lg rounded hover:shadow-button duration-100 group">
             Submit
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              className="text-white"
+              className="text-white group-hover:translate-x-2 group-hover:text-amBlue duration-300"
             >
               <path
                 stroke="currentColor"

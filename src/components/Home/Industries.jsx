@@ -56,7 +56,7 @@ const Industries = () => {
       <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10">
         Industries
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-xl text-sm tracking-wider text-center px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wider text-center sm:px-20 px-10">
         We work across different industries around the world
       </p>
       <div className="w-full sm:pt-24 pt-16">
@@ -75,7 +75,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >
@@ -94,7 +94,7 @@ const Industries = () => {
                 alt="Train"
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
-              <p className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+              <p className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
               onMouseEnter={handleTextHover}
               onMouseLeave={handleTextLeave}>
                 Transport
@@ -115,7 +115,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >
@@ -137,7 +137,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >
@@ -159,7 +159,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >
@@ -181,7 +181,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >

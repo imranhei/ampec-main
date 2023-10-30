@@ -38,7 +38,7 @@ const Facilities = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-16 py-12 relative z-10 container mx-auto px-10">
+    <div className="lg:py-24 sm:py-16 py-12 container mx-auto sm:px-20 px-10">
       <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-16 pb-14">
         Our Facilities
       </p>

@@ -3,6 +3,7 @@ import Button from "../Custom/ButtonBuy";
 import manufacturing_bg from "../../assets/Manufacturing/manufacturing_bg.png";
 import supply_icon from "../../assets/Manufacturing/supply_icon.png";
 import time_icon from "../../assets/Manufacturing/time_icon.png";
+import ButtonSolution from "../Custom/ButtonSolution";
 
 const UniqueFacility = () => {
   return (
@@ -19,9 +20,7 @@ const UniqueFacility = () => {
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base">
         <Button />
-        <button className="bg-amGray sm:font-semibold font-lato text-white sm:py-4 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100">
-          See Our Solutions
-        </button>
+        <ButtonSolution />
       </div>
       <div className="my-24 w-full">
         <img

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ props, index }) => {
   return (
-    <div className="bg-amCard hover:bg-gray-100 rounded-xl p-10 sm:w-[354px] w-72 sm:h-[390px] h-[350px] lg:shadow-lg space-y-2 relative z-10">
+    <div className="bg-amCard hover:bg-gray-100 rounded-xl p-10 sm:w-[354px] w-72 sm:h-[390px] h-[350px] lg:shadow-lg space-y-2 relative z-10 hover:ring-1 ring-amYellow/30">
       <div className="sm:h-40 h-24 sm:w-40 w-24 mx-auto flex justify-center items-center">
         <img
           src={props.icon}

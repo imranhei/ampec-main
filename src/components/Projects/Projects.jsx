@@ -5,6 +5,8 @@ import case_02 from "../../assets/Projects/case_02.png";
 import case_03 from "../../assets/Projects/case_03.png";
 import case_04 from "../../assets/Projects/case_04.png";
 import case_05 from "../../assets/Projects/case_05.png";
+import { Link } from "react-router-dom";
+import ButtonSolution from "../Custom/ButtonSolution";
 
 const Projects = () => {
   const data = [
@@ -65,9 +67,7 @@ const Projects = () => {
       </div>
       <div className="sm:flex flex-wrap sm:gap-10 gap-5 items-center text-sm sm:text-base ">
         <Button />
-        <button className="bg-gray-400 sm:font-semibold font-lato text-white sm:py-4 py-2 sm:rounded-lg rounded w-60 tracking-widest hover:shadow-button duration-100 sm:mt-0 mt-5">
-          See Our Solutions
-        </button>
+        <ButtonSolution />
       </div>
       <div>
         {data.map((item) => (
@@ -90,21 +90,21 @@ const Projects = () => {
               <p className="font-khula lg:text-2xl sm:text-lg text-sm tracking-wide lg:pb-10 sm:pb-4 pb-2">
                 {item.description}
               </p>
-              <button className="text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-gray-100/30 rounded lg:px-10 sm:px-5 px-2 lg:py-4 sm:py-2 py-1 hover:bg-amBlue">
+              <Link className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-gray-100/30 rounded lg:px-10 sm:px-5 px-2 lg:py-4 sm:py-2 py-1 hover:bg-amBlue group duration-300">
                 <p>Read more</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  className="text-amYellow rotate-45 group-hover:ml-1"
+                  className="text-amYellow rotate-45 group-hover:translate-x-2 group-hover:text-amYellow duration-300"
                 >
                   <path
                     fill="currentColor"
                     d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5h-2Z"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         ))}

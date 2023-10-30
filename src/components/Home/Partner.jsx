@@ -47,11 +47,11 @@ const Partner = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-20 py-16 relative z-10 -mt-10">
-      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-24 sm:pb-16 pb-10">
+    <div className="lg:py-24 sm:py-20 py-16 -mt-10 sm:px-20 px-10">
+      <p className="text-center font-exo lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-20 sm:pb-14 pb-10">
         Our Business Partners
       </p>
-      <div className="w-full sm:px-10 px-4">
+      <div className="w-full">
         <Slider {...settings}>
           <div className="w-full h-full overflow-hidden">
             <img
@@ -104,9 +104,9 @@ const Partner = () => {
           </div>
         </Slider>
       </div>
-      <div className="lg:px-10 lg:flex gap-20 container mx-auto pt-28 items-center justify-evenly px-10">
+      <div className="lg:flex gap-20 container mx-auto pt-28 items-center justify-evenly">
         <div data-aos="fade-right" className="w-60 text-center lg:mx-0 mx-auto lg:pb-0 pb-6">
-          <div className="h-40 w-40 rounded-lg overflow-hidden mx-auto mb-4">
+          <div className="sm:h-40 h-28 sm:w-40 w-28 rounded-lg overflow-hidden mx-auto mb-4">
             <img src={avatar} alt="" className="w-full h-full object-cover" />
           </div>
           <p className="font-khula font-bold text-lg">Sr. Engineer</p>
@@ -149,7 +149,7 @@ const Partner = () => {
           </span>
         </div>
         <div data-aos="fade-left" className="w-60 text-center lg:pb-0 pb-6">
-          <div className="h-40 w-40 rounded-lg overflow-hidden mx-auto mb-4">
+          <div className="sm:h-40 h-28 sm:w-40 w-28  rounded-lg overflow-hidden mx-auto mb-4">
             <img
               src={avatar}
               alt=""
