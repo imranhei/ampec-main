@@ -50,7 +50,7 @@ const Products = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[440px] h-96 lg:w-[580px] w-[334px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[440px] h-96 lg:w-[580px] w-[300px] text-center"
           >
             <img
               className="lg:h-28 h-20 w-auto mx-auto p-4 lg:m-2"

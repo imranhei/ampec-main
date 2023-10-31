@@ -165,8 +165,8 @@ const Hero = () => {
         and exceed your expectations . So we provide The ultimate cable harness
         and box-assembly solution for the Defense Industry
       </div>
-      <img src={defence_01} alt="background" className="w-full pb-10" />
-      <div className="xl:w-[1200px] md:w-[768px] w-[320px] mx-auto">
+      <img src={defence_01} alt="background" className="w-full pb-10 px-10" />
+      <div className="container mx-auto px-10">
         <Slider
           {...settings}
           className="card mx-auto pb-10 overflow-hidden z-10"
@@ -196,7 +196,7 @@ const Hero = () => {
           <p className="font-exo font-bold lg:text-4xl sm:text-3xl text-xl pb-10">
             Our Commitment to Quality
           </p>
-          <p className="font-khula leading-7 pb-10">
+          <p className="font-khula leading-7 pb-10 text-justify">
             Quality is the cornerstone of our operations. We understand that in
             the defense industry, there is zero room for error. That's why we
             have implemented rigorous quality control processes at every stage

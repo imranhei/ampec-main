@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Projects from "./Projects";
+import CallUs from "../Shared/CallUs";
 
 const Index = () => {
   useEffect(() => {
@@ -23,13 +24,7 @@ const Index = () => {
           that come with new ventures.
         </div>
       </div>
-      <p className="text-center sm:py-6 sm:mt-8 mt-4 py-5 font-khula lg:text-5xl sm:text-4xl text-xl text-amBlue font-semibold tracking-wider">
-        Call us now on :{" "}
-        <span className="font-semibold text-amYellow">+612 8741 5000</span>
-      </p>
-      <p className="font-khula lg:text-3xl sm:text-2xl text-md text-amBlue text-center sm:pb-6 pb-10">
-        We Can Help You Make Your Plans a Reality
-      </p>
+      <CallUs />
     </div>
   );
 };

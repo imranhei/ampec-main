@@ -6,7 +6,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="sm:py-24 py-20 flex flex-col items-center">
+    <div className="lg:py-24 py-16 flex flex-col items-center">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Contact Us
       </p>
@@ -84,15 +84,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="pt-20">
-        <p className="text-center sm:py-6 sm:mt-8 mt-4 py-5 font-khula lg:text-5xl sm:text-4xl text-xl text-amBlue font-semibold tracking-wider">
-          Call us now on :{" "}
-          <span className="font-semibold text-amYellow">+612 8741 5000</span>
-        </p>
-        <p className="font-khula lg:text-3xl sm:text-2xl text-md text-amBlue text-center">
-          We Can Help You Make Your Plans a Reality
-        </p>
-      </div>
+      
     </div>
   );
 };

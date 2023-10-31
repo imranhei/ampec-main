@@ -17,7 +17,7 @@ const Achivements = () => {
   }, []);
 
   return (
-    <div className="sm:py-24 py-20 flex flex-col items-center container mx-auto">
+    <div className="lg:py-24 py-16 flex flex-col items-center container mx-auto">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         About Us
       </p>

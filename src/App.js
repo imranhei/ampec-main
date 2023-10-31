@@ -14,6 +14,7 @@ import Manufacturing from "./components/Manufacturing/Index";
 import Industry from "./components/Industry/Index";
 import Cable from "./components/Services/Cable/Cable";
 import Defence from "./components/Industry/Defence/Index";
+import FAQ from "./components/FAQ/Index";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/industries" element={<Industry />} />
           <Route path="/services/cable" element={<Cable />} />
           <Route path="/industries/defence" element={<Defence />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
         

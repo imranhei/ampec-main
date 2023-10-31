@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import CallUs from "../Shared/CallUs";
 
 const Service = () => {
   const services = [
@@ -381,14 +382,14 @@ const Service = () => {
       </p>
       <Slider
         {...settings}
-        className="card container lg:w-[1100px] md:w-[850px] mx-auto pb-10 overflow-hidden z-10"
+        className="card container lg:w-[1200px] md:w-[850px] mx-auto pb-10 overflow-hidden z-10"
       >
         {services.map((item, index) => (
-          <div key={index} className="w-full h-full flex justify-center p-4">
+          <div key={index} className="w-full h-full flex justify-center p-4 hover:-translate-y-2 duration-200">
             <div className="flex justify-center">
-              <div className="bg-amCard hover:ring-1 ring-amYellow/30 hover:bg-gray-100 rounded-xl p-8 sm:w-[354px] w-72 sm:h-[300px] h-[250px] shadow-md space-y-2 relative z-10">
+              <div className="bg-amCard rounded-xl p-8 sm:w-[354px] w-72 sm:h-[300px] h-[250px] shadow-md space-y-2 relative z-10 ">
                 <div className="sm:h-40 h-24 sm:w-40 w-24 mx-auto flex justify-center items-center">
-                    {item.icon}
+                  {item.icon}
                 </div>
                 <p className="font-bold font-lato text-amBlue pt-4 tracking-widest">
                   {item.title}
@@ -415,8 +416,7 @@ const Service = () => {
           </div>
         ))}
       </Slider>
-      <p className="text-center sm:py-6 sm:mt-8 mt-4 py-5 font-khula lg:text-5xl sm:text-4xl text-xl text-amBlue font-semibold tracking-wider">Call us now on : <span className="font-semibold text-amYellow">+612 8741 5000</span></p>
-      <p className="font-khula lg:text-3xl sm:text-2xl text-md text-amBlue text-center sm:pb-6 pb-10">We Can Help You Make Your Plans a Reality</p>
+      <CallUs />
     </div>
   );
 };

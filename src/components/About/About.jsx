@@ -10,7 +10,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="md:py-20 z-10 relative">
+    <div className="sm:py-20 py-10 z-10 relative">
       <Achivements />
       <History />
       <Manufacturing />

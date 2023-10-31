@@ -4,7 +4,7 @@ import defence_04 from "../../../assets/Industries/defence_04.png";
 
 const KeyFeatures = () => {
   return (
-    <div className="w-full py-20 container mx-auto lg:px-20 px-10 text-amBlue">
+    <div className="w-full py-20 container mx-auto lg:px-20 px-10 text-amBlue text-justify">
       <p className="lg:text-4xl sm:text-3xl text-2xl font-exo font-bold pb-20">
         Key Features of Our Cable Harness and Box Assemblies:
       </p>

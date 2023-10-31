@@ -42,7 +42,7 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="sm:pt-24 pt-20 flex flex-col items-center container mx-auto">
+    <div className="lg:pt-24 pt-16 flex flex-col items-center container mx-auto">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Services
       </p>

@@ -3,11 +3,13 @@ import Contact from './Contact';
 import MediaPlatform from './MediaPlatform';
 import Quotation from './Quotation';
 import Visit from './Visit';
+import CallUs from '../Shared/CallUs';
 
 const Index = () => {
     return (
-        <div className='lg:my-20 my-16 z-10 relative'>
+        <div className='sm:py-20 py-10 z-10 relative'>
             <Contact />
+            <CallUs />
             <MediaPlatform />
             <Quotation />
             <Visit />

@@ -31,6 +31,10 @@ const Nav = () => {
       label: "Contact Us",
       link: "/contact",
     },
+    {
+      label: "FAQ",
+      link: "/faq",
+    }
   ];
   const [search, setSearch] = useState("");
 

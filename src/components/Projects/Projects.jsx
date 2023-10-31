@@ -53,7 +53,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="sm:pt-24 pt-20 flex flex-col items-center mx-auto">
+    <div className="lg:pt-24 pt-16 flex flex-col items-center mx-auto">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Projects
       </p>
@@ -65,7 +65,7 @@ const Projects = () => {
         components, standard or custom caballing or pre-assembled complex
         box/panel builds, contact us or order from our online catalogue.
       </div>
-      <div className="sm:flex flex-wrap sm:gap-10 gap-5 items-center text-sm sm:text-base ">
+      <div className="sm:flex flex-wrap sm:gap-10 gap-5 items-center text-sm sm:text-base sm:space-y-0 space-y-5 sm:pb-0 pb-8">
         <Button />
         <ButtonSolution />
       </div>
