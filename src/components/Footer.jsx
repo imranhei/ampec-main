@@ -11,15 +11,7 @@ const Footer = () => {
         alt="ampec logo"
       />
       <div className="flex flex-wrap lg:gap-0 gap-8 justify-between container xl:px-40 sm:text-base text-sm">
-        <div className="lg:text-center ">
-          <p className="font-medium pb-4">Dhaka</p>
-          <p className="w-64">
-            Uttara Tower, level 5 <br />
-            Jasimuddn Avenue, Sector-3 Uttara, <br />
-            Dhaka-1230, Bangladesh
-          </p>
-        </div>
-        <div className="lg:text-center lg:mx-10">
+        <div className="lg:text-center">
           <p className="font-medium pb-4">Sydney</p>
           <p className="w-64">
             Unit 1, 63-79 Parramatta Rd Silverwater, NSW 2128 Australia <br />{" "}
@@ -32,6 +24,14 @@ const Footer = () => {
             Unit 2007, Peninsula Tower 538 Castle Peak Road, Lai Chi Kok,
             Kowloon, Hong Kong <br /> Phone: +852 3520 1746 <br />{" "}
             www.routech.com.hk
+          </p>
+        </div>
+        <div className="lg:text-center ">
+          <p className="font-medium pb-4">Dhaka</p>
+          <p className="w-64">
+            Uttara Tower, level 5 <br />
+            Jasimuddn Avenue, Sector-3 Uttara, <br />
+            Dhaka-1230, Bangladesh
           </p>
         </div>
       </div>
@@ -81,20 +81,6 @@ const Footer = () => {
             />
           </svg>
         </div>
-        {/* <img src={tweeter} alt="" className="h-12" /> */}
-        {/* <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="36"
-          height="29"
-          viewBox="0 0 36 29"
-          // fill="none"
-          className="fill-white hover:fill-blue-500 duration-300"
-        >
-          <path
-            d="M36 3.41176C34.6749 4.00882 33.2467 4.40118 31.7667 4.58882C33.2811 3.68471 34.4512 2.25176 35.0019 0.528823C33.5736 1.38176 31.9904 1.97882 30.3212 2.32C28.9618 0.852941 27.0516 0 24.8834 0C20.8394 0 17.5354 3.27529 17.5354 7.31823C17.5354 7.89823 17.6042 8.46118 17.7247 8.99C11.5985 8.68294 6.1434 5.76588 2.51243 1.34765C1.87572 2.42235 1.51434 3.68471 1.51434 5.01529C1.51434 7.55706 2.80497 9.80882 4.80115 11.0882C3.57935 11.0882 2.44359 10.7471 1.44551 10.2353V10.2865C1.44551 13.8347 3.99235 16.8029 7.3652 17.4682C6.28232 17.762 5.14548 17.8029 4.04398 17.5876C4.51137 19.0419 5.42674 20.3143 6.66141 21.2262C7.89607 22.138 9.38796 22.6434 10.9273 22.6712C8.31791 24.719 5.08336 25.8259 1.75526 25.81C1.17017 25.81 0.585086 25.7759 0 25.7076C3.2696 27.7888 7.1587 29 11.3231 29C24.8834 29 32.3346 17.8435 32.3346 8.17118C32.3346 7.84706 32.3346 7.54 32.3174 7.21588C33.7629 6.19235 35.0019 4.89588 36 3.41176Z"
-            // fill="white"
-          />
-        </svg> */}
       </div>
       <div className="sm:flex lg:gap-5 gap-3 font-medium flex-wrap sm:text-base text-sm hidden">
         <Link to="/" className="text-shadow hover:text-amYellow">

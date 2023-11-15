@@ -11,18 +11,22 @@ const Product = () => {
     {
       icon: cable_assebly,
       title: "Cable Assembly",
+      link: "/services/cable-assembly",
     },
     {
       icon: engineering_design,
       title: "Engineering Design",
+      link: "/services/engineering-design",
     },
     {
       icon: box_build_assembly,
       title: "Box Build Assembly",
+      link: "/services/box-build",
     },
     {
       icon: strategic_source,
       title: "Strategic Sourcing",
+      link: "/services/strategic-sourcing",
     },
   ];
 

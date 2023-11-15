@@ -13,7 +13,7 @@ const Service = () => {
           viewBox="0 0 136 136"
           fill="none"
         >
-          <g clip-path="url(#clip0_840_218)">
+          <g clipPath="url(#clip0_840_218)">
             <path
               d="M74.2264 17.7812H61.8281V52.3114H74.2264V17.7812Z"
               fill="#0593A1"
@@ -95,7 +95,7 @@ const Service = () => {
           viewBox="0 0 119 139"
           fill="none"
         >
-          <g clip-path="url(#clip0_845_412)">
+          <g clipPath="url(#clip0_845_412)">
             <path
               d="M59.4983 0L65.3147 11.6606L78.2076 13.586L68.9091 22.7178L71.0611 35.5683L59.4983 29.5517L47.9356 35.5683L50.0876 22.7178L40.7891 13.586L53.682 11.6606L59.4983 0Z"
               fill="#FFD020"
@@ -159,7 +159,7 @@ const Service = () => {
           viewBox="0 0 162 92"
           fill="none"
         >
-          <g clip-path="url(#clip0_840_253)">
+          <g clipPath="url(#clip0_840_253)">
             <path d="M112.871 0H103.91V29.6922H112.871V0Z" fill="#E2C097" />
             <path
               d="M110.607 3.41992H106.191V26.2728H110.607V3.41992Z"
@@ -269,14 +269,14 @@ const Service = () => {
               fill="#3C3C3B"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M27.7348 42.7451V23.4405C27.7348 22.5764 27.0298 21.8594 26.1393 21.8594H23.4677C19.8686 29.7651 17.0671 37.9465 15.0078 46.367H24.0614C26.1022 46.367 27.7348 44.7307 27.7348 42.7451Z"
               fill="#69F4FF"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M48.2722 21.4375H33.4488C31.6492 21.4375 30.1836 23.037 30.1836 25.0042V43.2057C30.1836 45.1729 31.6492 46.7724 33.4488 46.7724H48.2722C50.0718 46.7724 51.5375 45.1729 51.5375 43.2057V25.0042C51.5375 23.037 50.0718 21.4375 48.2722 21.4375Z"
               fill="#69F4FF"
             />
@@ -385,7 +385,10 @@ const Service = () => {
         className="card container lg:w-[1200px] md:w-[850px] mx-auto pb-10 overflow-hidden z-10"
       >
         {services.map((item, index) => (
-          <div key={index} className="w-full h-full flex justify-center p-4 hover:-translate-y-2 duration-200">
+          <div
+            key={index}
+            className="w-full h-full flex justify-center p-4 hover:-translate-y-2 duration-200"
+          >
             <div className="flex justify-center">
               <div className="bg-amCard rounded-xl p-8 sm:w-[354px] w-72 sm:h-[300px] h-[250px] shadow-md space-y-2 relative z-10 ">
                 <div className="sm:h-40 h-24 sm:w-40 w-24 mx-auto flex justify-center items-center">

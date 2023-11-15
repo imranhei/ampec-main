@@ -15,6 +15,7 @@ import Industry from "./components/Industry/Index";
 import Cable from "./components/Services/Cable/Cable";
 import Defence from "./components/Industry/Defence/Index";
 import FAQ from "./components/FAQ/Index";
+import Service from "./components/Services/Service";
 
 function App() {
   return (
@@ -43,9 +44,10 @@ function App() {
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
           <Route path="/industries" element={<Industry />} />
-          <Route path="/services/cable" element={<Cable />} />
+          {/* <Route path="/services/cable-assembly" element={<Cable />} /> */}
           <Route path="/industries/defence" element={<Defence />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/services/:serviceId" element={<Service />} />
         </Routes>
         <Footer />
         

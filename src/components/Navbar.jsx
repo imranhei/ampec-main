@@ -18,14 +18,35 @@ const Nav = () => {
     {
       label: "Services",
       link: "/services",
+      submenu: [
+        { label: "Cable Assembly", link: "/services/cable-assembly" },
+        { label: "Box Build Assembly", link: "/services/box-build" },
+        { label: "Engineering Design", link: "/services/engineering-design" },
+        { label: "Strategic Sourcing", link: "/services/strategic-sourcing" },
+      ],
     },
     {
       label: "Industries",
       link: "/industries",
+      submenu: [
+        { label: "Mining Industry", link: "/industries/mining-industry" },
+        { label: "Defense Industry", link: "/industries/defense-industry" },
+        { label: "Transport Industry", link: "/industries/transport-industry" },
+        { label: "Gaming Industry", link: "/industries/gaming-industry" },
+        { label: "Medical Industry", link: "/industries/medical-industry" },
+        { label: "Energy Industry", link: "/industries/energy-industry" },
+      ],
     },
     {
       label: "Projects",
       link: "/projects",
+      submenu: [
+        { label: "Case Study 1", link: "/projects/case-study-1" },
+        { label: "Case Study 2", link: "/projects/case-study-2" },
+        { label: "Case Study 3", link: "/projects/case-study-3" },
+        { label: "Case Study 4", link: "/projects/case-study-4" },
+        { label: "Case Study 5", link: "/projects/case-study-5" },
+      ],
     },
     {
       label: "Contact Us",
@@ -34,10 +55,10 @@ const Nav = () => {
     {
       label: "FAQ",
       link: "/faq",
-    }
+    },
   ];
-  const [search, setSearch] = useState("");
 
+  const [search, setSearch] = useState("");
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
@@ -50,16 +71,36 @@ const Nav = () => {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base">
       {options.map((option, index) => (
-        <Link
-          key={index}
-          to={option.link}
-          className={`sm:font-semibold px-2 py-4 hover:text-amYellow ${
-            location.pathname === option.link ? "text-amYellow" : "text-amBlue"
-          }`}
-          onClick={() => setOpenNav(false)}
-        >
-          {option.label}
-        </Link>
+        <div key={index} className="relative group">
+          <Link
+            to={option.link}
+            className={`sm:font-semibold px-2 py-4 flex items-center gap-2 hover:text-amYellow ${
+              location.pathname.includes(option.link) && (location.pathname === option.link || option.link !== "/")
+                ? "text-amYellow"
+                : "text-amBlue"
+            }`}
+            onClick={() => setOpenNav(false)}
+          >
+            {option.label} {option.submenu && (<svg className="group-hover:rotate-0 rotate-180 duration-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024"><path fill="currentColor" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496z"/></svg>)}
+          </Link>
+          {option.submenu && (
+            <ul className="lg:absolute z-50 hidden left-0 py-2 space-y-2 bg-white/90 border rounded-lg shadow-lg group-hover:block w-52">
+            {option.submenu.map((subItem, subIndex) => (
+              <li key={subIndex}>
+                <Link
+                  to={subItem.link}
+                  className={`block px-4 py-1 hover:text-amYellow ${
+                    location.pathname === subItem.link ? 'text-amYellow' : 'text-amBlue'
+                  }`}
+                  onClick={() => setOpenNav(false)}
+                >
+                  {subItem.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          )}
+        </div>
       ))}
     </ul>
   );

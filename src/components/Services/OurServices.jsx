@@ -13,7 +13,7 @@ const OurServices = () => {
       image: cable_assembly,
       description:
         "When you need flexible, responsive and quality guaranteed cables, come to us first. Our experience covers requirements for thousands of identical custom cables through to multiple wiring harnesses and assemblies of more than 50 custom cables and connections used in each product. We can build any custom cable from scratch, build custom wiring harnesses and manufacture your finished product connecting any mix of cabling your product requires.",
-      link: '/services/cable'
+      link: '/services/cable-assembly'
     },
     {
       id: 2,
