@@ -4,6 +4,7 @@ import manufacturing from "../../assets/icon_manufacturing.png";
 import quality from "../../assets/icon_quality.png";
 import React from "react";
 import Hero from "./Hero";
+import Specialties from "./Specialties";
 import Card from "./Card";
 import Product from "./Product";
 import Industries from "./Industries";
@@ -72,7 +73,7 @@ const Home = () => {
   return (
     <div className="w-full overflow-hidden relative z-10">
       <Hero />
-      <Slider
+      {/* <Slider
         {...settings}
         className="card container mx-auto pb-10 overflow-hidden -mt-10 lg:hidden"
       >
@@ -88,7 +89,8 @@ const Home = () => {
         {engage.map((item, index) => (
           <Card key={index} props={item} index={index} />
         ))}
-      </div>
+      </div> */}
+      <Specialties />
       <Product />
       <Industries />
       <Facilities />

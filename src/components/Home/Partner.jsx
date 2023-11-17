@@ -116,15 +116,7 @@ const Partner = () => {
           <span className="text-8xl text-amYellow absolute -left-14 -top-5 italic">
             "
           </span>
-          I recently had the pleasure of partnering with AMPEC TECHNOLOGIES for
-          my technology needs, and I must say that their service and expertise
-          exceeded my expectations in every way possible. First and foremost,
-          their team of professionals is incredibly knowledgeable and
-          experienced. They took the time to understand my specific requirements
-          and provided tailored solutions that perfectly met my needs. Their
-          expertise in the field was evident as they effortlessly addressed any
-          concerns or questions I had, guiding me through the entire process
-          with patience and clarity.{" "}
+          I recently had the pleasure of partnering with AMPEC TECHNOLOGIES for my technology needs, and I must say that their service and expertise exceeded my expectations in every way possible. Their team of professionals is incredibly knowledgeable and experienced.{" "}
           <span className="text-8xl text-amYellow italic absolute -bottom-20">
             "
           </span>
@@ -135,15 +127,7 @@ const Partner = () => {
           <span className="text-8xl text-amYellow absolute -left-14 -top-5 italic">
             "
           </span>
-          I am extremely satisfied with the cable assemblies provided by this
-          company. The quality of their products is exceptional, and their
-          attention to detail is evident in every piece. The team's
-          responsiveness and professionalism throughout the process were truly
-          commendable. I highly recommend AMPEC TECHNOLOGIES to anyone in need
-          of cable assembly services. Their expertise, attention to detail,
-          reliability, and outstanding customer service make them a top choice
-          in the industry. I look forward to working with them again on future
-          projects.
+          I am extremely satisfied with the cable assemblies provided by this company. The quality of their products is exceptional, and their attention to detail is evident in every piece. The team's responsiveness and professionalism throughout the process were truly commendable. I highly recommend AMPEC TECHNOLOGIES to anyone in need of cable assembly services. 
           <span className="text-8xl text-amYellow italic absolute -bottom-20">
             "
           </span>
