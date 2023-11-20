@@ -38,7 +38,7 @@ const Industries = () => {
       title: "Gaming Industry",
       image: gaming,
       description:
-        "At Ampec, we understand the thrill and excitement of immersive gaming experiences. That's why we are proud to present our state-of-the-art Cable Harness, designed specifically for gaming machines.With unparalleled quality and performance, our cable harness ensures seamless connectivity and uninterrupted gameplay, taking yourgaming adventures to new heights.",
+        "e understand the thrill and excitement of immersive gaming experiences. That's why we are proud to present our state-of-the-art Cable Harness, designed specifically for gaming machines.With unparalleled quality and performance, our cable harness ensures seamless connectivity and uninterrupted gameplay, taking yourgaming adventures to new heights.",
         link: "/industries/gaming",
     },
     {

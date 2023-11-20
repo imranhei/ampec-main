@@ -84,16 +84,19 @@ const Specialties = () => {
         >
           {product.map((item, index) => (
             <div key={index} className="w-full h-full flex justify-center">
-              <div className="border bg-nav hover:bg-slate-200 border-amBlue lg:h-[393px] h-[360px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 mx-auto">
-                <img src={item.img} alt="" className="w-full" />
+              <div className="border bg-nav hover:bg-slate-200 border-amBlue lg:h-[393px] h-[360px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 mx-auto test">
+                <div className="w-full h-auto overflow-hidden rounded">
+                <img src={item.img} alt="" className="w-full test-hover:scale-105 duration-300" />
+                </div>
                 <div className="flex gap-5 pt-6">
                   <div className="w-40">
                     <p className="font-exo font-semibold text-xl text-amYellow mb-5">
                       {item.title}
                     </p>
+                    <div>
                     <Link
                       to={item.link}
-                      className="flex gap-1 group py-2 w-36 border border-amBlue rounded px-1"
+                      className="flex gap-1 group py-2 w-36 border border-amBlue rounded px-1 z-20"
                     >
                       <p className="text-amBlue font-lato tracking-widest">
                         Read more
@@ -111,6 +114,7 @@ const Specialties = () => {
                         />
                       </svg>
                     </Link>
+                    </div>
                   </div>
                   <div className="w-60 font-khula text-amBlue leading-8">{item.des}</div>
                 </div>

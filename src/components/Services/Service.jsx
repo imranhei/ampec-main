@@ -10,9 +10,6 @@ const Service = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-
-  useEffect(() => {
     const temp = getService(params.serviceId);
     setData(temp);
   }, [params.serviceId]);
@@ -29,7 +26,7 @@ const Service = () => {
         {data.description || ''}
       </div>
       <img
-        className="w-full py-8 transition-transform duration-300"
+        className="w-full px-10 py-8 transition-transform duration-300"
         src={data.banner}
         alt="Quality background"
       />
@@ -89,9 +86,9 @@ const Service = () => {
         </div>
       </div>
       <div className="flex lg:gap-10 gap-10 px-10 w-full overflow-hidden py-10">
-        {/* <img src={data?.imgs[0]} alt="" className="w-1/3 h-auto" />
-        <img src={data?.imgs[1]} alt="" className="w-1/3 h-auto" />
-        <img src={data?.imgs[2]} alt="" className="w-1/3 h-auto" /> */}
+        {data.imgs && data.imgs.length > 0 ? <img src={data?.imgs[0]} alt="" className="w-1/3 h-auto" /> : null}
+        {data.imgs && data.imgs.length > 1 ? <img src={data?.imgs[1]} alt="" className="w-1/3 h-auto" /> : null}
+        {data.imgs && data.imgs.length > 0 ? <img src={data?.imgs[2]} alt="" className="w-1/3 h-auto" /> : null}
       </div>
       <div className="flex flex-col items-center px-10 py-10">
         <p className="lg:text-4xl sm:text-3xl text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
