@@ -69,12 +69,12 @@ const Nav = () => {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base"> {/* lg converted to xl */}
       {options.map((option, index) => (
         <div key={index} className="relative group">
           <Link
             to={option.link}
-            className={`sm:font-semibold px-2 py-4 flex items-center gap-2 hover:text-amYellow ${
+            className={`sm:font-semibold px-2 xl:py-4 py-1 flex items-center gap-2 hover:text-amYellow ${
               location.pathname.includes(option.link) && (location.pathname === option.link || option.link !== "/")
                 ? "text-amYellow"
                 : "text-amBlue"
@@ -84,7 +84,7 @@ const Nav = () => {
             {option.label} {option.submenu && (<svg className="group-hover:rotate-0 rotate-180 duration-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024"><path fill="currentColor" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496z"/></svg>)}
           </Link>
           {option.submenu && (
-            <ul className="lg:absolute z-50 hidden left-0 py-2 space-y-2 bg-white/90 border rounded-lg shadow-lg group-hover:block w-52">
+            <ul className="xl:absolute z-50 xl:hidden left-0 xl:py-2 xl:space-y-2 xl:bg-white/90 xl:border xl:rounded-lg xl:shadow-lg group-hover:block xl:w-52 w-full xl:pl-0 pl-6"> {/* lg converted to xl */}
             {option.submenu.map((subItem, subIndex) => (
               <li key={subIndex}>
                 <Link
@@ -106,11 +106,11 @@ const Nav = () => {
   );
 
   return (
-    <div className="fixed top-0 left-0 py-2 px-4 lg:px-8 lg:py-6 z-50 w-full shadow-md bg-nav/90 backdrop-blur-md">
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900 relative">
+    <div className="fixed top-0 left-0 py-2 px-4 lg:px-8 lg:py-6 z-50 w-full shadow-md bg-nav/90 backdrop-blur-md overflow-y">
+      <div className="container mx-auto flex items-center justify-between text-blue-gray-900 relative overflow-y">
         <Button
           variant="text"
-          className="mr-auto text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden z-50"
+          className="mr-auto text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent xl:hidden z-50"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
@@ -145,8 +145,8 @@ const Nav = () => {
             </svg>
           )}
         </Button>
-        <div className="hidden lg:block">{navList}</div>
-        <div className="lg:relative absolute w-full lg:w-fit flex justify-center">
+        <div className="hidden xl:block">{navList}</div>
+        <div className="xl:relative absolute w-full xl:w-fit flex justify-center"> {/* lg converted to xl */}
           <div className="relative sm:h-12 h-8 mr-3 sm:mr-10 lg:mr-0">
             <input
               className="xl:w-64 sm:w-56 w-44 h-full border rounded-2xl placeholder:italic placeholder:text-xs outline-none pl-4 tracking-widest pr-10 text-base"
@@ -214,7 +214,11 @@ const Nav = () => {
         </div>
       </div>
       <Collapse open={openNav}>
-        <div className="container mx-auto">{navList}</div>
+      <div className="container mx-auto">
+    <div className="max-h-screen overflow-y-auto pb-10"> {/* Adjust max height as needed */}
+      {navList}
+    </div>
+  </div>
       </Collapse>
     </div>
   );

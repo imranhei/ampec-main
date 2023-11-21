@@ -38,7 +38,7 @@ const Service = () => {
           <p className="lg:text-4xl sm:text-3xl text-2xl font-bold tracking-wide font-exo lg:pb-8 sm:pb-6 pb-4 px-6 text-amBlue text-center mx-auto">
             {data.subTitle || ''}
           </p>
-          <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm lg:leading-10 leading-6 tracking-wide font-khula sm:pb-6 pb-2">
+          <div className="text-justify text-amBlue sm:text-base text-sm lg:leading-10 leading-6 tracking-wide font-khula sm:pb-6 pb-2">
             {data.subDesc || ''}
           </div>
           <Link
@@ -65,7 +65,7 @@ const Service = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           {data.point_1_title || ''}
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue sm:text-base text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           {data.point_1_desc || ''}
         </div>
       </div>
@@ -73,7 +73,7 @@ const Service = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           {data.point_2_title || ''}
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue sm:text-base text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           {data.point_2_desc || ''}
         </div>
       </div>
@@ -81,7 +81,7 @@ const Service = () => {
         <p className="lg:text-2xl sm:text-xl text-lg font-bold tracking-wide font-exo lg:pb-10 sm:pb-8 pb-6 text-amBlue">
           {data.point_3_title || ''}
         </p>
-        <div className="text-justify text-amBlue lg:text-xl sm:text-lg text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+        <div className="text-justify text-amBlue sm:text-base text-sm  lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
           {data.point_3_desc || ''}
         </div>
       </div>

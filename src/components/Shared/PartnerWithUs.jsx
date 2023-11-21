@@ -8,7 +8,7 @@ const PartnerWithUs = () => {
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         Partner with us
       </p>
-      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1260px] px-10">
+      <div className="text-center text-amBlue sm:text-base text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1260px] px-10">
         Partnering with us is good business. We have the expertise to help you
         perfect your designs and create profitable products. Using our contract
         manufacturing services enables you to ramp up and down on production

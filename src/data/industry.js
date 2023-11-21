@@ -55,7 +55,7 @@ const data = {
   },
   "transport-industry": {
     title: "Transport Industry",
-    description: "We are specialize in customization  according to our customer requirements . we offer customization options for the  mining equipment like its size, power requirements, or specific environmental considerations .Our cable harness and box assemblies are designed to fit  with your exact specifications.",
+    description: "We are specialize in customization  according to our customer requirements. We offer customization options for the  mining equipment like its size, power requirements, or specific environmental considerations. Our cable harness and box assemblies are designed to fit  with your exact specifications.",
   },
   "gaming-industry": {
 

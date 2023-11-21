@@ -15,7 +15,7 @@ const Industries = () => {
       image: mining,
       description:
         "Our cable harnesses & box assemblies are built to withstand the toughest conditions encountered in the mining industry. They are constructed using durable materials that can resist extreme temperatures, moisture, vibrations, and abrasion. Our Company provides comprehensive solutions that cater to the unique needs of mining operations.",
-        link: "/industries/mining",
+        link: "/industries/mining-industry",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Industries = () => {
       image: defense,
       description:
         "Ampec Technologies is a pioneering company that specializes in the design and manufacturing of cable harness and box assemblies tailored specifically for the defense industry. With a commitment to precision and reliability, our expert team engineers custom solutions that meet the stringent demands of defense applications.",
-        link: "/industries/defence",
+        link: "/industries/defense-industry",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Industries = () => {
       image: transport,
       description:
         "With a commitment to innovation and precision engineering, we cater to the unique wiring and connectivity needs of the transportation sector. We focus on quality, durability, and compliance with industry standards, so Ampec Technologies is the trusted partner for businesses seeking superior electrical solutions in the transport industry.",
-        link: "/industries/transport",
+        link: "/industries/transport-industry",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const Industries = () => {
       image: gaming,
       description:
         "e understand the thrill and excitement of immersive gaming experiences. That's why we are proud to present our state-of-the-art Cable Harness, designed specifically for gaming machines.With unparalleled quality and performance, our cable harness ensures seamless connectivity and uninterrupted gameplay, taking yourgaming adventures to new heights.",
-        link: "/industries/gaming",
+        link: "/industries/gaming-industry",
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ const Industries = () => {
       image: medical,
       description:
         "Choose Ampec for our commitment to quality, reliability, and customized cable harness solutions in the medical industry. Streamline your equipment's performance, ensure compliance, and achieve peace of mind with our cutting-edge solutions.",
-        link: "/industries/medical",
+        link: "/industries/medical-industry",
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ const Industries = () => {
       image: energy,
       description:
         "We specialize in providing high-quality cable harness solutions for the energy industry. Our custom-designed harnesses are engineered to meet the rigorous demands of power transmission, ensuring efficient and reliable performance. With a proven track record of delivering precision-engineered solutions, Ampec is the go-to partner for businesses seeking reliable and efficient electrical systems .",
-        link: "/industries/energy",
+        link: "/industries/energy-industry",
     },
   ];
 
