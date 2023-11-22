@@ -46,6 +46,7 @@ const Nav = () => {
         { label: "Case Study 3", link: "/projects/case-study-3" },
         { label: "Case Study 4", link: "/projects/case-study-4" },
         { label: "Case Study 5", link: "/projects/case-study-5" },
+        { label: "Case Study 6", link: "/projects/case-study-6" },
       ],
     },
     {
@@ -60,45 +61,81 @@ const Nav = () => {
 
   const [search, setSearch] = useState("");
   const [openNav, setOpenNav] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState(false);
+
+  const handleSubmenuToggle = (submenu) => {
+    if (submenuOpen === submenu) {
+      setSubmenuOpen(false);
+    }
+    else {
+      setSubmenuOpen(submenu);
+    }
+  };
 
   useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 950 && setOpenNav(false)
+      () => window.innerWidth >= 1280 && setOpenNav(false) || setSubmenuOpen(false)
     );
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base"> {/* lg converted to xl */}
+    <ul className="mb-4 mt-2 flex flex-col gap-2 xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base">
+      {/* lg converted to xl */}
       {options.map((option, index) => (
         <div key={index} className="relative group">
-          <Link
-            to={option.link}
-            className={`sm:font-semibold px-2 xl:py-4 py-1 flex items-center gap-2 hover:text-amYellow ${
-              location.pathname.includes(option.link) && (location.pathname === option.link || option.link !== "/")
-                ? "text-amYellow"
-                : "text-amBlue"
-            }`}
-            onClick={() => setOpenNav(false)}
-          >
-            {option.label} {option.submenu && (<svg className="group-hover:rotate-0 rotate-180 duration-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024"><path fill="currentColor" d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496z"/></svg>)}
-          </Link>
+          <div className="flex items-center xl:px-2 px-6 py-1 cursor-pointer w-fit">
+            <Link
+              to={option.link}
+              className={`sm:font-semibold xl:py-4 hover:text-amYellow ${
+                location.pathname.includes(option.link) &&
+                (location.pathname === option.link || option.link !== "/")
+                  ? "text-amYellow"
+                  : "text-amBlue"
+              }`}
+              onClick={() => setOpenNav(false)}
+            >
+              {option.label}{" "}
+            </Link>
+            {option.submenu && (
+              <svg
+                className="group-hover:xl:rotate-0 rotate-180 duration-300 w-10"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 1024 1024"
+                onClick={() => handleSubmenuToggle(option.label)}
+              >
+                <path
+                  fill="currentColor"
+                  d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496z"
+                />
+              </svg>
+            )}
+          </div>
           {option.submenu && (
-            <ul className="xl:absolute z-50 xl:hidden left-0 xl:py-2 xl:space-y-2 xl:bg-white/90 xl:border xl:rounded-lg xl:shadow-lg group-hover:block xl:w-52 w-full xl:pl-0 pl-6"> {/* lg converted to xl */}
-            {option.submenu.map((subItem, subIndex) => (
-              <li key={subIndex}>
-                <Link
-                  to={subItem.link}
-                  className={`block px-4 py-1 hover:text-amYellow ${
-                    location.pathname === subItem.link ? 'text-amYellow' : 'text-amBlue'
-                  }`}
-                  onClick={() => setOpenNav(false)}
-                >
-                  {subItem.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+            <Collapse open={submenuOpen === option.label}>
+              <ul
+                className={`xl:absolute z-50 xl:hidden group-hover:xl:block left-0 xl:py-2 xl:space-y-2 xl:bg-nav/90 xl:border xl:rounded-lg xl:shadow-lg xl:w-52 w-full xl:pl-0 pl-6`}
+              >
+                {/* lg converted to xl */}
+                {option.submenu.map((subItem, subIndex) => (
+                  <li key={subIndex} className="xl:border-none border-b w-80">
+                    <Link
+                      to={subItem.link}
+                      className={`block px-4 py-1 hover:text-amYellow sm:font-semibold ${
+                        location.pathname === subItem.link
+                          ? "text-amYellow"
+                          : "text-amBlue"
+                      }`}
+                      onClick={() => setOpenNav(false)}
+                    >
+                      {subItem.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Collapse>
           )}
         </div>
       ))}
@@ -146,7 +183,8 @@ const Nav = () => {
           )}
         </Button>
         <div className="hidden xl:block">{navList}</div>
-        <div className="xl:relative absolute w-full xl:w-fit flex justify-center"> {/* lg converted to xl */}
+        <div className="xl:relative absolute w-full xl:w-fit flex justify-center">
+          {/* lg converted to xl */}
           <div className="relative sm:h-12 h-8 mr-3 sm:mr-10 lg:mr-0">
             <input
               className="xl:w-64 sm:w-56 w-44 h-full border rounded-2xl placeholder:italic placeholder:text-xs outline-none pl-4 tracking-widest pr-10 text-base"
@@ -214,11 +252,9 @@ const Nav = () => {
         </div>
       </div>
       <Collapse open={openNav}>
-      <div className="container mx-auto">
-    <div className="max-h-screen overflow-y-auto pb-10"> {/* Adjust max height as needed */}
-      {navList}
-    </div>
-  </div>
+        <div className="container mx-auto">
+          <div className="max-h-screen overflow-y-auto">{navList}</div>
+        </div>
       </Collapse>
     </div>
   );

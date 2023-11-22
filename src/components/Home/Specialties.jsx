@@ -11,19 +11,19 @@ const Specialties = () => {
       img: specialties_01,
       title: "Engineering",
       des: "Transform ideas into reality through simul-ation & precision 2D/ 3D drawing",
-      link: "/services/engineering",
+      link: "/services/engineering-design",
     },
     {
       img: specialties_02,
       title: "Quality",
       des: "Excellence You Can Trust: ISO 9001, UL Listed and IPC Certified Manufacturing",
-      link: "/services/quality",
+      link: "/quality",
     },
     {
       img: specialties_03,
       title: "Manufacturing",
       des: "Cost effective from prototype to scale",
-      link: "/services/box-build",
+      link: "/manufacturing",
     },
   ];
 

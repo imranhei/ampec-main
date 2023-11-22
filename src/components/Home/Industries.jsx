@@ -6,6 +6,7 @@ import medical from "../../assets/medical.jpeg";
 import train from "../../assets/train.jpeg";
 import power_plant from "../../assets/power_plant.jpeg";
 import gaming from "../../assets/gaming.jpeg";
+import { Link } from "react-router-dom";
 
 const Industries = () => {
   const containerRef = useRef(null);
@@ -61,7 +62,7 @@ const Industries = () => {
       </p>
       <div className="w-full sm:pt-24 pt-16">
         <Slider {...settings}>
-          <div className="slider-item group">
+          <Link className="slider-item group" to="/industries/defense-industry">
             <div
               className="image-container relative"
               ref={containerRef}
@@ -82,8 +83,8 @@ const Industries = () => {
                 Defence
               </p>
             </div>
-          </div>
-          <div className="slider-item group">
+          </Link>
+          <Link className="slider-item group" to="/industries/transport-industry">
             <div className="image-container relative"
             ref={containerRef}
             onMouseEnter={handleTextHover}
@@ -100,8 +101,8 @@ const Industries = () => {
                 Transport
               </p>
             </div>
-          </div>
-          <div className="slider-item group">
+          </Link>
+          <Link className="slider-item group" to="/industries/mining-industry">
             <div
               className="image-container relative"
               ref={containerRef}
@@ -122,8 +123,8 @@ const Industries = () => {
                 Mining
               </p>
             </div>
-          </div>
-          <div className="slider-item group">
+          </Link>
+          <Link className="slider-item group" to="/industries/medical-industry">
             <div
               className="image-container relative"
               ref={containerRef}
@@ -144,8 +145,8 @@ const Industries = () => {
                 Medical
               </p>
             </div>
-          </div>
-          <div className="slider-item group">
+          </Link>
+          <Link className="slider-item group" to="/industries/energy-industry">
             <div
               className="image-container relative"
               ref={containerRef}
@@ -166,8 +167,8 @@ const Industries = () => {
                 Renewable Energy
               </p>
             </div>
-          </div>
-          <div className="slider-item group">
+          </Link>
+          <Link className="slider-item group" to="/industries/gaming-industry">
             <div
               className="image-container relative"
               ref={containerRef}
@@ -188,7 +189,7 @@ const Industries = () => {
                 Gaming
               </p>
             </div>
-          </div>
+          </Link>
         </Slider>
       </div>
     </div>

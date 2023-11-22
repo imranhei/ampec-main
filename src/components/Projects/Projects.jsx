@@ -5,6 +5,7 @@ import case_02 from "../../assets/Projects/case_02.png";
 import case_03 from "../../assets/Projects/case_03.png";
 import case_04 from "../../assets/Projects/case_04.png";
 import case_05 from "../../assets/Projects/case_05.png";
+import case_06 from "../../assets/Projects/case_06.png";
 import { Link } from "react-router-dom";
 import ButtonSolution from "../Custom/ButtonSolution";
 
@@ -14,38 +15,46 @@ const Projects = () => {
       id: 1,
       image: case_01,
       title: "Case Study 1",
-      subTitle: "Too much success",
+      subTitle: "Sub-assembly of an Emergency Communication System ",
       description:
-        "Demand for a new product was four times more than projections and the client had no capacity ...",
+        "The objective was to design and implement a robust sub-assembly for Railway system ...",
     },
     {
       id: 2,
       image: case_02,
       title: "Case Study 2",
-      subTitle: "New investor, new scrutiny",
+      subTitle: "Too much success",
       description:
-        "A new investor in the business was concerned about the inventory the business held ...",
+        "Demand for a new product was four times more than projections and the client had no capacity ...",
     },
     {
       id: 3,
       image: case_03,
       title: "Case Study 3",
-      subTitle: "Less is more",
+      subTitle: "New investor, new scrutiny",
       description:
-        "A case of less is more, how to build a lighter, smaller form factor product, with increased functionality ...",
+        "A new investor in the business was concerned about the inventory the business held ...",
     },
     {
       id: 4,
       image: case_04,
       title: "Case Study 4",
-      subTitle: "Component substitution",
+      subTitle: "Less is more",
       description:
-        "An undisclosed component substitution almost ruined our customer's product expansion ...",
+        "A case of less is more, how to build a lighter, smaller form factor product, with increased functionality ...",
     },
     {
       id: 5,
       image: case_05,
       title: "Case Study 5",
+      subTitle: "Component substitution",
+      description:
+        "An undisclosed component substitution almost ruined our customer's product expansion ...",
+    },
+    {
+      id: 6,
+      image: case_06,
+      title: "Case Study 6",
       subTitle: "Specific industry needs",
       description:
         "Understanding industry specific safety requirements is vital when you are exploring new industries ...",
@@ -76,7 +85,39 @@ const Projects = () => {
             className="w-full flex flex-col justify-center relative text-white"
           >
             <img
-              className="w-screen brightness-75 lg:my-20 sm:my-14 my-10 sm:scale-100 scale-125"
+              className="w-screen brightness-75                        first-letter:first-line:
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              lg:my-20 sm:my-14 my-10 sm:scale-100 scale-125"
               src={item.image}
               alt="background"
             />

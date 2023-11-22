@@ -84,15 +84,15 @@ const Footer = () => {
       </div>
       <div className="sm:flex lg:gap-5 gap-3 font-medium flex-wrap sm:text-base text-sm hidden">
         <Link to="/" className="text-shadow hover:text-amYellow">
+          Home
+        </Link>
+        <p className="text-shadow">|</p>
+        <Link to="/about" className="text-shadow hover:text-amYellow">
           About us
         </Link>
         <p className="text-shadow">|</p>
         <Link to="/services" className="text-shadow hover:text-amYellow">
           Services
-        </Link>
-        <p className="text-shadow">|</p>
-        <Link to="/project" className="text-shadow hover:text-amYellow">
-          Products
         </Link>
         <p className="text-shadow">|</p>
         <Link to="/industries" className="text-shadow hover:text-amYellow">
@@ -103,12 +103,16 @@ const Footer = () => {
           Quality
         </Link>
         <p className="text-shadow">|</p>
-        <Link to="/" className="text-shadow hover:text-amYellow">
-          News & Events
+        <Link to="/projects" className="text-shadow hover:text-amYellow">
+          Projects
         </Link>
         <p className="text-shadow">|</p>
         <Link to="/contact" className="text-shadow hover:text-amYellow">
           Contact Us
+        </Link>
+        <p className="text-shadow">|</p>
+        <Link to="/faq" className="text-shadow hover:text-amYellow">
+          FAQ 
         </Link>
       </div>
       {/* <div className="w-screen h-px bg-amYellow opacity-25"/> */}

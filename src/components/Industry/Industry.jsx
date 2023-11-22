@@ -62,7 +62,7 @@ const Industry = () => {
             <p className="font-exo font-bold lg:text-4xl sm:text-3xl text-xl pb-10">
               {data.subTitle || ''}
             </p>
-            <p className="font-khula leading-7 pb-10 text-justify">
+            <p className="font-khula leading-7 pb-10 text-justify whitespace-pre-line">
                 {data.subDescription || ''}
             </p>
             <Link
