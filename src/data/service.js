@@ -28,7 +28,7 @@ const data = {
   "box-build": {
     title: "Box Build Assembly",
     description:
-      "Box build assembly is a process in which various components, including printed circuit boards , electronic components, wiring, and mechanical elements, are assembled and integrated into a final enclosure or housing. Our company specializes in box assemblies and stands out due to our unique capabilities and expertise in providing tailored solutions to meet specific customer needs. Our specialization in box assemblies, along with a strong track record of delivering high-quality, custom solutions, makes customers choose our  services over others.",
+      "Box build assembly is a process in which various components, including printed circuit boards , electronic components, wiring, and mechanical elements, are assembled and integrated into a final enclosure or housing. Our company specializes in box assemblies, offering tailored solutions to meet customer needs, resulting in high-quality, custom solutions that make us a preferred choice.",
     // banner: banner_box_build_assembly,
     // contentImg: img_content,
     subTitle: "Experience You Can Trust",
@@ -68,7 +68,7 @@ const data = {
   "strategic-sourcing": {
     title: "Strategic Sourcing",
     description:
-      "Strategic sourcing is a process that involves the identification, evaluation, and selection of suppliers that are best suited to meet a company's needs. It is a critical component of supply chain management that can have a significant impact on a company's overall performance. At our company, we specialize in strategic sourcing and are committed to helping your company achieve its goals. Discover how our strategic sourcing solutions can help you gain a competitive edge and drive your business forward.",
+      "Strategic sourcing is a process that involves the identification, evaluation, and selection of suppliers that are best suited to meet a company's needs. It is a critical component of supply chain management that can have a significant impact on a company's overall performance. Our company specializes in strategic sourcing, aiming to assist your company in achieving its goals, providing competitive edge and driving business growth.",
     // banner: banner_strategic_sourcing,
     // contentImg: img_content,
     subTitle: "Global Procurement Expertise",

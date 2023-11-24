@@ -105,7 +105,7 @@ const data = {
     point_03: "Scalability for All Sizes : ",
     point_03_description: "our scalable manufacturing processes ensure we can meet your production needs without compromising quality or delivery times.We can handle both small and large orders, allowing you to grow without worrying about production constraints.",
     point_04: "Redundancy and Fail-Safe Design : ",
-    point_04_description: "Our cable harness and box assemblies are designed with redundancy and fail-safe mechanisms to ensure uninterrupted operation in critical medical scenarios",
+    point_04_description: "Our cable harness and box assemblies are designed with redundancy and fail-safe mechanisms to ensure uninterrupted operation in critical medical scenarios",
   },
   "energy-industry": {
     title: "Energy Industry",

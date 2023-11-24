@@ -67,12 +67,12 @@ const FAQ = () => {
 
   return (
     <div className="flex w-full flex-col items-center sm:px-20 px-10">
-      <img src={faq} alt="" className="z-10" />
-      <div className="bg-amCard container rounded-xl -mt-20 pt-28 p-16 mb-20">
+      <img src={faq} alt="" className="z-10 sm:scale-100 scale-75" />
+      <div className="bg-amCard container rounded-xl -mt-20 sm:pt-28 pt-14 sm:p-16 p-4 mb-20">
         {data.map((item, index) => (
           <div
             key={index}
-            className={`py-6 border-b border-amBlue text-amBlue hover:bg-slate-200 ${
+            className={`sm:py-6 py-4 border-b border-amBlue text-amBlue hover:bg-slate-200 ${
               ansIndex === index ? "bg-slate-200" : ""
             }`}
             onClick={() => {
@@ -83,7 +83,7 @@ const FAQ = () => {
               <p className="lg:text-2xl sm:text-xl text-lg font-semibold font-khula tracking-wide">
                 {item.que}
               </p>
-              <div className="flex justify-center items-center relative bg-amBlue rounded-full">
+              <div className="flex justify-center items-center relative bg-amBlue rounded-full sm:scale-100 scale-75">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -121,7 +121,7 @@ const FAQ = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10 pt-10">
         Contact Us
       </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 container mx-auto text-justify">
+      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 container mx-auto text-justify">
         If you find that your specific query isn't addressed in our FAQ section
         or if you need tailored assistance, don't hesitate to reach out to us
         through our "Contact Us" feature. Our dedicated team of experts is ready

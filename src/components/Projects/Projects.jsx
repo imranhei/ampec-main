@@ -85,39 +85,7 @@ const Projects = () => {
             className="w-full flex flex-col justify-center relative text-white"
           >
             <img
-              className="w-screen brightness-75                        first-letter:first-line:
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              lg:my-20 sm:my-14 my-10 sm:scale-100 scale-125"
+              className="w-screen brightness-75 first-letter:first-line:lg:my-20 sm:my-14 my-10 sm:scale-100 scale-125"
               src={item.image}
               alt="background"
             />

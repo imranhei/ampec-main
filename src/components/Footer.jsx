@@ -103,6 +103,10 @@ const Footer = () => {
           Quality
         </Link>
         <p className="text-shadow">|</p>
+        <Link to="/manufacturing" className="text-shadow hover:text-amYellow">
+          Manufacturing
+        </Link>
+        <p className="text-shadow">|</p>
         <Link to="/projects" className="text-shadow hover:text-amYellow">
           Projects
         </Link>

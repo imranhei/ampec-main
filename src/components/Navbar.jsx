@@ -120,7 +120,7 @@ const Nav = () => {
               >
                 {/* lg converted to xl */}
                 {option.submenu.map((subItem, subIndex) => (
-                  <li key={subIndex} className="xl:border-none border-b w-80">
+                  <li key={subIndex} className="xl:border-none border-b xl:w-52 w-80">
                     <Link
                       to={subItem.link}
                       className={`block px-4 py-1 hover:text-amYellow sm:font-semibold ${
