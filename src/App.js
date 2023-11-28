@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import bg from "./assets/background.jpeg";
 import { Routes, Route } from "react-router-dom";
 // import Scroll from "./SmoothScroll";
@@ -19,6 +19,21 @@ import FAQ from "./components/FAQ/Index";
 import Service from "./components/Services/Service";
 
 function App() {
+
+  useEffect(() => {
+    const handleResize = () => {
+      document.title = window.innerWidth;
+    };
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="relative">
       <div className="fixed bottom-10 right-10 z-[1000] bg-amYellow rounded-lg p-2 opacity-70 hover:opacity-100 animate-[bounce_1.5s_ease-in-out_infinite]">

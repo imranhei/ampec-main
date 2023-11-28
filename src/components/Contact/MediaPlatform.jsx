@@ -6,7 +6,7 @@ import tweeter from "../../assets/icons/tweeter.png";
 
 const MediaPlatform = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 mt-10">
       <p className="text-center sm:py-6 py-5 font-khula lg:text-5xl sm:text-4xl text-xl text-amBlue font-semibold tracking-wider">
         Send Us a message :
       </p>

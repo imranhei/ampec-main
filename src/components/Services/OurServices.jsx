@@ -55,7 +55,7 @@ const OurServices = () => {
       {data.map((item) => (
         <div
           key={item.id}
-          className={`flex items-center justify-center lg:py-32 sm:py-14 py-8 pb-8 px-10 max-w-[1300px] mx-auto lg:gap-56 sm:gap-16 gap-10 ${
+          className={`flex items-center justify-center lg:py-32 sm:py-14 py-8 pb-8 px-10 max-w-[1300px] mx-auto lg:gap-32 sm:gap-20 gap-10 ${
             item.id % 2 === 1
               ? "lg:flex-row flex-col"
               : "lg:flex-row-reverse flex-col"

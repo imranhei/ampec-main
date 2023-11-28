@@ -66,7 +66,7 @@ const FAQ = () => {
   const [ansIndex, setAnsIndex] = useState(-1);
 
   return (
-    <div className="flex w-full flex-col items-center sm:px-20 px-10">
+    <div className="flex w-full flex-col items-center md:px-20 px-10">
       <img src={faq} alt="" className="z-10 sm:scale-100 scale-75" />
       <div className="bg-amCard container rounded-xl -mt-20 sm:pt-28 pt-14 sm:p-16 p-4 mb-20">
         {data.map((item, index) => (

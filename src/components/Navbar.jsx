@@ -234,7 +234,7 @@ const Nav = () => {
             </svg>
           </div>
         </div>
-        <div>
+        <div className="z-50">
           <Link to="/">
             <img
               className="sm:w-32 w-20 mr-6 sm:block hidden"

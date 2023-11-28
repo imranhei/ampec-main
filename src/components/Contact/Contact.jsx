@@ -1,6 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const Contact = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [emailAddress, setEmailAddress] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [message, setMessage] = useState("");
+
+  const SendMessage = () => {
+    const data = {
+      firstName,
+      lastName,
+      emailAddress,
+      contactNumber,
+      message,
+    };
+    console.log(data);
+    // fetch("https://api.apispreadsheets.com/data/17281/", {
+    //   method: "POST",
+    //   body: JSON.stringify({
+    //     data,
+    //   }),
+    // })
+    //   .then((res) => {
+    //     if (res.status === 201) {
+    //       alert("Your Quotation Request has been sent successfully!");
+    //     } else {
+    //       alert("There was an error sending your Quotation Request!");
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+  }; 
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,6 +58,7 @@ const Contact = () => {
             <input
               className="p-2 w-full lg:h-16 sm:h-12 h-8 sm:rounded-lg rounded border border-gray-400"
               type="text"
+              onChange={(e) => setFirstName(e.target.value)}
             />
           </div>
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
@@ -34,6 +68,7 @@ const Contact = () => {
             <input
               className="p-2 w-full lg:h-16 sm:h-12 h-8 sm:rounded-lg rounded border border-gray-400"
               type="text"
+              onChange={(e) => setLastName(e.target.value)}
             />
           </div>
         </div>
@@ -45,6 +80,7 @@ const Contact = () => {
             <input
               className="p-2 w-full lg:h-16 sm:h-12 h-8 sm:rounded-lg rounded border border-gray-400"
               type="text"
+              onChange={(e) => setEmailAddress(e.target.value)}
             />
           </div>
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
@@ -54,6 +90,7 @@ const Contact = () => {
             <input
               className="p-2 w-full lg:h-16 sm:h-12 h-8 sm:rounded-lg rounded border border-gray-400"
               type="text"
+              onChange={(e) => setContactNumber(e.target.value)}
             />
           </div>
         </div>
@@ -61,10 +98,10 @@ const Contact = () => {
           <p className="lg:text-2xl sm:text-xl tracking-wide">
             Message :
           </p>
-          <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2"></textarea>
+          <textarea className="w-full lg:h-56 sm:h-44 h-24 max-h-80 sm:rounded-lg rounded border border-gray-400 p-2" onChange={(e) => setMessage(e.target.value)}></textarea>
         </div>
         <div className="sm:pt-6">
-          <button className="mx-auto text-amBlue tracking-widest font-bold sm:text-xl flex justify-center gap-4 bg-amYellow w-64 sm:py-4 py-2 border-2 font-lato border-amYellow sm:rounded-lg rounded hover:shadow-button duration-100 group">
+          <button className="mx-auto text-amBlue tracking-widest font-bold sm:text-xl flex justify-center gap-4 bg-amYellow w-64 sm:py-4 py-2 border-2 font-lato border-amYellow sm:rounded-lg rounded hover:shadow-button duration-100 group" onClick={SendMessage}>
             Submit
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonSubmit from "../Custom/ButtonSubmit";
+import ceo from "../../assets/CEO.jpeg";
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
         technology.
       </p>
       <div className="text-center">
-        <div className="sm:h-32 h-24 sm:w-32 w-24 bg-gray-200 rounded-full mx-auto mb-4"></div>
+        <div className="sm:h-32 h-24 sm:w-32 w-24 rounded-full mx-auto mb-4 overflow-hidden"><img src={ceo} alt="" className="w-full h-full object-cover"/></div>
         <p className="font-medium text-lg">Fayezur Rahman</p>
         <p className="text-gray-500 sm:text-base text-sm">
           Managing Director of Ampec

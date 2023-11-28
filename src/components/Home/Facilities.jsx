@@ -2,7 +2,8 @@ import React from "react";
 import facility_01 from "../../assets/facility_01.jpeg";
 import facility_02 from "../../assets/facility_02.jpeg";
 import facility_03 from "../../assets/facility_03.jpeg";
-import facility_04 from "../../assets/facility_04.jpeg";
+import facility_04 from "../../assets/paramatta road.jpg";
+import facility_05 from "../../assets/factory building.jpg";
 import Slider from "react-slick";
 
 const Facilities = () => {
@@ -42,15 +43,11 @@ const Facilities = () => {
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-16 pb-14">
         Our Facilities
       </p>
-      <div className="lg:flex gap-20 justify-center items-center lg:space-y-0 space-y-6">
-        <div className="md:h-80 h-60 lg:w-2/5 w-full overflow-hidden">
-          <img
-            className="h-full w-full object-cover"
-            src={facility_01}
-            alt=""
-          />
+      <div className="inline-block">
+        <div className="xl:w-[600px] sm:w-[400px] overflow-hidden mx-auto lg:float-left xl:pr-20 lg:pr-12 lg:pb-8 pb-10">
+          <img className="xl:h-80 sm:h-72 h-52 w-full object-cover" src={facility_01} alt="" />
         </div>
-        <p className="flex-1 font-khula sm:font-semibold font-medium sm:text-base text-sm text-amBlue text-justify md:pt-0 sm:pt-14 pt-6 lg:leading-10 sm:leading-8 leading-6 tracking-wider">
+        <p className=" font-khula sm:font-semibold font-medium sm:text-base text-sm text-amBlue text-justify lg:leading-10 sm:leading-8 leading-6 tracking-wider">
           The office and manufacturing facilities of our tech company blend
           innovation and efficiency seamlessly. Our modern office space is
           designed to foster collaboration and creativity, with open-plan work
@@ -66,18 +63,34 @@ const Facilities = () => {
       </div>
       <div className="lg:pt-24 pt-16">
         <Slider {...settings} className="carousel pb-10 overflow-hidden">
-            <div className="w-full h-full overflow-hidden">
-                <img className="w-full h-full object-cover" src={facility_02} alt="facility" />
-            </div>
-            <div className="w-full h-full overflow-hidden">
-                <img className="w-full h-full object-cover" src={facility_03} alt="facility" />
-            </div>
-            <div className="w-full h-full overflow-hidden">
-                <img className="w-full h-full object-cover" src={facility_04} alt="facility" />
-            </div>
-            <div className="w-full h-full overflow-hidden">
-                <img className="w-full h-full object-cover" src={facility_04} alt="facility" />
-            </div>
+          <div className="w-full xl:h-64 h-48 overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={facility_02}
+              alt="facility"
+            />
+          </div>
+          <div className="w-full xl:h-64 h-48 overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={facility_03}
+              alt="facility"
+            />
+          </div>
+          <div className="w-full xl:h-64 h-48 overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={facility_04}
+              alt="facility"
+            />
+          </div>
+          <div className="w-full xl:h-64 h-48 overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={facility_05}
+              alt="facility"
+            />
+          </div>
         </Slider>
       </div>
     </div>

@@ -84,7 +84,7 @@ const Specialties = () => {
         >
           {product.map((item, index) => (
             <div key={index} className="w-full h-full flex justify-center">
-              <div className="border bg-nav hover:bg-slate-200 border-amBlue lg:h-[393px] h-[360px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 mx-auto test">
+              <div className="border bg-nav hover:bg-slate-200 shadow-lg border-amBlue lg:h-[393px] h-[380px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 m-6 mx-auto test rounded">
                 <div className="w-full h-auto overflow-hidden rounded">
                 <img src={item.img} alt="" className="w-full test-hover:scale-105 duration-300" />
                 </div>
@@ -96,7 +96,7 @@ const Specialties = () => {
                     <div>
                     <Link
                       to={item.link}
-                      className="flex gap-1 group py-2 w-36 border border-amBlue rounded px-1 z-20"
+                      className="flex gap-1 group md:text-base text-sm py-2 w-36 border border-amBlue rounded px-1 z-20"
                     >
                       <p className="text-amBlue font-lato tracking-widest">
                         Read more

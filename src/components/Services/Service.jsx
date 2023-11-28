@@ -10,7 +10,7 @@ const Service = () => {
   const params = useParams();
 
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     const temp = getService(params.serviceId);
     setData(temp);
   }, [params.serviceId]);
@@ -33,7 +33,7 @@ const Service = () => {
         alt="Quality background"
       />
       <div className="py-20 px-10">
-        <div className="w-1/2 float-left xl:pr-20 pr-12 xl:pb-12 pb-4">
+        <div className="md:w-1/2 w-64 mx-auto md:float-left xl:pr-20 md:pr-12 xl:pb-12 md:pb-4 pb-10 ">
           <img src={data.contentImg} alt="" className="w-full h-auto" />
         </div>
         <div className="">
