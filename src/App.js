@@ -1,22 +1,20 @@
 import React, { useEffect } from "react";
 import bg from "./assets/background.jpeg";
 import { Routes, Route } from "react-router-dom";
-// import Scroll from "./SmoothScroll";
-import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import Service from "./components/Services/Service";
+import Industries from "./components/Industry/Index";
+import Industry from "./components/Industry/Industry";
 import Projects from "./components/Projects/Index";
-import Footer from "./components/Footer";
+import Project from "./components/Projects/Project";
 import Contact from "./components/Contact/Index";
 import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
-import Industries from "./components/Industry/Index";
-// import Cable from "./components/Services/Cable/Cable";
-// import Defence from "./components/Industry/Defence/Index";
-import Industry from "./components/Industry/Industry";
 import FAQ from "./components/FAQ/Index";
-import Service from "./components/Services/Service";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -62,8 +60,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
-          {/* <Route path="/services/cable-assembly" element={<Cable />} /> */}
-          {/* <Route path="/industries/defence" element={<Defence />} /> */}
+          {/* <Route path="/projects/:projectId" element={<Project />} /> */}
+          <Route path="/project" element={<Project />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />

@@ -67,7 +67,7 @@ const Specialties = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-20 py-16">
+    <div className="lg:py-24 sm:py-20 py-16 md:mt-10 mt-4">
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 px-10">
         Explore our Specialties
       </p>
@@ -84,7 +84,7 @@ const Specialties = () => {
         >
           {product.map((item, index) => (
             <div key={index} className="w-full h-full flex justify-center">
-              <div className="border bg-nav hover:bg-slate-200 shadow-lg border-amBlue lg:h-[393px] h-[380px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 m-6 mx-auto test rounded">
+              <div className="border bg-nav hover:bg-amCard hover:shadow-lg border-amBlue lg:h-[393px] sm:h-[380px] h-[400px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 m-6 mx-auto test rounded">
                 <div className="w-full h-auto overflow-hidden rounded">
                 <img src={item.img} alt="" className="w-full test-hover:scale-105 duration-300" />
                 </div>

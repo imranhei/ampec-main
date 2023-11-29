@@ -45,11 +45,11 @@ const Contact = () => {
       </p>
       <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
         Get in touch with us for a Priority Quotation, a query or to discover
-        how we can help you deliver on your upcoming projects . Our dedicated
+        how we can help you deliver on your upcoming projects. Our dedicated
         team is here to assist you with any questions, concerns, or suggestions
         you may have about our technology products and services.
       </div>
-      <div className="space-y-6 mt-4 font-exo text-amBlue">
+      <div className="space-y-6 sm:mt-4 font-exo text-amBlue">
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
             <p className="lg:text-2xl sm:text-xl tracking-wide">

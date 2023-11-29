@@ -9,7 +9,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="sm:py-20 py-10 z-10 relative ">
+    <div className="sm:py-20 py-10 z-10 relative">
       <OurServices />
       <TakeService />
       <Products />

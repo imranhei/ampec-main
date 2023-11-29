@@ -59,9 +59,9 @@ const data = {
     // banner: banner_defense,
     // imgs: [
   // ]
-    // subTitle: "Our Commitment to Quality",
-    // subDescription: "Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
-    // subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
+    subTitle: "Our commitment to precision and punctuality",
+    subDescription: "Precision and punctuality are the cornerstones of our reliability. We understand that without this, the transport industry risks encountering delays, inefficiencies, and a lack of optimized routes. We navigate the transport industry with an unparalleled focus on innovation, employing cutting-edge technology to optimize routes and enhance overall operational efficiency. In the transport industry, our cable harnesses and box assemblies are essential for maintaining optimal performance, reducing the risk of malfunctions, and enhancing overall safety. We are one of the leading providers of high-quality products, ensuring the smooth operation, safety, and efficiency of transportation systems.",
+    subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
     point_01: "Advanced Safety and Compliance : ",
     point_01_description: "Our cable harness and box assemblies are designed with stringent safety. They are compliant with industry-specific regulations, ensuring that they meet or exceed safety requirements.  This not only protects  assets and passengers but also minimizes the risk of downtime due to safety-related issues.",
     point_02: "Superior Connectivity and Signal Integrity : ",
@@ -77,9 +77,9 @@ const data = {
     // banner: banner_defense,
     // imgs: [ 
   // ]
-    // subTitle: "Our Commitment to Quality",
-    // subDescription: "Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
-    // subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
+    subTitle: "Our dedication to innovation",
+    subDescription: "Our dedication to innovation is at the core of our technology. We understand that without this, the gaming industry is constantly evolving, facing numerous challenges such as technological limitations and the increasing demand for immersive experiences. We deal with challenges and provide innovative solutions, crafting immersive worlds and pushing the boundaries of creativity, ensuring each gaming experience is groundbreaking and elevates entertainment. Our technology specializes in creating complex cable harnesses and precisely constructed box assemblies with the goal of transforming gaming.",
+    subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
     point_01: "Enhanced Signal Integrity and Low Latency : ",
     point_01_description: "Our cable harness and box assemblies are designed to minimize signal interference and latency. We use specialized shielding and advanced signal routing techniques to maintain high signal integrity, ensuring that our commands are transmitted instantly.",
     point_02: "Plug-and-Play Convenience and Easy Maintenance : ",
@@ -95,9 +95,9 @@ const data = {
     // banner: banner_defense,
     // imgs: [
     // ],
-    // subTitle: "Our Commitment to Quality",
-    // subDescription: "Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
-    // subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
+    subTitle: "Our commitment to Precision Care",
+    subDescription: "Precision care is the bedrock of the medical industry, where accuracy and reliability in transportation are paramount. We understand that without this, the medical industry faces challenges in maintaining the integrity of sensitive shipments due to temperature fluctuations and stringent regulatory compliance, necessitating meticulous documentation and adherence to diverse standards. We provide solutions with precision-engineered logistics, regulatory complexities, and meticulous documentation, ensuring the integrity and safety of sensitive medical shipments. Our cable harnesses and box assemblies contribute to the seamless functioning of medical equipment, ensuring reliable connectivity and performance.",
+    subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
     point_01: "Rigorous Compliance and Safety Standard : ",
     point_01_description: " We understand the importance of adhering to industry regulations and standards.  Our cable harness and box assemblies are meticulously designed and manufactured, ensuring medical devices are compliant with regulatory requirements. Our products are constructed using medical-grade materials and undergo comprehensive testing to ensure the safety for use in medical applications.",
     point_02: "Precision Engineered Connectivity : ",
@@ -113,9 +113,9 @@ const data = {
     // banner: banner_defense,
     // imgs: [
     // ],
-    // subTitle: "Our Commitment to Quality",
-    // subDescription: "Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
-    // subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
+    subTitle: "Our  commitment  to precision and reliability",
+    subDescription: "Precision and reliability serve as the cornerstones of the energy industry. We understand that without this, the energy industry faces challenges often stemming from the inherent variability of renewable sources, necessitating innovative solutions for grid stability. We use advanced energy storage technologies, predictive analytics, and smart grid systems to enhance grid stability, mitigate fluctuations in energy production, and ensure consistent power supply. Our cable harnesses and box assemblies enhance energy system efficiency by providing secure connectivity and robust solutions for electrical connectivity, enhancing the reliability and performance of critical infrastructure in the energy sector.",
+    subHeader: "Key Features of Our Cable Harness and Box Assemblies:",
     point_01: "Foundation for Renewable Energy : ",
     point_01_description: "Our  Cable harness and box assemblies are essential for renewable energy systems , where they enable the efficient distribution of clean energy, contributing to a more sustainable future",
     point_02: "Reduced Energy Consumption : ",

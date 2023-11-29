@@ -237,14 +237,14 @@ const Nav = () => {
         <div className="z-50">
           <Link to="/">
             <img
-              className="sm:w-32 w-20 mr-6 sm:block hidden"
+              className="sm:w-32 w-20 xl:mr-1 mr-6 sm:block hidden"
               src={logo}
               alt="ampec technologies"
             />
           </Link>
           <Link to="/">
             <img
-              className="w-8 mr-6 sm:hidden block"
+              className="w-8 mr-7 sm:hidden block"
               src={logo_phone}
               alt="ampec technologies"
             />

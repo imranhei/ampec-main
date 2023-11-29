@@ -67,10 +67,10 @@ const Quotation = () => {
   
   return (
     <div className="flex flex-col items-center space-y-6 py-10" ref={quotationRef}>
-      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:py-16 py-10 z-10">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:py-16 py-4 z-10">
         Priority Quotation Requests
       </p>
-      <div className="text-center text-amBlue lg:text-3xl sm:text-xl text-base font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10">
+      <div className="text-center text-amBlue lg:text-3xl sm:text-xl text-base font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 px-10">
         Cable Assembly / Sub-Assembly (Box Build) Quotation:
       </div>
 

@@ -15,14 +15,14 @@ const Visit = () => {
         apart. Schedule a visit today to explore our capabilities and meet our
         dedicated team of experts who are ready to turn your ideas into reality.
       </div>
-      <div className="container justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center mx-auto gap-y-6">
-        <div className="w-fit space-y-8">
+      <div className="container justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center mx-auto gap-y-6 px-10">
+        <div className="w-fit sm:space-y-8 space-y-4 px-2">
           <img src={clock} alt="Clock" className="mx-auto h-16 w-16" />
           <p className="">
             Open Office Hours <br /> Monday - Friday: <br /> 9am - 6pm
           </p>
         </div>
-        <div className="w-fit space-y-8">
+        <div className="w-fit sm:space-y-8 space-y-4 px-2">
           <img src={location} alt="Location" className="mx-auto h-16 w-16" />
           <p className="">
             Ampec Technologies Pty Ltd Unit 1, <br /> 63-79 Parramatta Road
@@ -30,7 +30,7 @@ const Visit = () => {
             NSW 2128, Australia
           </p>
         </div>
-        <div className="w-fit space-y-8">
+        <div className="w-fit sm:space-y-8 space-y-4 px-2">
           <img
             src={phone}
             alt="Phone"

@@ -14,10 +14,10 @@ export default {
         nav: "#f3f7f0",
         amBlue: "#093f68", // Changed from am-blue to amBlue
         amYellow: "#ffd020",
-        amCard: "#ebebeb",
+        amCard: "#DFEAEF",
         amGray: "#415473",
         bg: "#f8fafc",
-      },
+      }, 
       boxShadow: {
         button: ["0 2px 8px rgba(0, 0, 0, 0.4)"],
       },

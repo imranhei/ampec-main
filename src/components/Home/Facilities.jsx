@@ -2,7 +2,7 @@ import React from "react";
 import facility_01 from "../../assets/facility_01.jpeg";
 import facility_02 from "../../assets/facility_02.jpeg";
 import facility_03 from "../../assets/facility_03.jpeg";
-import facility_04 from "../../assets/paramatta road.jpg";
+import facility_04 from "../../assets/ampec_map_view.png";
 import facility_05 from "../../assets/factory building.jpg";
 import Slider from "react-slick";
 
@@ -79,7 +79,7 @@ const Facilities = () => {
           </div>
           <div className="w-full xl:h-64 h-48 overflow-hidden">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-150"
               src={facility_04}
               alt="facility"
             />
