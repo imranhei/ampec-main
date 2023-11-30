@@ -60,7 +60,7 @@ const Industries = () => {
       <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wider text-center sm:px-20 px-10">
         We work across different industries around the world
       </p>
-      <div className="w-full sm:pt-24 pt-16">
+      <div className="w-full sm:pt-24 pt-16 font-exo">
         <Slider {...settings}>
           <Link className="slider-item group" to="/industries/defense-industry">
             <div

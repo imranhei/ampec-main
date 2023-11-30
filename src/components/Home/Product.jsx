@@ -12,21 +12,25 @@ const Product = () => {
       icon: cable_assebly,
       title: "Cable Assembly",
       link: "/services/cable-assembly",
+      des: "Cable assembly is the process of creating custom cables and harnesses by combining wires, connectors, and other components.",
     },
     {
       icon: engineering_design,
       title: "Engineering Design",
       link: "/services/engineering-design",
+      des: "Engineering design for a company involves the systematic process of creating, planning, and refining products, systems, or structures to meet specific needs and goals.",
     },
     {
       icon: box_build_assembly,
       title: "Box Build Assembly",
       link: "/services/box-build",
+      des: "Box build assembly is a process in which various components, including printed circuit boards , electronic components, wiring, and mechanical elements, are assembled and integrated into a final enclosure or housing.",
     },
     {
       icon: strategic_source,
       title: "Strategic Sourcing",
       link: "/services/strategic-sourcing",
+      des: "Strategic sourcing is a process that involves the identification, evaluation, and selection of suppliers that are best suited to meet a company's needs.",
     },
   ];
 

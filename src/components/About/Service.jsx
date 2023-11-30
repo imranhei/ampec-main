@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import CallUs from "../Shared/CallUs";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   const services = [
@@ -85,6 +86,7 @@ const Service = () => {
         </svg>
       ),
       title: "Low MOQ & order value",
+      link: "/manufacturing",
     },
     {
       icon: (
@@ -149,6 +151,7 @@ const Service = () => {
         </svg>
       ),
       title: "Flexibility & quality",
+      link: "/quality",
     },
     {
       icon: (
@@ -341,6 +344,7 @@ const Service = () => {
         </svg>
       ),
       title: "Fast turnaround",
+      link: "/manufacturing",
     },
   ];
 
@@ -397,7 +401,7 @@ const Service = () => {
                 <p className="font-bold font-lato text-amBlue pt-4 tracking-widest">
                   {item.title}
                 </p>
-                <div className="flex absolute bottom-6 gap-2 group">
+                <Link className="flex absolute bottom-6 gap-2 group" to={item.link}>
                   <p className="text-gray-400 font-lato font-semibold tracking-widest group-hover:text-amYellow cursor-pointer">
                     Read more
                   </p>
@@ -413,7 +417,7 @@ const Service = () => {
                       d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5h-2Z"
                     />
                   </svg>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
