@@ -72,8 +72,8 @@ const FAQ = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className={`sm:py-6 py-4 border-b border-amBlue text-amBlue hover:bg-slate-200 ${
-              ansIndex === index ? "bg-slate-200" : ""
+            className={`sm:py-6 py-4 border-b border-amBlue text-amBlue hover:bg-nav ${
+              ansIndex === index ? "bg-nav" : ""
             }`}
             onClick={() => {
               ansIndex === index ? setAnsIndex(-1) : setAnsIndex(index);

@@ -9,6 +9,7 @@ import case_06 from "../../assets/Projects/case_06.png";
 import { Link } from "react-router-dom";
 import ButtonSolution from "../Custom/ButtonSolution";
 
+
 const Projects = () => {
   const data = [
     {
@@ -74,7 +75,7 @@ const Projects = () => {
         components, standard or custom caballing or pre-assembled complex
         box/panel builds, contact us or order from our online catalogue.
       </div>
-      <div className="sm:flex flex-wrap sm:gap-10 gap-5 items-center text-sm sm:text-base sm:space-y-0 space-y-5 sm:pb-0 pb-8">
+      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10 sm:px-20 px-10">
         <Button />
         <ButtonSolution />
       </div>

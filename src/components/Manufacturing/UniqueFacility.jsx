@@ -18,7 +18,7 @@ const UniqueFacility = () => {
         meets excellence. Enhance your business's success through our top-tier
         services and one-of-a-kind facilities.
       </div>
-      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base">
+      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base px-10">
         <Button />
         <ButtonSolution />
       </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import mining from "../../assets/Industries/mining.png";
 import defense from "../../assets/Industries/defense.png";
-import transport from "../../assets/Industries/transport.png";
+import transport from "../../assets/train.jpeg";
 import gaming from "../../assets/Industries/gaming.png";
-import medical from "../../assets/Industries/medical.png";
+import medical from "../../assets/medical.jpeg";
 import energy from "../../assets/Industries/energy.png";
 import { Link } from "react-router-dom";
 

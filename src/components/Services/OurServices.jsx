@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import cable_assembly from "../../assets/Services/cable_assembly.png";
-import box_build_assembly from "../../assets/Services/box_build.png";
+import box_build_assembly from "../../assets/cable_assembly.jpeg";
 import engineering_design from "../../assets/Services/engineering_design.png";
 import strategic_sourcing from "../../assets/Services/strategic_sourcing.png";
 import { Link } from "react-router-dom";

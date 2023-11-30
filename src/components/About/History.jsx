@@ -39,7 +39,7 @@ const History = () => {
         at a genuinely competitive price.
       </div>
       <button onClick={() => setReadMore(!readMore)} className="px-10 text-amYellow w-fit sm:hidden">{readMore ? 'Read less' : 'Read more'}</button>
-      <div className="flex flex-wrap px-10 lg:w-4/5 sm:mt-16 mt-8 mx-auto">
+      <div className="flex flex-wrap lg:px-0 px-10 lg:w-4/5 sm:mt-16 mt-8 mx-auto">
         <div className="w-2/3 max-h-96 aspect-video">
             <img className="lg:p-2 p-1 h-full w-full object-cover" src={history_01} alt="History" />
         </div>
