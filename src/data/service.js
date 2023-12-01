@@ -34,15 +34,15 @@ const data = {
     subTitle: "Experience You Can Trust",
     subDesc:
       "We offer highly customized and tailored solutions to meet the specific packaging and box assembly needs, providing a level of flexibility and attention to detail that sets them apart. Whether you request for a complex, multi-layered, and intricately designed box assembly. The specifications were highly detailed and presented numerous technical hurdles. Despite these challenges, our team's relentless dedication and problem-solving skills allowed us to overcome obstacles, ensuring the project was completed on time. This success not only met the customer's high expectations but also showcased our company's commitment to delivering even the most demanding box assembly solutions promptly and with precision. Customers trust our company for box assemblies due to our extensive experience, proven track record of delivering high-quality products, and a reputation for meeting or exceeding their expectations consistently.",
-    point_1_title: "Reliable Supply Chain:",
+    point_1_title: "Industry-tailored box assemblies:",
     point_1_desc:
-      "Our company maintains a robust and reliable supply chain, ensuring on-time delivery of box assemblies. This reliability minimizes production delays and helps clients meet their deadlines, enhancing their overall operational efficiency.",
-    point_2_title: "Sustainability Focus:",
+      "We provide specialized electrical box construction assembly services for a range of industries and uses. We pride ourselves on customizing each assembly to precisely meet the unique demands of specific industries, ensuring optimal functionality. Our customized approach ensures each electrical box excels in its sector, delivering reliability and precision in automation, healthcare, and telecommunications, integrating seamlessly into various industries.",
+    point_2_title: "Cutting-Edge Expertise:",
     point_2_desc:
-      "We are committed to environmentally responsible practices in our box assembly production. By utilizing sustainable materials, minimizing waste, and implementing eco-friendly manufacturing processes, we help your company reduce its carbon footprint and appeal to environmentally conscious consumers.",
-    point_3_title: "Quality Assurance:",
+      "Our team of very talented engineers and technicians is responsible for our cutting-edge electrical system assembly knowledge. Our team's dedication to continuous learning and innovation guarantees that the solutions we deliver are not only informed by proven practices but also incorporate the most recent technological breakthroughs. Our commitment to staying updated on industry developments allows us to offer clients advanced solutions in electrical system assembly, ensuring their projects align with technological advancements.",
+    point_3_title: "Versatile Electrical Box Build Services:",
     point_3_desc:
-      "We prioritize unwavering commitment to quality assurance in our box assembly manufacturing process. Through rigorous quality control measures, we ensure that the box assemblies we produce are not only durable and reliable but also free from defects. This dedication safeguards your brand's reputation, assuring customers of the consistent excellence of your products.",
+      "We specialize in providing versatile electrical box build assembly services, catering to a diverse range of industries and applications. Our services are designed to meet the unique needs of each electrical system. Our assembly solutions are versatile and applicable across various sectors, like industrial machinery and consumer electronics, catering to the unique needs of each project. We offer versatile solutions for dynamic industries, providing comprehensive box assembly services to meet the unique specifications of electrical systems.",
     // imgs: [img1_cable_assembly, img2_cable_assembly, img3_cable_assembly],
   },
   "engineering-design": {
@@ -74,15 +74,15 @@ const data = {
     subTitle: "Global Procurement Expertise",
     subDesc:
       "Our distinctive specialization in global procurement sets us apart. We possess a deep understanding of international markets, regulations, and supplier networks. This expertise enables us to source products and services from around the world efficiently, providing cost-effective solutions while ensuring quality and compliance. When you choose us, you gain access to a global perspective and a vast supplier network, making your strategic sourcing endeavors seamless, cost-efficient, and globally competitive.",
-    point_1_title: "Innovative Problem Solvers:",
+    point_1_title: "Ethical and Responsible Sourcing:",
     point_1_desc:
-      "We thrive on complexity and welcome challenges that others may shy away from. Our team of creative engineers excels at finding inventive solutions for even the most intricate problems, giving your company a competitive edge and driving innovation in your industry.",
-    point_2_title: "Rapid Prototyping and Testing:",
+      "We are dedicated to ethical and responsible sourcing, ensuring our practices strictly prohibit child labor, slavery, or forced labor in the sourcing processes. Our commitment extends beyond compliance; we prioritize upholding human rights and social responsibility throughout our entire supply chain. By fostering an ethical approach, we aim to contribute to a sustainable and socially responsible business environment. Our  commitment  to integrity and high standards of products and services is trusted by clients, resulting in a positive impact on both the industry and society.",
+    point_2_title: "Innovative Electrical Systems Assembly:",
     point_2_desc:
-      "Time is often a critical factor in today's fast-paced business environment. Our rapid prototyping and testing capabilities allow us to swiftly turn concepts into tangible prototypes, enabling you to validate ideas and make informed decisions faster. This agile approach accelerates your time to market and minimizes risks.",
-    point_3_title: "Expertise and Experience:",
+      "We excel in innovative  electrical systems assembly, driven by a team of skilled engineers and technicians who remain at the forefront of industry trends and technologies. Our commitment to innovation ensures that clients benefit from cutting-edge solutions that incorporate the latest advancements. By staying updated, we guarantee that our electrical system assembly services align with the dynamic landscape of technology. Our emphasis on innovation goes beyond traditional practices, creating forward-thinking solutions that cater to evolving industry demands.",
+    point_3_title: "Cost Optimization Solutions:",
     point_3_desc:
-      "With a team of seasoned engineers and designers, we bring years of expertise and hands-on experience to the table. Our deep knowledge of various industries and cutting-edge technologies ensures that your projects are in capable hands. When you choose us, you gain access to a reservoir of knowledge and skills that can transform your engineering projects into success stories.",
+      "We are dedicated to cost optimization, helping clients achieve substantial savings of up to 30%. Our approach involves strategic sourcing strategies that enhance procurement efficiency and reduce expenses. Additionally, we specialize in efficient labor cost optimization services, streamlining workforce utilization for maximum economic benefits. By implementing these cost-effective measures, we ensure that clients experience significant financial advantages without compromising on quality.",
     // imgs: [img1_cable_assembly, img2_cable_assembly, img3_cable_assembly],
   },
 };

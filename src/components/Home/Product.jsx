@@ -78,7 +78,7 @@ const Product = () => {
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 px-10">
         Product & Services
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base sm:leading-9 leading-7 text-sm tracking-wide text-center sm:px-20 px-10">
         Exporting to all major markets including US, Europe, China, and South
         East Asia
       </p>

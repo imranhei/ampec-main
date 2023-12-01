@@ -41,7 +41,7 @@ const Industry = () => {
   };
 
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     const temp = getIndustry(params.industryId);
     setData(temp);
   }, [params.industryId]);
@@ -67,7 +67,7 @@ const Industry = () => {
         <img
           src={data.banner}
           alt="background"
-          className="w-full pb-10 lg:px-20 px-10"
+          className="w-full pb-10 lg:px-20 sm:px-10"
         />
         <div className="container mx-auto lg:px-20 px-10">
           <Slider
@@ -97,14 +97,14 @@ const Industry = () => {
           </Slider>
         </div>
         <div className="lg:px-20 px-10 py-10">
-          <div className="xl:w-fit w-1/2 float-none mx-auto md:float-left pb-10 md:pb-0">
+          <div className="xl:w-fit md:w-1/2 sm:w-2/3 float-none mx-auto md:float-left pb-10 md:pb-0">
           {data.imgs && data.imgs.length > 0 ? <img src={data.imgs[0]} alt="" className="xl:pr-20 md:pr-10 md:pb-5" /> : null}
           </div>
           <div className="text-amBlue flex-1">
             <p className="font-exo font-bold lg:text-4xl sm:text-3xl text-xl sm:pb-10 pb-5">
               {data.subTitle || ""}
             </p>
-            <p className="font-khula leading-7 pb-10 text-justify whitespace-pre-line">
+            <p className="font-khula sm:leading-9 leading-7 pb-10 text-justify sm:text-base text-sm whitespace-pre-line">
               {data.subDescription || ""}
             </p>
             <Link

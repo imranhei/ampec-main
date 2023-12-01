@@ -57,7 +57,7 @@ const Industries = () => {
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10">
         Industries
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wider text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wider text-center sm:px-20 px-10">
         We work across different industries around the world
       </p>
       <div className="w-full sm:pt-24 pt-16 font-exo">

@@ -8,7 +8,7 @@ const Contact = () => {
       <p className="font-exo lg:text-5xl sm:text-4xl text-2xl font-semibold text-amBlue tracking-wide sm:pb-6 sm:px-20 px-10">
         Get in Touch with Us
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center lg:leading-9 leading-6 sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center lg:leading-9 sm:leading-7 leading-7 sm:px-20 px-10">
         We innovate relentlessly, transforming possibilities into realities.
         Together, we lead the charge <br className="lg:block hidden" /> in
         shaping a connected future. Join us as we revolutionize the world with

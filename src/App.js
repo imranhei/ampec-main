@@ -19,7 +19,7 @@ import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     const handleResize = () => {
-      document.title = window.innerWidth;
+      // document.title = window.innerWidth;
     };
 
     // Add event listener for window resize

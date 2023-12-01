@@ -71,7 +71,7 @@ const Specialties = () => {
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 px-10">
         Explore our Specialties
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wide text-center sm:px-20 px-10">
         At Ampec, we are committed to delivering top-notch cable harness and box
         assembly solutions. Explore our specialties, and you'll discover a
         partner dedicated to manufacturing excellence, quality assurance, and
@@ -84,7 +84,7 @@ const Specialties = () => {
         >
           {product.map((item, index) => (
             <div key={index} className="w-full h-full flex justify-center">
-              <div className="border bg-nav hover:bg-amCard hover:shadow-lg border-amBlue lg:h-[393px] sm:h-[380px] h-[400px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 m-6 mx-auto test rounded duration-150">
+              <div className="border bg-nav hover:bg-amCard hover:shadow-lg border-amBlue lg:h-[400px] sm:h-[380px] h-[400px] 2xl:w-[428px] lg:w-[400px] sm:w-[350px] w-80 p-6 m-6 mx-auto test rounded duration-150">
                 <div className="w-full h-auto overflow-hidden rounded">
                 <img src={item.img} alt="" className="w-full test-hover:scale-105 duration-300" />
                 </div>
@@ -116,7 +116,7 @@ const Specialties = () => {
                     </Link>
                     </div>
                   </div>
-                  <div className="w-60 font-khula text-amBlue leading-8">{item.des}</div>
+                  <div className="w-60 font-khula text-amBlue lg:leading-9 leading-7">{item.des}</div>
                 </div>
               </div>
             </div>

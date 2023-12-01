@@ -9,7 +9,7 @@ const Hero = () => {
       <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amYellow text-center">
         Custom Manufacturing at Scale
       </p>
-      <div className="text-center text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-14 pb-8 px-10 lg:w-[800px] sm:w-[660px]">
+      <div className="text-center text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 sm:leading-7 leading-7 tracking-wide font-khula sm:pb-14 pb-8 px-10 lg:w-[800px] sm:w-[660px]">
         Established Leader in Contract Engineering and Manufacturing in
         Australia, Specializing in Cable Harness and Box Build Assembly
       </div>

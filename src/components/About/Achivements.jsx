@@ -18,11 +18,11 @@ const Achivements = () => {
 
   return (
     <div className="lg:py-24 py-16 flex flex-col items-center container mx-auto">
-      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-8 z-10">
         About Us
       </p>
       <div>
-        <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+        <div className="sm:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 sm:leading-7 leading-7 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto">
           Ampec supplies quality products to your specifications at a
           competitive price. Ampec's current management team has been helping
           business design and manufacture new products in Australia and
