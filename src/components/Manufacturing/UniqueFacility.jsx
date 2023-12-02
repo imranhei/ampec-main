@@ -8,7 +8,7 @@ import ButtonSolution from "../Custom/ButtonSolution";
 const UniqueFacility = () => {
   return (
     <div className="flex w-full flex-col items-center py-20">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
+      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center mx-auto">
         Discover Our Unique Facilities and Expert Services :
       </p>
       <div className="lg:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1280px] mx-4 px-10">
@@ -29,31 +29,31 @@ const UniqueFacility = () => {
           alt="Manufacturing background"
         />
       </div>
-      <div className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[788px] h-96 lg:w-[622px] w-[334px] text-center">
+      <div className="flex items-center flex-col lg:p-10 p-8 shadow-lg rounded-lg bg-amCard sm:h-[770px] h-[600px] lg:w-[622px] sm:w-[450px] w-[334px] text-center">
         <img
-          className="lg:h-60 h-40 w-auto mx-auto  lg:m-10"
+          className="lg:h-60 sm:h-40 h-28 w-auto mx-auto  lg:m-10 sm:m-5 m-2"
           src={supply_icon}
           alt="icon"
         />
-        <p className="text-amBlue font-bold text-4xl py-6 font-lato">
+        <p className="text-amBlue font-bold lg:text-4xl sm:text-2xl text-xl py-6 font-lato">
           Supply Chain
         </p>
         {/* <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7"></p> */}
-        <ul className="text-amBlue font-lato text-left list-disc font-semibold sm:text-xl">
-          <li className="leading-10">
+        <ul className="text-amBlue font-lato text-left list-disc font-semibold sm:text-xl pl-4">
+          <li className="sm:leading-10 leading-7">
             Efficient and streamlined supply chain processes
           </li>
-          <li className="leading-10">
+          <li className="sm:leading-10 leading-7">
             Tailored solutions for individual client needs
           </li>
-          <li className="leading-10">High volume manufacturing capabilities</li>
-          <li className="leading-10">
+          <li className="sm:leading-10 leading-7">High volume manufacturing capabilities</li>
+          <li className="sm:leading-10 leading-7">
             Expertise in managing high mix low volume projects
           </li>
-          <li className="leading-10">
+          <li className="sm:leading-10 leading-7">
             No minimum order quantity (MOQ) on assemblies
           </li>
-          <li className="leading-10">
+          <li className="sm:leading-10 leading-7">
             Comprehensive inventory management solutions
           </li>
         </ul>

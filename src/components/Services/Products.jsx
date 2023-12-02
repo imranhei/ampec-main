@@ -29,7 +29,7 @@ const Products = () => {
       id: 4,
       icon: cde_logo,
       detail:
-        "Whether you’re looking for the ultimate in reliability or custom capacitor solutions, you'll find we are easy to work with because we work together with your team to help energize your ideas. With a fine attention to detail, our goal is to help you find the best solution for the job.",
+        "Whether you need reliable capacitors or custom solutions, we collaborate seamlessly with your team to bring your ideas to life. With meticulous attention to detail, our aim is to assist you in finding the optimal solution for your needs.",
     },
   ];
 

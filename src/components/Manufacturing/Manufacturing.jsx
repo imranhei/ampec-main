@@ -93,7 +93,7 @@ const Manufacturing = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 sm:h-[553px] h-96 lg:w-[564px] w-[334px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 lg:h-[553px] h-96 lg:w-[500px] w-[334px] text-center"
           >
             <img
               className="lg:h-40 h-20 w-auto mx-auto  lg:m-10"
@@ -111,23 +111,23 @@ const Manufacturing = () => {
       </div>
       <Slider
         {...settings}
-        className="container mx-auto pb-10 overflow-hidden z-10 lg:hidden"
+        className="container card mx-auto pb-10 overflow-hidden z-10 lg:hidden"
       >
         {data.map((item, index) => (
           <div className="p-6">
             <div
             key={item.id}
-            className="flex items-center mx-auto flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 sm:h-[553px] h-96 lg:w-[564px] w-[334px] text-center"
+            className="flex items-center mx-auto flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 sm:h-[450px] h-96 lg:w-[564px] w-[334px] text-center"
           >
             <img
-              className="lg:h-40 h-20 w-auto mx-auto  lg:m-10"
+              className="lg:h-40 h-20 w-auto mx-auto  lg:m-10 m-6"
               src={item.icon}
               alt="icon"
             />
             <p className="text-amBlue font-bold text-2xl py-5 font-lato">
               {item.title}
             </p>
-            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">
+            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold sm:leading-8 leading-7">
               {item.detail}
             </p>
           </div>

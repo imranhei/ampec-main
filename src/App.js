@@ -69,7 +69,7 @@ function App() {
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
           {/* <Route path="/projects/:projectId" element={<Project />} /> */}
-          <Route path="/project" element={<Project />} />
+          <Route path="projects/case-study-1" element={<Project />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />

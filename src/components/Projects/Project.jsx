@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import banner from "../../assets/Projects/case_01_banner.png";
 import overview from "../../assets/Projects/case_01_overview.png";
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="flex w-full flex-col items-center justify-center lg:my-20 sm:my-16 my-8 lg:py-24 py-16 px-10 relative z-10">
+    <div className="flex w-full flex-col items-center justify-center lg:my-20 sm:my-16 my-8 lg:py-24 py-16 lg:px-20 px-10 relative z-10">
       <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center">
         Case Study :
       </p>

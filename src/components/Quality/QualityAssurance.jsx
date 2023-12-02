@@ -43,7 +43,7 @@ const QualityAssurance = () => {
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         Quality Assurance at Every Stage
       </p>
-      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 lg:w-[1300px] mx-4 px-10">
+      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 max-w-[1300px] mx-4 px-10">
         Quality is not a static goal but an ongoing pursuit. We continuously
         seek ways to improve our processes and products, ensuring that we stay
         at the forefront of technological advancements and industry standards.
@@ -56,17 +56,17 @@ const QualityAssurance = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[553px] h-96 lg:w-[564px] w-[334px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard lg:h-[553px] sm:h-[500px] h-[430px] lg:w-[564px] w-[334px] text-center"
           >
             <img
-              className="lg:h-40 h-20 w-auto mx-auto  lg:m-5"
+              className="lg:h-40 h-24 w-auto mx-auto  lg:m-5 m-3"
               src={item.icon}
               alt="icon"
             />
             <p className="text-amBlue font-bold text-2xl py-5 font-lato">
               {item.title}
             </p>
-            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">
+            <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold sm:leading-8 leading-7">
               {item.detail}
             </p>
           </div>

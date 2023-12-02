@@ -19,6 +19,7 @@ const Projects = () => {
       subTitle: "Sub-assembly of an Emergency Communication System ",
       description:
         "The objective was to design and implement a robust sub-assembly for Railway system ...",
+      link: "/projects/case-study-1",
     },
     {
       id: 2,
@@ -27,6 +28,7 @@ const Projects = () => {
       subTitle: "Too much success",
       description:
         "Demand for a new product was four times more than projections and the client had no capacity ...",
+      link: "#"
     },
     {
       id: 3,
@@ -35,6 +37,7 @@ const Projects = () => {
       subTitle: "New investor, new scrutiny",
       description:
         "A new investor in the business was concerned about the inventory the business held ...",
+      link: "#"
     },
     {
       id: 4,
@@ -43,6 +46,7 @@ const Projects = () => {
       subTitle: "Less is more",
       description:
         "A case of less is more, how to build a lighter, smaller form factor product, with increased functionality ...",
+      link: "#"
     },
     {
       id: 5,
@@ -51,6 +55,7 @@ const Projects = () => {
       subTitle: "Component substitution",
       description:
         "An undisclosed component substitution almost ruined our customer's product expansion ...",
+      link: "#"
     },
     {
       id: 6,
@@ -59,8 +64,11 @@ const Projects = () => {
       subTitle: "Specific industry needs",
       description:
         "Understanding industry specific safety requirements is vital when you are exploring new industries ...",
+      link: "#"
     },
   ];
+
+  
 
   return (
     <div className="lg:pt-24 pt-16 flex flex-col items-center mx-auto">
@@ -100,7 +108,7 @@ const Projects = () => {
               <p className="font-khula lg:text-2xl sm:text-lg text-sm tracking-wide lg:pb-10 sm:pb-4 pb-2">
                 {item.description}
               </p>
-              <Link className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-gray-100/30 rounded lg:px-10 sm:px-5 px-2 lg:py-4 sm:py-2 py-1 hover:bg-amBlue group duration-300">
+              <Link className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-gray-100/30 rounded lg:px-10 sm:px-5 px-2 lg:py-4 sm:py-2 py-1 hover:bg-amBlue group duration-300" to={item.link}>
                 <p>Read more</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
