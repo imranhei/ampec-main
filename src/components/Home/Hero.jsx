@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../assets/hero.jpg";
+import hero from "../../assets/hero.webp";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
 

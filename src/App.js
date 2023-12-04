@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bg from "./assets/background.jpeg";
+import bg from "./assets/background.webp";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";

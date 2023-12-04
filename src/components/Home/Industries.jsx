@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import air_defence from "../../assets/air_defence.jpeg";
+import air_defence from "../../assets/air-defence.webp";
 import excavator from "../../assets/excavator.jpeg";
 import medical from "../../assets/medical.jpeg";
 import train from "../../assets/train.jpeg";

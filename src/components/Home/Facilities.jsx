@@ -2,7 +2,7 @@ import React from "react";
 import facility_01 from "../../assets/facility_01.jpeg";
 import facility_02 from "../../assets/facility_02.jpeg";
 import facility_03 from "../../assets/facility_03.jpeg";
-import facility_04 from "../../assets/ampec_map_view.png";
+import facility_04 from "../../assets/ampec-map-view.webp";
 import facility_05 from "../../assets/factory building.jpg";
 import Slider from "react-slick";
 

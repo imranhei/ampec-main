@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import cable_assembly from "../../assets/Services/cable_assembly.png";
+import cable_assembly from "../../assets/Services/cable_assembly.webp";
 import box_build_assembly from "../../assets/cable_assembly.jpeg";
-import engineering_design from "../../assets/Services/engineering_design.png";
-import strategic_sourcing from "../../assets/Services/strategic_sourcing.png";
+import engineering_design from "../../assets/Services/engineering_design.webp";
+import strategic_sourcing from "../../assets/Services/strategic_sourcing.webp";
 import { Link } from "react-router-dom";
 
 const OurServices = () => {

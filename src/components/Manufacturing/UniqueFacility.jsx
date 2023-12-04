@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Custom/ButtonBuy";
-import manufacturing_bg from "../../assets/Manufacturing/manufacturing_bg.png";
+import manufacturing_bg from "../../assets/Manufacturing/manufacturing_bg.webp";
 import supply_icon from "../../assets/Manufacturing/supply_icon.png";
 import time_icon from "../../assets/Manufacturing/time_icon.png";
 import ButtonSolution from "../Custom/ButtonSolution";

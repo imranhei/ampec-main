@@ -1,5 +1,5 @@
 import React from "react";
-import take_service from "../../assets/Services/service_take.png";
+import take_service from "../../assets/Services/service_take.webp";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
 

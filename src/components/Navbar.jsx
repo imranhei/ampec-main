@@ -75,7 +75,7 @@ const Nav = () => {
   useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 1280 && setOpenNav(false) || setSubmenuOpen(false)
+      () => window.innerWidth >= 1280 && (setOpenNav(false) || setSubmenuOpen(false))
     );
   }, []);
 

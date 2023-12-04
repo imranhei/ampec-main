@@ -1,5 +1,5 @@
 import React from "react";
-import Quality_bg from "../../assets/quality.png";
+import Quality_bg from "../../assets/quality.webp";
 
 const Quality = () => {
   return (

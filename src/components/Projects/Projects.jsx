@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../Custom/ButtonBuy";
-import case_01 from "../../assets/Projects/case_01.png";
-import case_02 from "../../assets/Projects/case_02.png";
-import case_03 from "../../assets/Projects/case_03.png";
-import case_04 from "../../assets/Projects/case_04.png";
-import case_05 from "../../assets/Projects/case_05.png";
-import case_06 from "../../assets/Projects/case_06.png";
+import case_01 from "../../assets/Projects/case_01.webp";
+import case_02 from "../../assets/Projects/case_02.webp";
+import case_03 from "../../assets/Projects/case_03.webp";
+import case_04 from "../../assets/Projects/case_04.webp";
+import case_05 from "../../assets/Projects/case_05.webp";
+import case_06 from "../../assets/Projects/case_06.webp";
 import { Link } from "react-router-dom";
 import ButtonSolution from "../Custom/ButtonSolution";
 

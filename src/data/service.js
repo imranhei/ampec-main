@@ -1,8 +1,8 @@
-import banner_cable_assembly from "../assets/Services/cable_01.png";
-import img_content from "../assets/Services/cable_02.png";
-import img1_cable_assembly from "../assets/Services/cable_03.png";
-import img2_cable_assembly from "../assets/Services/cable_04.png";
-import img3_cable_assembly from "../assets/Services/cable_05.png";
+import banner_cable_assembly from "../assets/Services/cable_01.webp";
+import img_content from "../assets/Services/cable_02.webp";
+import img1_cable_assembly from "../assets/Services/cable_03.webp";
+import img2_cable_assembly from "../assets/Services/cable_04.webp";
+import img3_cable_assembly from "../assets/Services/cable_05.webp";
 
 const data = {
   "cable-assembly": {

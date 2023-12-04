@@ -1,10 +1,10 @@
 import React from "react";
-import mining from "../../assets/Industries/mining.png";
-import defense from "../../assets/Industries/defense.png";
+import mining from "../../assets/Industries/mining.webp";
+import defense from "../../assets/Industries/defense.webp";
 import transport from "../../assets/train.jpeg";
-import gaming from "../../assets/Industries/gaming.png";
+import gaming from "../../assets/Industries/gaming.webp";
 import medical from "../../assets/medical.jpeg";
-import energy from "../../assets/Industries/energy.png";
+import energy from "../../assets/Industries/energy.webp";
 import { Link } from "react-router-dom";
 
 const Industries = () => {

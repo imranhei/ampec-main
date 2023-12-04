@@ -1,32 +1,32 @@
-import banner_mining from "../assets/Industries/mining_01.png";
-import img_01_mining from "../assets/Industries/mining_02.png";
-import img_02_mining from "../assets/Industries/mining_03.png";
-import img_03_mining from "../assets/Industries/mining_04.png";
+import banner_mining from "../assets/Industries/mining_01.webp";
+import img_01_mining from "../assets/Industries/mining_02.webp";
+import img_02_mining from "../assets/Industries/mining_03.webp";
+import img_03_mining from "../assets/Industries/mining_04.webp";
 
-import banner_defense from "../assets/Industries/defence_01.png";
-import img_01_defense from "../assets/Industries/defence_02.png";
-import img_02_defense from "../assets/Industries/defence_03.png";
-import img_03_defense from "../assets/Industries/defence_04.png";
+import banner_defense from "../assets/Industries/defence_01.webp";
+import img_01_defense from "../assets/Industries/defence_02.webp";
+import img_02_defense from "../assets/Industries/defence_03.webp";
+import img_03_defense from "../assets/Industries/defence_04.webp";
 
-import banner_transport from "../assets/Industries/transport_01.png";
-import img_01_transport from "../assets/Industries/transport_02.png";
-import img_02_transport from "../assets/Industries/transport_03.png";
-import img_03_transport from "../assets/Industries/transport_04.png";
+import banner_transport from "../assets/Industries/transport_01.webp";
+import img_01_transport from "../assets/Industries/transport_02.webp";
+import img_02_transport from "../assets/Industries/transport_03.webp";
+import img_03_transport from "../assets/Industries/transport_04.webp";
 
-import banner_gaming from "../assets/Industries/gaming_01.png";
-import img_01_gaming from "../assets/Industries/gaming_02.png";
-import img_02_gaming from "../assets/Industries/gaming_03.png";
-import img_03_gaming from "../assets/Industries/gaming_04.png";
+import banner_gaming from "../assets/Industries/gaming_01.webp";
+import img_01_gaming from "../assets/Industries/gaming_02.webp";
+import img_02_gaming from "../assets/Industries/gaming_03.webp";
+import img_03_gaming from "../assets/Industries/gaming_04.webp";
 
-import banner_medical from "../assets/Industries/medical_01.png";
-import img_01_medical from "../assets/Industries/medical_02.png";
-import img_02_medical from "../assets/Industries/medical_03.png";
-import img_03_medical from "../assets/Industries/Medical_04.png";
+import banner_medical from "../assets/Industries/medical_01.webp";
+import img_01_medical from "../assets/Industries/medical_02.webp";
+import img_02_medical from "../assets/Industries/medical_03.webp";
+import img_03_medical from "../assets/Industries/medical_04.webp";
 
-import banner_energy from "../assets/Industries/energy_01.png";
-import img_01_energy from "../assets/Industries/energy_02.png";
-import img_02_energy from "../assets/Industries/energy_03.png";
-import img_03_energy from "../assets/Industries/energy_04.png";
+import banner_energy from "../assets/Industries/energy_01.webp";
+import img_01_energy from "../assets/Industries/energy_02.webp";
+import img_02_energy from "../assets/Industries/energy_03.webp";
+import img_03_energy from "../assets/Industries/energy_04.webp";
 
 const data = {
   "mining-industry": {
