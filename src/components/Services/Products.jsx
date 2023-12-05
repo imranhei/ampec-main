@@ -38,7 +38,7 @@ const Products = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Products
       </p>
-      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 lg:px-20 md:px-10 px-6 text-justify">
         Ampec Technologies is a proud and authorised distributor of all types of
         electronic components, fasteners and wireless technologies for almost 25
         years. Please see the list below for a listing of some of the

@@ -55,7 +55,7 @@ const Product = () => {
         },
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1279,
         settings: {
           slidesToShow: 2,
           infinite: true,
@@ -74,15 +74,15 @@ const Product = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-20 py-16">
-      <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 px-10">
+    <div className="lg:py-24 sm:py-20 py-16 container mx-auto lg:px-20 md:px-10 px-6">
+      <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10">
         Product & Services
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base sm:leading-9 leading-7 text-sm tracking-wide text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base sm:leading-9 leading-7 text-sm tracking-wide text-center">
         Exporting to all major markets including US, Europe, China, and South
         East Asia
       </p>
-      <div className="lg:w-[1000px] 2xl:w-[1400px] sm:w-[640px] mx-auto">
+      <div className="lg:w-[800px] 2xl:w-[1300px] xl:w-[1000px] md:w-[650px] sm:w-[590px] mx-auto">
         <Slider
           {...settings}
           className="card container mx-auto pb-10 overflow-hidden z-10 mt-16"

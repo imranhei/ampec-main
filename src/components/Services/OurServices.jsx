@@ -42,26 +42,26 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="lg:pt-24 pt-16 flex flex-col items-center container mx-auto">
+    <div className="container mx-auto lg:px-20 md:px-10 px-6 lg:pt-24 pt-16 flex flex-col items-center">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Services
       </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify">
         We specialize in Cable Assembly , Box Build Assembly , Engineering
-        Design , Strategic Sourcing and many more things . We can custom
+        Design , Strategic Sourcing and many more things. We can custom
         manufacture all or part of your new or existing products in Australia,
         or outside Australia.
       </div>
       {data.map((item) => (
         <div
           key={item.id}
-          className={`flex items-center justify-center lg:py-32 sm:py-14 py-8 pb-8 px-10 max-w-[1300px] mx-auto lg:gap-32 sm:gap-20 gap-10 ${
+          className={`flex items-center justify-center lg:py-32 sm:py-14 py-8 pb-8 lg:gap-32 sm:gap-20 gap-10 ${
             item.id % 2 === 1
               ? "lg:flex-row flex-col"
               : "lg:flex-row-reverse flex-col"
           } flex-col}`}
         >
-          <div className="lg:w-1/2 sm:w-2/3 w-full lg:h-auto sm:h-80 h-60">
+          <div className="xl:w-1/3 sm:w-1/2 w-full lg:h-auto sm:h-80 h-60">
             <img className="w-full h-full object-cover" src={item.image} alt={item.title} />
           </div>
           <div className="lg:w-1/2 w-full">

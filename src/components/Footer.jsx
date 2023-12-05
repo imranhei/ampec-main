@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-amBlue flex flex-col items-center p-10 gap-10 text-white relative z-10">
-      <img
-        className="w-32 h-12 sm:scale-100 scale-90 sm:self-center sm:ml-0 -ml-1 self-start"
-        src={logo}
-        alt="ampec logo"
-      />
+    <div className="bg-amBlue flex flex-col items-center py-10 px-6 gap-10 text-white relative z-10">
+      <Link to="/">
+        <img
+          className="w-32 h-12 sm:scale-100 scale-90 sm:self-center sm:ml-0 -ml-1 self-start"
+          src={logo}
+          alt="ampec logo"
+        />
+      </Link>
       <div className="flex flex-wrap lg:gap-0 gap-8 justify-between container xl:px-40 sm:text-base text-sm">
         <div className="lg:text-center">
           <p className="font-medium pb-4">Sydney</p>
@@ -116,7 +118,7 @@ const Footer = () => {
         </Link>
         <p className="text-shadow">|</p>
         <Link to="/faq" className="text-shadow hover:text-amYellow">
-          FAQ 
+          FAQ
         </Link>
       </div>
       {/* <div className="w-screen h-px bg-amYellow opacity-25"/> */}

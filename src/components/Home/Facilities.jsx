@@ -39,7 +39,7 @@ const Facilities = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-16 py-12 container mx-auto sm:px-20 px-10">
+    <div className="container mx-auto lg:px-20 md:px-10 px-6 lg:py-24 sm:py-16 py-12">
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide lg:pb-16 pb-14">
         Our Facilities
       </p>

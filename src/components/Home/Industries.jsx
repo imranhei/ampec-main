@@ -57,7 +57,7 @@ const Industries = () => {
       <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10">
         Industries
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wider text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wider text-center lg:px-20 md:px-10 px-6">
         We work across different industries around the world
       </p>
       <div className="w-full sm:pt-24 pt-16 font-exo">
@@ -160,7 +160,7 @@ const Industries = () => {
               />
               <div className="opacity-0 group-hover:opacity-100 to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50 duration-500" />
               <p
-                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[10px]"
+                className="absolute sm:text-5xl text-xl font-bold text-white top-1/2 sm:-mt-6 -mt-4 text-center w-full duration-500 opacity-0 group-hover:opacity-100 group-hover:tracking-normal tracking-[6px]"
                 onMouseEnter={handleTextHover}
                 onMouseLeave={handleTextLeave}
               >

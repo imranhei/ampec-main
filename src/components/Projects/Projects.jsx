@@ -75,7 +75,7 @@ const Projects = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Projects
       </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify lg:px-20 md:px-10 px-6">
         We help our customers source the right components, make better
         manufacturing decisions and improve their bottom line. Ampec supplies
         quality products to your specifications at a competitive price. You
@@ -83,7 +83,7 @@ const Projects = () => {
         components, standard or custom caballing or pre-assembled complex
         box/panel builds, contact us or order from our online catalogue.
       </div>
-      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10 sm:px-20 px-10">
+      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10 lg:px-20 md:px-10 px-6">
         <Button />
         <ButtonSolution />
       </div>
@@ -91,7 +91,7 @@ const Projects = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="w-full flex flex-col justify-center relative text-white"
+            className="w-full flex flex-col justify-center relative text-white overflow-hidden"
           >
             <img
               className="w-screen brightness-75 first-letter:first-line:lg:my-20 sm:my-14 my-10 sm:scale-100 scale-125"

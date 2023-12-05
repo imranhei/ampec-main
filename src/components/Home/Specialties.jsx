@@ -67,11 +67,11 @@ const Specialties = () => {
   };
 
   return (
-    <div className="lg:py-24 sm:py-20 py-16 md:mt-10 mt-4">
-      <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 px-10">
+    <div className="lg:py-24 sm:py-20 py-16 md:mt-10 mt-4 container mx-auto lg:px-20 md:px-10 px-6">
+      <p className="text-center font-exo font-semibold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10">
         Explore our Specialties
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wide text-center sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm sm:leading-9 leading-7 tracking-wide sm:text-center text-justify">
         At Ampec, we are committed to delivering top-notch cable harness and box
         assembly solutions. Explore our specialties, and you'll discover a
         partner dedicated to manufacturing excellence, quality assurance, and

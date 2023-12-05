@@ -8,11 +8,11 @@ const History = () => {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <div className="sm:py-24 flex flex-col container mx-auto">
+    <div className="sm:py-24 flex flex-col container mx-auto lg:px-20 md:px-10 px-6">
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our History
       </p>
-      <div className={`max-w-[1300px] mx-auto text-justify text-amBlue sm:text-base text-sm font-semibold sm:leading-10 leading-7 tracking-wide font-khula px-10 ${readMore ? 'line-clamp-none' : 'sm:line-clamp-none line-clamp-5'}`}>
+      <div className={`text-justify text-amBlue sm:text-base text-sm font-semibold sm:leading-10 leading-7 tracking-wide font-khula ${readMore ? 'line-clamp-none' : 'sm:line-clamp-none line-clamp-5'}`}>
         Ampec started out as a supplier of passive electronic components of all
         types and a manufacturer of custom cable assemblies. By focusing on
         customer REQUIREMENTS our business has continued to grow and diversify.
@@ -38,8 +38,8 @@ const History = () => {
         providing our customers superior service and highest quality, components
         at a genuinely competitive price.
       </div>
-      <button onClick={() => setReadMore(!readMore)} className="px-10 text-amYellow w-fit sm:hidden text-sm">{readMore ? 'Read less' : 'Read more'}</button>
-      <div className="flex flex-wrap lg:px-0 px-10 lg:w-4/5 sm:mt-16 mt-8 mx-auto">
+      <button onClick={() => setReadMore(!readMore)} className="text-amYellow w-fit sm:hidden text-sm">{readMore ? 'Read less' : 'Read more'}</button>
+      <div className="flex flex-wrap sm:mt-16 mt-8">
         <div className="w-2/3 max-h-96 aspect-video">
             <img className="lg:p-2 p-1 h-full w-full object-cover" src={history_01} alt="History" />
         </div>

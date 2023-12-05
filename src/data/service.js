@@ -4,6 +4,24 @@ import img1_cable_assembly from "../assets/Services/cable_03.webp";
 import img2_cable_assembly from "../assets/Services/cable_04.webp";
 import img3_cable_assembly from "../assets/Services/cable_05.webp";
 
+import banner_box_build from "../assets/Services/box_build_01.webp";
+import img_content_box_build from "../assets/Services/box_build_02.webp";
+import img1_box_build from "../assets/Services/box_build_03.webp";
+import img2_box_build from "../assets/Services/box_build_04.webp";
+import img3_box_build from "../assets/Services/box_build_05.webp";
+
+import banner_engineering_design from "../assets/Services/engineering_design_01.webp";
+import img_content_engineering_design from "../assets/Services/engineering_design_02.webp";
+import img1_engineering_design from "../assets/Services/engineering_design_03.webp";
+import img2_engineering_design from "../assets/Services/engineering_design_04.webp";
+import img3_engineering_design from "../assets/Services/engineering_design_05.webp";
+
+import banner_strategic_sourcing from "../assets/Services/strategic_sourcing_01.webp";
+import img_content_strategic_sourcing from "../assets/Services/strategic_sourcing_02.webp";
+import img1_strategic_sourcing from "../assets/Services/strategic_sourcing_03.webp";
+import img2_strategic_sourcing from "../assets/Services/strategic_sourcing_04.webp";
+import img3_strategic_sourcing from "../assets/Services/strategic_sourcing_05.webp";
+
 const data = {
   "cable-assembly": {
     title: "Cable Assembly",
@@ -29,8 +47,8 @@ const data = {
     title: "Box Build Assembly",
     description:
       "Box build assembly is a process in which various components, including printed circuit boards , electronic components, wiring, and mechanical elements, are assembled and integrated into a final enclosure or housing. Our company specializes in box assemblies, offering tailored solutions to meet customer needs, resulting in high-quality, custom solutions that make us a preferred choice.",
-    // banner: banner_box_build_assembly,
-    // contentImg: img_content,
+    banner: banner_box_build,
+    contentImg: img_content_box_build,
     subTitle: "Experience You Can Trust",
     subDesc:
       "We offer highly customized and tailored solutions to meet the specific packaging and box assembly needs, providing a level of flexibility and attention to detail that sets them apart. Whether you request for a complex, multi-layered, and intricately designed box assembly. The specifications were highly detailed and presented numerous technical hurdles. Despite these challenges, our team's relentless dedication and problem-solving skills allowed us to overcome obstacles, ensuring the project was completed on time. This success not only met the customer's high expectations but also showcased our company's commitment to delivering even the most demanding box assembly solutions promptly and with precision. Customers trust our company for box assemblies due to our extensive experience, proven track record of delivering high-quality products, and a reputation for meeting or exceeding their expectations consistently.",
@@ -43,34 +61,34 @@ const data = {
     point_3_title: "Versatile Electrical Box Build Services:",
     point_3_desc:
       "We specialize in providing versatile electrical box build assembly services, catering to a diverse range of industries and applications. Our services are designed to meet the unique needs of each electrical system. Our assembly solutions are versatile and applicable across various sectors, like industrial machinery and consumer electronics, catering to the unique needs of each project. We offer versatile solutions for dynamic industries, providing comprehensive box assembly services to meet the unique specifications of electrical systems.",
-    // imgs: [img1_cable_assembly, img2_cable_assembly, img3_cable_assembly],
+    imgs: [img1_box_build, img2_box_build, img3_box_build],
   },
   "engineering-design": {
     title: "Engineering Design",
     description:
       "Engineering design for a company involves the systematic process of creating, planning, and refining products, systems, or structures to meet specific needs and goals.  At our company   we understand that without a solid foundation in engineering design, a company's potential remains unfulfilled. Our commitment to precision and innovation makes us your trusted partner in achieving your goals. Discover how our expert engineers can turn your ideas into reality, streamline your processes, and enhance your competitiveness.",
-    // banner: banner_engineering_design,
-    // contentImg: img_content,
+    banner: banner_engineering_design,
+    contentImg: img_content_engineering_design,
     subTitle: "Global Procurement Expertise",
     subDesc:
       "Our distinctive specialization in global procurement sets us apart. We possess a deep understanding of international markets, regulations, and supplier networks. This expertise enables us to source products and services from around the world efficiently, providing cost-effective solutions while ensuring quality and compliance. When you choose us, you gain access to a global perspective and a vast supplier network, making your strategic sourcing endeavors seamless, cost-efficient, and globally competitive.",
     point_1_title: "Innovative Problem Solvers:",
     point_1_desc:
-      "We thrive on complexity and welcome challenges that others may shy away from. Our team of creative engineers excels at finding inventive solutions for even the most intricate problems, giving your company a competitive edge and driving innovation in your industry.",
+      "We thrive on complexity and welcome challenges that others may shy away from. Our team of creative engineers excels at finding inventive solutions for even the most intricate problems, giving your company a competitive edge and driving innovation in your industry . We are dedicated to innovation, demonstrating a proactive approach to problem-solving, consistently pushing boundaries, and setting new standards in the ever-evolving business landscape.",
     point_2_title: "Rapid Prototyping and Testing:",
     point_2_desc:
-      "Time is often a critical factor in today's fast-paced business environment. Our rapid prototyping and testing capabilities allow us to swiftly turn concepts into tangible prototypes, enabling you to validate ideas and make informed decisions faster. This agile approach accelerates your time to market and minimizes risks.",
+      "Time is often a critical factor in today's fast-paced business environment. Our rapid prototyping and testing capabilities allow us to swiftly turn concepts into tangible prototypes, enabling you to validate ideas and make informed decisions faster. This agile approach accelerates your time to market and minimizes risks . We offer streamlined processes for clients, enabling informed decision-making and agile solutions to keep businesses ahead in the dynamic and competitive market.",
     point_3_title: "Expertise and Experience:",
     point_3_desc:
       "With a team of seasoned engineers and designers, we bring years of expertise and hands-on experience to the table. Our deep knowledge of various industries and cutting-edge technologies ensures that your projects are in capable hands. When you choose us, you gain access to a reservoir of knowledge and skills that can transform your engineering projects into success stories.",
-    // imgs: [img1_cable_assembly, img2_cable_assembly, img3_cable_assembly],
+    imgs: [img1_engineering_design, img2_engineering_design, img3_engineering_design],
   },
   "strategic-sourcing": {
     title: "Strategic Sourcing",
     description:
       "Strategic sourcing is a process that involves the identification, evaluation, and selection of suppliers that are best suited to meet a company's needs. It is a critical component of supply chain management that can have a significant impact on a company's overall performance. Our company specializes in strategic sourcing, aiming to assist your company in achieving its goals, providing competitive edge and driving business growth.",
-    // banner: banner_strategic_sourcing,
-    // contentImg: img_content,
+    banner: banner_strategic_sourcing,
+    contentImg: img_content_strategic_sourcing,
     subTitle: "Global Procurement Expertise",
     subDesc:
       "Our distinctive specialization in global procurement sets us apart. We possess a deep understanding of international markets, regulations, and supplier networks. This expertise enables us to source products and services from around the world efficiently, providing cost-effective solutions while ensuring quality and compliance. When you choose us, you gain access to a global perspective and a vast supplier network, making your strategic sourcing endeavors seamless, cost-efficient, and globally competitive.",
@@ -83,7 +101,7 @@ const data = {
     point_3_title: "Cost Optimization Solutions:",
     point_3_desc:
       "We are dedicated to cost optimization, helping clients achieve substantial savings of up to 30%. Our approach involves strategic sourcing strategies that enhance procurement efficiency and reduce expenses. Additionally, we specialize in efficient labor cost optimization services, streamlining workforce utilization for maximum economic benefits. By implementing these cost-effective measures, we ensure that clients experience significant financial advantages without compromising on quality.",
-    // imgs: [img1_cable_assembly, img2_cable_assembly, img3_cable_assembly],
+    imgs: [img1_strategic_sourcing, img2_strategic_sourcing, img3_strategic_sourcing],
   },
 };
 //write a function to return a item data from json data

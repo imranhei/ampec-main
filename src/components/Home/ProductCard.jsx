@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
     return (
-        <Link to={product.link} className='w-[300px] h-[440px] relative rounded-lg overflow-hidden shadow-md group'>
+        <Link to={product.link} className='md:w-[300px] sm:w-[280px] w-[300px] h-[440px] relative rounded-lg overflow-hidden shadow-md group'>
             <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

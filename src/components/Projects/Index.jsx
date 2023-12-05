@@ -10,11 +10,11 @@ const Index = () => {
   return (
     <div className="sm:py-20 py-10 z-10 relative">
       <Projects />
-      <div className="pt-16 flex flex-col items-center z-10 relative mx-auto">
+      <div className="pt-16 flex flex-col items-center z-10 relative container mx-auto lg:px-20 md:px-10 px-6">
         <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
           Partner with us
         </p>
-        <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+        <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify">
           Partnering with us is good business. We have the expertise to help you
           perfect your designs and create profitable products. Using our
           contract manufacturing services enables you to ramp up and down on

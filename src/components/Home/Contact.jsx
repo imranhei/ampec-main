@@ -5,10 +5,10 @@ import ceo from "../../assets/CEO.jpeg";
 const Contact = () => {
   return (
     <div className="flex flex-col items-center lg:py-24 sm:py-20 py-16 sm:space-y-10 space-y-6 relative z-10">
-      <p className="font-exo lg:text-5xl sm:text-4xl text-2xl font-semibold text-amBlue tracking-wide sm:pb-6 sm:px-20 px-10">
+      <p className="font-exo lg:text-5xl sm:text-4xl text-2xl font-semibold text-amBlue tracking-wide sm:pb-6 lg:px-20 md:px-10 px-6">
         Get in Touch with Us
       </p>
-      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center lg:leading-9 sm:leading-7 leading-7 sm:px-20 px-10">
+      <p className="font-khula font-semibold text-amBlue sm:text-base text-sm tracking-wide text-center lg:leading-9 sm:leading-7 leading-7 lg:px-20 md:px-10 px-6">
         We innovate relentlessly, transforming possibilities into realities.
         Together, we lead the charge <br className="lg:block hidden" /> in
         shaping a connected future. Join us as we revolutionize the world with

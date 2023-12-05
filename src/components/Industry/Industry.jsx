@@ -41,7 +41,7 @@ const Industry = () => {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
     const temp = getIndustry(params.industryId);
     setData(temp);
   }, [params.industryId]);
@@ -56,20 +56,20 @@ const Industry = () => {
   if (data.length === 0) return <div>Loading...</div>;
 
   return (
-    <div className="w-full overflow-hidden relative z-10">
-      <div className="flex w-full flex-col items-center justify-center lg:mt-44 sm:mt-36 mt-24 container mx-auto">
-        <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center">
+    <div className="w-full overflow-hidden relative z-10 container mx-auto lg:px-20 md:px-10 px-6">
+      <div className="flex w-full flex-col items-center justify-center lg:mt-44 container sm:mt-36 mt-24 mx-auto">
+        <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
           {data.title || ""}
         </p>
-        <div className="md:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-14 pb-8 lg:px-20 px-10">
+        <div className="md:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-14 pb-8">
           {data.description || ""}
         </div>
         <img
           src={data.banner}
           alt="background"
-          className="w-full pb-10 lg:px-20 sm:px-10"
+          className="w-full pb-10"
         />
-        <div className="container mx-auto lg:px-20 px-10">
+        <div className="2xl:w-[1350px] xl:w-[1100px] container mx-auto">
           <Slider
             {...settings}
             className="card mx-auto pb-10 overflow-hidden z-10"
@@ -80,7 +80,7 @@ const Industry = () => {
                 className="w-full h-full flex justify-center sm:p-4 p-2"
               >
                 <div className="flex justify-center">
-                  <div className="bg-amCard hover:bg-gray-100 rounded-xl p-8 sm:w-[350px] w-80 md:h-[470px] sm:h-[410px] h-[350px] shadow-md space-y-2 relative z-10">
+                  <div className="bg-amCard hover:bg-gray-100 rounded-xl p-8 2xl:w-[400px] lg:w-[350px] sm:w-[320px] w-80 md:h-[470px] sm:h-[410px] h-[350px] shadow-md space-y-2 relative z-10">
                     <div className="sm:h-36 h-16 sm:w-36 w-24 sm:scale-100 scale-90 mx-auto flex justify-center items-center">
                       {item.icon}
                     </div>
@@ -96,7 +96,7 @@ const Industry = () => {
             ))}
           </Slider>
         </div>
-        <div className="lg:px-20 px-10 py-10">
+        <div className="py-10">
           <div className="xl:w-fit md:w-1/2 sm:w-2/3 float-none mx-auto md:float-left pb-10 md:pb-0">
           {data.imgs && data.imgs.length > 0 ? <img src={data.imgs[0]} alt="" className="xl:pr-20 md:pr-10 md:pb-5" /> : null}
           </div>
@@ -128,7 +128,7 @@ const Industry = () => {
           </div>
         </div>
       </div>
-      <div className="w-full py-20 container mx-auto lg:px-20 px-10 text-amBlue text-justify">
+      <div className="w-full py-20 container mx-auto text-amBlue text-justify">
         <p className="lg:text-4xl sm:text-2xl text-xl font-exo font-bold md:pb-20 pb-10">
           {data.subHeader || ""}
         </p>
@@ -166,7 +166,7 @@ const Industry = () => {
             <></>
           )}
           {data.imgs && data.imgs.length > 2 ? (
-            <img src={data.imgs[2]} alt="" className="w-1/3 object-cover" />
+            <img src={data.imgs[2]} alt="" className="w-[37%] object-cover" />
           ) : (
             <></>
           )}
