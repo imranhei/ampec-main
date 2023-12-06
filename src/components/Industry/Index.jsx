@@ -10,7 +10,9 @@ const Index = () => {
     return (
         <div className="w-full relative z-10 lg:pt-44 sm:pt-36 pt-24">
             <Industries />
-            <Partner />
+            <div className='container mx-auto lg:px-20 md:px-10 px-6'>
+                <Partner />
+            </div>
         </div>
     );
 }

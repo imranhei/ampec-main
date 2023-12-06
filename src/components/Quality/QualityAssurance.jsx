@@ -39,11 +39,11 @@ const QualityAssurance = () => {
   ];
 
   return (
-    <div className="flex w-full flex-col items-center pt-20 lg:px-20 px-10">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center mx-auto">
+    <div className="flex w-full flex-col items-center pt-20 container mx-auto lg:px-20 md:px-10 px-6">
+      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
         Quality Assurance at Every Stage
       </p>
-      <div className="text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 max-w-[1300px] mx-4">
+      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
         Quality is not a static goal but an ongoing pursuit. We continuously
         seek ways to improve our processes and products, ensuring that we stay
         at the forefront of technological advancements and industry standards.
@@ -52,11 +52,11 @@ const QualityAssurance = () => {
         <Button />
         <ButtonSolution />
       </div>
-      <div className="flex flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10 px-10">
+      <div className="flex flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10">
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard lg:h-[553px] sm:h-[500px] h-[430px] lg:w-[564px] w-[334px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard lg:h-[553px] sm:h-[500px] h-[430px] lg:w-[564px] w-[320px] text-center"
           >
             <img
               className="lg:h-40 h-24 w-auto mx-auto  lg:m-5 m-3"

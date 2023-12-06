@@ -143,7 +143,7 @@ const Nav = () => {
   );
 
   return (
-    <div className="fixed top-0 left-0 py-2 px-4 lg:px-8 lg:py-6 z-50 w-full shadow-md bg-nav/90 backdrop-blur-md overflow-y">
+    <div className="fixed top-0 left-0 py-2 md:px-8 lg:py-6 z-50 w-full shadow-md bg-nav/90 backdrop-blur-md overflow-y">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900 relative overflow-y">
         <Button
           variant="text"
@@ -244,7 +244,7 @@ const Nav = () => {
           </Link>
           <Link to="/">
             <img
-              className="w-8 mr-7 sm:hidden block"
+              className="w-8 sm:mr-7 mr-6 sm:hidden block"
               src={logo_phone}
               alt="ampec technologies"
             />

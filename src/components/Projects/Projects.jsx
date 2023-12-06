@@ -75,7 +75,7 @@ const Projects = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Projects
       </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify lg:px-20 md:px-10 px-6">
+      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
         We help our customers source the right components, make better
         manufacturing decisions and improve their bottom line. Ampec supplies
         quality products to your specifications at a competitive price. You
@@ -99,13 +99,13 @@ const Projects = () => {
               alt="background"
             />
             <div className="absolute lg:px-40 sm:px-20 px-10">
-              <p className="font-lato lg:text-3xl sm:text-xl tracking-wider lg:pb-4 sm:pb-2">
+              <p className="font-lato xl:text-3xl md:text-xl tracking-wider lg:pb-4 sm:pb-2">
                 {item.title}
               </p>
-              <p className="font-lato lg:text-4xl sm:text-2xl tracking-wider lg:pb-16 sm:pb-5">
+              <p className="font-lato xl:text-4xl md:text-2xl tracking-wider xl:pb-16 sm:pb-8">
                 {item.subTitle}
               </p>
-              <p className="font-khula lg:text-2xl sm:text-lg text-sm tracking-wide lg:pb-10 sm:pb-4 pb-2">
+              <p className="font-khula xl:text-2xl md:text-lg text-sm tracking-wide lg:pb-10 sm:pb-4 pb-2">
                 {item.description}
               </p>
               <Link className="w-fit text-amYellow font-lato text-bold sm:text-base text-sm flex gap-2 border border-gray-100/30 rounded lg:px-10 sm:px-5 px-2 lg:py-4 sm:py-2 py-1 hover:bg-amBlue group duration-300" to={item.link}>

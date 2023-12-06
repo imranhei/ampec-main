@@ -77,11 +77,11 @@ const Manufacturing = () => {
   };
 
   return (
-    <div className="flex w-full flex-col items-center">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
+    <div className="flex w-full flex-col items-center container mx-auto lg:px-20 md:px-10 px-6">
+      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
         Manufacturing
       </p>
-      <div className="lg:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1280px] mx-4 px-10">
+      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
         Our commitment to excellence in manufacture, cost management, and supply
         chain optimization sets us apart in the industry. Our manufacturing
         process is a finely-tuned blend of innovation, precision, and expertise.
@@ -89,14 +89,14 @@ const Manufacturing = () => {
         requires meticulous attention to detail. Discover the benefits of
         partnering with us for all your cable and box assembly needs.
       </div>
-      <div className="lg:flex container hidden lg:flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10 px-10">
+      <div className="lg:flex hidden lg:flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10">
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 lg:h-[553px] h-96 lg:w-[500px] w-[334px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 lg:h-[553px] h-96 xl:w-[500px] lg:w-[410px] w-[334px] text-center"
           >
             <img
-              className="lg:h-40 h-20 w-auto mx-auto  lg:m-10"
+              className="lg:h-40 h-20 w-auto mx-auto lg:m-10"
               src={item.icon}
               alt="icon"
             />
@@ -111,13 +111,13 @@ const Manufacturing = () => {
       </div>
       <Slider
         {...settings}
-        className="container card mx-auto pb-10 overflow-hidden z-10 lg:hidden"
+        className="w-full card mx-auto pb-10 overflow-hidden z-10 lg:hidden"
       >
         {data.map((item, index) => (
-          <div className="p-6">
+          <div className="py-6">
             <div
             key={item.id}
-            className="flex items-center mx-auto flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 sm:h-[450px] h-96 lg:w-[564px] w-[334px] text-center"
+            className="flex items-center mx-auto flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard hover:bg-gray-100 sm:h-[450px] h-96 lg:w-[564px] w-[320px] text-center"
           >
             <img
               className="lg:h-40 h-20 w-auto mx-auto  lg:m-10 m-6"

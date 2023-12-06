@@ -9,13 +9,13 @@ const Visit = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Visit Our Office
       </p>
-      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 px-10 max-w-[1300px] mx-auto text-justify">
+      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
         We welcome you to visit us and experience firsthand the cutting-edge
         technology, skilled craftsmanship, and commitment to quality that set us
         apart. Schedule a visit today to explore our capabilities and meet our
         dedicated team of experts who are ready to turn your ideas into reality.
       </div>
-      <div className="container justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center mx-auto gap-y-6 px-10">
+      <div className="justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center gap-y-6 container mx-auto lg:px-20 md:px-10 px-6">
         <div className="w-fit sm:space-y-8 space-y-4 px-2">
           <img src={clock} alt="Clock" className="mx-auto h-16 w-16" />
           <p className="">

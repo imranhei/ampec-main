@@ -70,7 +70,7 @@ const Quotation = () => {
       <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:py-16 py-4 z-10">
         Priority Quotation Requests
       </p>
-      <div className="text-center text-amBlue lg:text-3xl sm:text-xl text-base font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 px-10">
+      <div className="text-center text-amBlue lg:text-3xl sm:text-xl text-base font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 lg:px-20 md:px-10 px-6">
         Cable Assembly / Sub-Assembly (Box Build) Quotation:
       </div>
 

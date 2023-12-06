@@ -7,22 +7,22 @@ import ButtonSolution from "../Custom/ButtonSolution";
 
 const UniqueFacility = () => {
   return (
-    <div className="flex w-full flex-col items-center py-20">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center mx-auto">
+    <div className="flex w-full flex-col items-center py-20 overflow-hidden">
+      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center container mx-auto lg:px-20 md:px-10 px-6 lg:leading-[60px]">
         Discover Our Unique Facilities and Expert Services :
       </p>
-      <div className="lg:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 xl:w-[1280px] mx-4 px-10">
+      <div className="lg:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 container mx-auto lg:px-20 md:px-10 px-6">
         Our team of skilled technicians and engineers deliver top-tier services,
         offering custom solutions and unparalleled quality for all your wiring
         and assembly needs. Experience the difference with us, where innovation
         meets excellence. Enhance your business's success through our top-tier
         services and one-of-a-kind facilities.
       </div>
-      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base px-10">
+      <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base lg:px-20 md:px-10 px-6">
         <Button />
         <ButtonSolution />
       </div>
-      <div className="my-24 w-full">
+      <div className="my-24 w-full md:scale-100 scale-125">
         <img
           className="w-full object-cover h-full"
           src={manufacturing_bg}

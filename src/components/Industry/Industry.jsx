@@ -41,7 +41,7 @@ const Industry = () => {
   };
 
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     const temp = getIndustry(params.industryId);
     setData(temp);
   }, [params.industryId]);
