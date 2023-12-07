@@ -40,15 +40,15 @@ const Contact = () => {
 
   return (
     <div className="lg:py-24 py-16 flex flex-col items-center">
-      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10 ">
+      <h1 className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10 ">
         Contact Us
-      </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
+      </h1>
+      <h2 className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
         Get in touch with us for a Priority Quotation, a query or to discover
         how we can help you deliver on your upcoming projects. Our dedicated
         team is here to assist you with any questions, concerns, or suggestions
         you may have about our technology products and services.
-      </div>
+      </h2>
       <div className="space-y-6 sm:mt-4 font-exo text-amBlue">
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">

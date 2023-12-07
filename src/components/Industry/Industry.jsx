@@ -58,12 +58,12 @@ const Industry = () => {
   return (
     <div className="w-full overflow-hidden relative z-10 container mx-auto lg:px-20 md:px-10 px-6">
       <div className="flex w-full flex-col items-center justify-center lg:mt-44 container sm:mt-36 mt-24 mx-auto">
-        <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
+        <h1 className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
           {data.title || ""}
-        </p>
-        <div className="md:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-14 pb-8">
+        </h1>
+        <h2 className="md:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-14 pb-8">
           {data.description || ""}
-        </div>
+        </h2>
         <img
           src={data.banner}
           alt="background"

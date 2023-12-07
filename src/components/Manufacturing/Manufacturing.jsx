@@ -78,17 +78,17 @@ const Manufacturing = () => {
 
   return (
     <div className="flex w-full flex-col items-center container mx-auto lg:px-20 md:px-10 px-6">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
+      <h1 className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
         Manufacturing
-      </p>
-      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
+      </h1>
+      <h2 className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
         Our commitment to excellence in manufacture, cost management, and supply
         chain optimization sets us apart in the industry. Our manufacturing
         process is a finely-tuned blend of innovation, precision, and expertise.
         We specialize in cable and box build assembly, a complex process that
         requires meticulous attention to detail. Discover the benefits of
         partnering with us for all your cable and box assembly needs.
-      </div>
+      </h2>
       <div className="lg:flex hidden lg:flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10">
         {data.map((item) => (
           <div

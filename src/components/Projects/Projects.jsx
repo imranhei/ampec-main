@@ -72,17 +72,17 @@ const Projects = () => {
 
   return (
     <div className="lg:pt-24 pt-16 flex flex-col items-center mx-auto">
-      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+      <h1 className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Projects
-      </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
+      </h1>
+      <h2 className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
         We help our customers source the right components, make better
         manufacturing decisions and improve their bottom line. Ampec supplies
         quality products to your specifications at a competitive price. You
         never have to worry about quality. Whether you're after passive
         components, standard or custom caballing or pre-assembled complex
         box/panel builds, contact us or order from our online catalogue.
-      </div>
+      </h2>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10 lg:px-20 md:px-10 px-6">
         <Button />
         <ButtonSolution />

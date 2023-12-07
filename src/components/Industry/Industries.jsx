@@ -61,15 +61,15 @@ const Industries = () => {
 
   return (
     <div className="container mx-auto lg:px-20 md:px-10 px-6 flex w-full flex-col items-center">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
+      <h1 className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center">
         Industries
-      </p>
-      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
+      </h1>
+      <h2 className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
         Ampec Technologies is a specialized company in cable harness and box
         assemblies, serving a diverse range of industries. Our custom solutions
         meet the exacting requirements , ensuring seamless connectivity and
         optimal performance for various applications
-      </div>
+      </h2>
       {data.map((item) => (
         <div
           key={item.id}

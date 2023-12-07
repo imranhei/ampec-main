@@ -34,12 +34,12 @@ const Project = () => {
 
   return (
     <div className="container mx-auto flex w-full flex-col items-center justify-center lg:my-20 sm:my-16 my-8 lg:py-24 py-16 lg:px-20 md:px-10 px-6 relative z-10">
-      <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center">
+      <h1 className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center">
         Case Study :
-      </p>
-      <div className="text-center text-amBlue lg:text-3xl sm:text-xl font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-14 pb-8">
+      </h1>
+      <h2 className="text-center text-amBlue lg:text-3xl sm:text-xl font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-14 pb-8">
         Sub-assembly of an Emergency Communication System
-      </div>
+      </h2>
       <div className="container py-6">
         <img src={banner} alt="" className="w-full h-auto object-cover" />
       </div>

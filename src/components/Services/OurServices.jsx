@@ -43,15 +43,15 @@ const OurServices = () => {
 
   return (
     <div className="container mx-auto lg:px-20 md:px-10 px-6 lg:pt-24 pt-16 flex flex-col items-center">
-      <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
+      <h1 className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         Our Services
-      </p>
-      <div className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify">
+      </h1>
+      <h2 className="sm:text-center text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 sm:leading-8 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify">
         We specialize in Cable Assembly , Box Build Assembly , Engineering
         Design , Strategic Sourcing and many more things. We can custom
         manufacture all or part of your new or existing products in Australia,
         or outside Australia.
-      </div>
+      </h2>
       {data.map((item) => (
         <div
           key={item.id}

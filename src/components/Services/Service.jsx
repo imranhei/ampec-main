@@ -64,12 +64,12 @@ const Service = () => {
 
   return (
     <div className="container mx-auto lg:px-20 md:px-10 px-6 relative z-10 lg:pt-44 sm:pt-36 pt-24 flex flex-col items-center">
-      <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center mx-auto">
+      <h1 className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue text-center mx-auto">
         {data.title || ""}
-      </p>
-      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+      </h1>
+      <h2 className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
         {data.description || ""}
-      </div>
+      </h2>
       <img
         className="w-full py-8 transition-transform duration-300"
         src={data.banner}

@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <div className="w-full lg:mt-44 sm:mt-36 mt-24">
       <div className="container mx-auto lg:px-20 md:px-10 px-6">
-        <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide sm:leading-10 font-exo lg:pb-16 sm:pb-14 pb-8 text-amYellow text-center">
+        <h1 className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide sm:leading-10 font-exo lg:pb-16 sm:pb-14 pb-8 text-amYellow text-center">
           Custom Manufacturing at Scale
-        </p>
-        <div className="text-center mx-auto text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 sm:leading-7 leading-7 tracking-wide font-khula sm:pb-14 pb-8 lg:w-[800px] md:w-[660px]">
+        </h1>
+        <h2 className="text-center mx-auto text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 sm:leading-7 leading-7 tracking-wide font-khula sm:pb-14 pb-8 lg:w-[800px] md:w-[660px]">
           Established Leader in Contract Engineering and Manufacturing in
           Australia, Specializing in Cable Harness and Box Build Assembly
-        </div>
+        </h2>
         <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10">
           <Button />
           <ButtonSolution />
