@@ -380,8 +380,8 @@ const Service = () => {
   };
 
   return (
-    <div className="z-10 relative container mx-auto">
-      <p className="text-center font-exo lg:text-4xl sm:text-3xl text-xl font-bold text-amBlue tracking-wide sm:pb-16 pb-10 z-10 px-10">
+    <div className="z-10 relative container mx-auto lg:px-20 md:px-10 px-6">
+      <p className="text-center font-exo lg:text-4xl sm:text-3xl text-xl font-bold text-amBlue tracking-wide sm:pb-16 pb-10 z-10">
         We are all about customer service :
       </p>
       <Slider

@@ -20,7 +20,9 @@ const Index = () => {
         feel free to reach out to our team for personalized assistance.
       </h2>
       <FAQ />
-      <CallUs />
+      <div className="lg:px-20 md:px-10 px-6">
+        <CallUs />
+      </div>
     </div>
   );
 };

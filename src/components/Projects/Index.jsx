@@ -24,7 +24,9 @@ const Index = () => {
           that come with new ventures.
         </div>
       </div>
-      <CallUs />
+      <div className="lg:px-20 md:px-10 px-6">
+        <CallUs />
+      </div>
     </div>
   );
 };
