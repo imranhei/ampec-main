@@ -89,7 +89,7 @@ const Footer = () => {
           Home
         </Link>
         <p className="text-shadow">|</p>
-        <Link to="/about" className="text-shadow hover:text-amYellow">
+        <Link to="/about-us" className="text-shadow hover:text-amYellow">
           About us
         </Link>
         <p className="text-shadow">|</p>

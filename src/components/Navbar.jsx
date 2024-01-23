@@ -13,7 +13,7 @@ const Nav = () => {
     },
     {
       label: "About Us",
-      link: "/about",
+      link: "/about-us",
     },
     {
       label: "Services",

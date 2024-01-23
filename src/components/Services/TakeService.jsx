@@ -2,14 +2,14 @@ import React from "react";
 import take_service from "../../assets/Services/service_take.webp";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
-
+// container mx-auto lg:px-20 md:px-10 px-6
 const TakeService = () => {
   return (
-    <div className="lg:py-24 sm:py-20 py-10 flex flex-col items-center mx-auto overflow-hidden">
-      <p className="text-center font-exo font-bold lg:text-4xl sm:text-2xl text-xl text-amBlue tracking-wide lg:px-20 md:px-10 px-6 sm:pb-16 pb-10 z-10">
+    <div className="lg:py-24 sm:py-20 py-10 flex flex-col items-center overflow-hidden mx-auto">
+      <p className="text-center font-exo font-bold lg:text-4xl sm:text-2xl text-xl text-amBlue tracking-wide container lg:px-20 md:px-10 px-6 sm:pb-16 pb-10 z-10">
         Take our Service to Improve your Business
       </p>
-      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-20 pb-10 lg:px-20 md:px-10 px-6 text-justify">
+      <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-20 pb-10 container lg:px-20 md:px-10 px-6 text-justify">
         Ampec supplies quality products to your specifications at a competitive
         price. Whether you're after passive components, standard or custom
         cabling or pre-assembled complex box/panel builds, contact us or order

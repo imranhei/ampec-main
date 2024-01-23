@@ -12,7 +12,7 @@ const Index = () => {
       <h1 className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-6 text-amBlue text-center mx-auto">
         FAQ
       </h1>
-      <h2 className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 container mx-auto lg:px-20 md:px-10 px-6">
+      <h2 className="sm:text-center text-justify text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8 container mx-auto lg:px-20 md:px-10 px-6">
         Welcome to our FAQ section, where we provide answers to common inquiries
         about our cable harness and box assembly services. We're here to help
         you understand our offerings better, so you can make informed decisions
