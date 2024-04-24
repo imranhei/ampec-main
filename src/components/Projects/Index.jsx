@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Projects from "./Projects";
 import CallUs from "../Shared/CallUs";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   useEffect(() => {
@@ -9,6 +10,14 @@ const Index = () => {
 
   return (
     <div className="sm:py-20 py-10 z-10 relative">
+      <Helmet>
+        <title>Ampec Technologies | Projects</title>
+        <meta
+          name="description"
+          content="We help our customers source the right components, make better manufacturing decisions, and improve their bottom line. Ampec, headquartered in Sydney, supplies quality products to your specifications at a competitive price. You never have to worry about quality. Whether you're after passive components, standard or custom cabling, or pre-assembled complex box/panel builds, contact us or order from our online catalog."
+        />
+        <meta name="keywords" content="Cable harness Sydney" />
+      </Helmet>
       <Projects />
       <div className="pt-16 flex flex-col items-center z-10 relative container mx-auto lg:px-20 md:px-10 px-6">
         <p className="text-center font-exo font-bold lg:text-5xl sm:text-4xl text-2xl text-amBlue tracking-wide sm:pb-16 pb-10 z-10">

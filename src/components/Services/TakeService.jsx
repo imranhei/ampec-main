@@ -12,8 +12,9 @@ const TakeService = () => {
       <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-20 pb-10 container lg:px-20 md:px-10 px-6 text-justify">
         Ampec supplies quality products to your specifications at a competitive
         price. Whether you're after passive components, standard or custom
-        cabling or pre-assembled complex box/panel builds, contact us or order
-        from our online catalogue.
+        cabling, or pre-assembled complex box or panel builds in Sydney, Ampec
+        is your go-to supplier. Contact us directly or conveniently order from
+        our online catalogue for all your Cable Harness Sydney needs.
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:font-semibold font-lato lg:px-20 md:px-10 px-6 sm:pb-20 pb-10">
         <Button />

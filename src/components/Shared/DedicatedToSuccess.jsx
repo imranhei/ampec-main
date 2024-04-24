@@ -9,12 +9,7 @@ const DedicatedToSuccess = () => {
           Dedicated to Your Success
         </p>
         <div className="sm:text-center text-justify text-amBlue font-semibold lg:leading-10 leading-7 tracking-wide font-khula sm:pb-16 pb-8">
-          We're not just a supplier; we're a partner dedicated to your success.
-          We pride ourselves on being flexible and responsive to your needs. Our
-          commitment to quality is unwavering, ensuring that every cable
-          assembly we provide is reliable and built to last. We understand the
-          importance of your project's success, and our team of experts is here
-          to provide the technical support and guidance you need.
+        We're not just a supplier in Australia; we're a partner dedicated to your success. We pride ourselves on being flexible and responsive to your needs. Our commitment to quality is unwavering in cable harness, ensuring that every cable assembly we provide is reliable and built to last. We understand the importance of your project's success in Australia, and our team of experts is here to provide the technical support and guidance you need in cable harness.
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:pb-20 pb-10">
           <Button />
