@@ -3,10 +3,10 @@ import img_01_mining from "../assets/Industries/mining_02.webp";
 import img_02_mining from "../assets/Industries/mining_03.webp";
 import img_03_mining from "../assets/Industries/mining_04.webp";
 
-import banner_defense from "../assets/Industries/defence_01.webp";
-import img_01_defense from "../assets/Industries/defence_02.webp";
-import img_02_defense from "../assets/Industries/defence_03.webp";
-import img_03_defense from "../assets/Industries/defence_04.webp";
+import banner_defence from "../assets/Industries/defence_01.webp";
+import img_01_defence from "../assets/Industries/defence_02.webp";
+import img_02_defence from "../assets/Industries/defence_03.webp";
+import img_03_defence from "../assets/Industries/defence_04.webp";
 
 import banner_transport from "../assets/Industries/transport_01.webp";
 import img_01_transport from "../assets/Industries/transport_02.webp";
@@ -152,7 +152,7 @@ const data = {
     ],
     imgs: [img_01_mining, img_02_mining, img_03_mining],
     subTitle: "Our Commitment to Quality",
-    subDescription: `Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards. \n\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.`,
+    subDescription: `Quality is the cornerstone of our operations. We understand that in the defence industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards. \n\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.`,
     subHeader: "Explore Our Specialties and Services for Mining Industry",
     point_01: "Ruggedized for Mining Environments :",
     point_01_description:
@@ -168,11 +168,11 @@ const data = {
       "We are specialize in customization according to our customer requirements. we offer customization options for the  mining equipment like its size, power requirements, or specific environmental considerations. Our cable harness and box assemblies are designed to fit with your exact specifications.",
   },
 
-  "defense-industry": {
-    title: "Defense Industry",
+  "defence-industry": {
+    title: "defence Industry",
     description:
-      "Our cable harnesses are manufactured using the highest quality materials, adhering to strict industry standards. We prioritize excellence and reliability, ensuring that our products consistently meet and exceed your expectations. So we provide the ultimate cable harness and box-assembly solution for the Defense Industry",
-    banner: banner_defense,
+      "Our cable harnesses are manufactured using the highest quality materials, adhering to strict industry standards. We prioritize excellence and reliability, ensuring that our products consistently meet and exceed your expectations. So we provide the ultimate cable harness and box-assembly solution for the defence Industry",
+    banner: banner_defence,
     card: [
       {
         icon: (
@@ -289,20 +289,20 @@ const data = {
           "We offer flexible customization options to meet your specific requirements. Whether you need unique connectors, specialized shielding, or tailored lengths, our team of experts will work closely with you to deliver the perfect solution.",
       },
     ],
-    imgs: [img_01_defense, img_02_defense, img_03_defense],
+    imgs: [img_01_defence, img_02_defence, img_03_defence],
     subTitle: "Our Commitment to Quality",
     subDescription:
-      "Quality is the cornerstone of our operations. We understand that in the defense industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\n\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
+      "Quality is the cornerstone of our operations. We understand that in the defence industry, there is zero room for error. That's why we have implemented rigorous quality control processes at every stage of production. Our highly skilled team, state-of-the-art facilities, and cutting-edge technology ensure that every cable harness and box assembly we produce adheres to the highest industry standards.\n\nOur products are built to withstand extreme conditions, ensuring reliability in the most challenging environments.",
     subHeader: "Key Features of Our Cable Harness and Box Assemblies :",
     point_01: "Robust Durability :",
     point_01_description:
-      "Our cable harness and box assemblies are meticulously engineered to endure the harshest conditions. Whether it's extreme temperatures, high-impact vibrations, or exposure to the elements, our products are built to perform. We understand that reliability is paramount in defense applications, and our solutions deliver just that.",
+      "Our cable harness and box assemblies are meticulously engineered to endure the harshest conditions. Whether it's extreme temperatures, high-impact vibrations, or exposure to the elements, our products are built to perform. We understand that reliability is paramount in defence applications, and our solutions deliver just that.",
     point_02: "Cutting-Edge Technology :",
     point_02_description:
-      "We stay at the forefront of technological advancements. Our design and manufacturing processes incorporate the latest innovations, ensuring that your defense systems benefit from the most advanced components available. This dedication to cutting-edge technology allows us to continually enhance the performance and reliability of our products.",
+      "We stay at the forefront of technological advancements. Our design and manufacturing processes incorporate the latest innovations, ensuring that your defence systems benefit from the most advanced components available. This dedication to cutting-edge technology allows us to continually enhance the performance and reliability of our products.",
     point_03: "Compliance with Industry Standards :",
     point_03_description:
-      "We take compliance seriously. Our cable harness and box assemblies meet and exceed all relevant industry standards and regulations. We understand that adherence to these standards is not negotiable in the defense sector. You can rely on us to provide products that are fully compliant with the stringent requirements of the defense industry.",
+      "We take compliance seriously. Our cable harness and box assemblies meet and exceed all relevant industry standards and regulations. We understand that adherence to these standards is not negotiable in the defence sector. You can rely on us to provide products that are fully compliant with the stringent requirements of the defence industry.",
     point_04: "Scalability for Your Needs :",
     point_04_description:
       "No project is too big or too small for us. Our production capabilities are highly scalable, making us a versatile partner for your cable harness and box assembly needs. Whether you require a limited run of specialized components or need large volume orders fulfilled, we maintain the same level of precision and quality assurance throughout the production process.",

@@ -62,7 +62,7 @@ const Industries = () => {
       </p>
       <div className="w-full sm:pt-24 pt-16 font-exo">
         <Slider {...settings}>
-          <Link className="slider-item group" to="/industries/defense-industry">
+          <Link className="slider-item group" to="/industries/defence-industry">
             <div
               className="image-container relative"
               ref={containerRef}

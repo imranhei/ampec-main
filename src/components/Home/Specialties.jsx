@@ -83,7 +83,7 @@ const Specialties = () => {
           className="card container mx-auto pb-10 overflow-hidden z-10 mt-16"
         >
           {product.map((item, index) => (
-            <div key={index} className="w-full h-full flex justify-center">
+            <div key={index} className="w-full h-full flex justify-center duration-200 ease-in-out hover:-mt-8">
               <div className="border bg-nav hover:bg-amCard hover:shadow-lg border-amBlue lg:h-[400px] h-[380px] 2xl:w-[428px] lg:w-[360px] sm:w-[330px] w-[300px] p-6 m-6 mx-auto test rounded duration-150">
                 <div className="w-full h-auto overflow-hidden rounded">
                 <img src={item.img} alt="" className="w-full test-hover:scale-105 duration-300" />

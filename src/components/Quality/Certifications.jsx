@@ -3,6 +3,7 @@ import iso_logo from "../../assets/Quality/iso_logo.png";
 import ul_logo from "../../assets/Quality/ul_logo.png";
 import ipc_logo from "../../assets/Quality/ipc_logo.png";
 import iso_certificate from "../../assets/Quality/iso_certificate.pdf";
+import bsi_logo from "../../assets/Quality/bsi_logo.png";
 import { Link } from "react-router-dom";
 
 const Certifications = () => {
@@ -20,6 +21,30 @@ const Certifications = () => {
         certifications. We take our commitment to quality seriously, and that's
         why we hold several industry certifications and comply with relevant
         standards, including:
+      </div>
+      <div className="flex w-full justify-between items-center flex-wrap sm:pb-20 pb-10">
+        <Link onClick={handleViewCertificate}>
+          <img
+            className="md:p-4 lg:scale-[80%] md:scale-[60%] scale-50"
+            src={iso_logo}
+            alt=""
+          />
+        </Link>
+        <img
+          className="md:p-4 lg:scale-[80%] md:scale-[60%] scale-50"
+          src={ipc_logo}
+          alt=""
+        />
+        <img
+          className="md:p-4 lg:w-[300px] md:w-[240px] w-[150px] lg:h-[180px] md:h-[144px] h-[90px]"
+          src={bsi_logo}
+          alt=""
+        />
+        <img
+          className="md:p-4 lg:scale-[80%] md:scale-[60%] scale-50"
+          src={ul_logo}
+          alt=""
+        />
       </div>
       <Link onClick={handleViewCertificate}>
         <img
@@ -53,14 +78,10 @@ const Certifications = () => {
         certifies products to meet stringent safety standards.
       </div>
       <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
-        <p>Some of the UL-listed cables we use include: UL 1007, UL 2651, UL 1569, UL 1015, UL 1571.</p>
-        {/* <ul>
-          <li>UL 1007</li>
-          <li>UL 2651</li>
-          <li>UL 1569</li>
-          <li>UL 1015</li>
-          <li>UL 1571</li>
-        </ul> */}
+        <p>
+          Some of the UL-listed cables we use include: UL 1007, UL 2651, UL
+          1569, UL 1015, UL 1571.
+        </p>
       </div>
       <img
         className="md:p-10 lg:scale-100 md:scale-75 scale-50"
@@ -72,6 +93,14 @@ const Certifications = () => {
         and Wire Harness Assemblies skill of our workers although most of them
         have been working for us for many years. This program has formalized
         their qualification in this field.
+      </div>
+      <img
+        className="md:p-10 lg:w-[400px] md:w-[320px] w-[200px] lg:h-[240px] md:h-[180px] h-[120px]"
+        src={bsi_logo}
+        alt=""
+      />
+      <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
+      This BSI Certificate of Registration for Quality Management Systems under AS9100D and ISO 9001:2015 confirms that our company adheres to rigorous international standards for quality in aerospace and general industries. This certification reflects a strong commitment to continuous improvement, ensuring that products and services consistently meet customer and regulatory requirements at the highest level of quality and reliability.
       </div>
     </div>
   );

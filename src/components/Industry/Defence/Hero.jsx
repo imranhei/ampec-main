@@ -1,7 +1,7 @@
 import React from "react";
-import defence_01 from "../../../assets/Industries/defence_01.png";
+import defence_01 from "../../../assets/Industries/defence_01.webp";
 import Slider from "react-slick";
-import defence_02 from "../../../assets/Industries/defence_02.png";
+import defence_02 from "../../../assets/Industries/defence_02.webp";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -156,14 +156,14 @@ const Hero = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center lg:mt-44 sm:mt-36 mt-24 container mx-auto">
       <p className="lg:text-5xl sm:text-[40px] text-2xl font-bold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 px-10 text-amBlue text-center">
-        Defense Industry
+        defence Industry
       </p>
       <div className="text-center text-amBlue lg:text-lg sm:text-base text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-14 pb-8 sm:px-20 px-10">
         Our cable harnesses are manufactured using the highest quality
         materials, adhering to strict industry standards. We prioritize
         excellence and reliability, ensuring that our products consistently meet
         and exceed your expectations . So we provide The ultimate cable harness
-        and box-assembly solution for the Defense Industry
+        and box-assembly solution for the defence Industry
       </div>
       <img src={defence_01} alt="background" className="w-full pb-10 px-10" />
       <div className="container mx-auto px-10">
@@ -198,7 +198,7 @@ const Hero = () => {
           </p>
           <p className="font-khula leading-7 pb-10 text-justify">
             Quality is the cornerstone of our operations. We understand that in
-            the defense industry, there is zero room for error. That's why we
+            the defence industry, there is zero room for error. That's why we
             have implemented rigorous quality control processes at every stage
             of production. Our highly skilled team, state-of-the-art facilities,
             and cutting-edge technology ensure that every cable harness and box

@@ -88,7 +88,7 @@ const Product = () => {
           className="card container mx-auto pb-10 overflow-hidden z-10 mt-16"
         >
           {product.map((item, index) => (
-            <div key={index} className="w-full h-full flex justify-center">
+            <div key={index} className="w-full h-full flex justify-center pt-8">
               <div className="flex justify-center">
                 <ProductCard key={index} product={item} />
               </div>

@@ -30,7 +30,7 @@ const Nav = () => {
       link: "/industries",
       submenu: [
         { label: "Mining Industry", link: "/industries/mining-industry" },
-        { label: "Defense Industry", link: "/industries/defense-industry" },
+        { label: "Defence Industry", link: "/industries/defence-industry" },
         { label: "Transport Industry", link: "/industries/transport-industry" },
         { label: "Gaming Industry", link: "/industries/gaming-industry" },
         { label: "Medical Industry", link: "/industries/medical-industry" },
