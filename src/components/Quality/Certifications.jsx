@@ -14,7 +14,7 @@ const Certifications = () => {
   return (
     <div className="flex w-full flex-col items-center py-20 container mx-auto lg:px-20 md:px-10 px-6">
       <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:py-16 sm:py-14 py-8 text-amBlue text-center">
-        Certifications and Compliance
+        Certifications
       </p>
       <div className="sm:text-center text-justify text-amBlue lg:text-xl sm:text-lg text-sm font-semibold lg:leading-10 leading-6 tracking-wide font-khula sm:pb-16 pb-8">
         We take pride in meeting and often exceeding industry standards and

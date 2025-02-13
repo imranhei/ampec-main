@@ -11,9 +11,10 @@ const Visit = () => {
       </p>
       <div className="sm:text-center text-amBlue sm:text-base text-sm font-semibold sm:leading-9 leading-6 tracking-wide font-khula sm:pb-16 pb-8 text-justify container mx-auto lg:px-20 md:px-10 px-6">
         We welcome you to visit us and experience firsthand the cutting-edge
-        technology, skilled craftsmanship, and commitment to quality that set us
-        apart. Schedule a visit today to explore our capabilities and meet our
-        dedicated team of experts who are ready to turn your ideas into reality.
+        technology, skilled craftsmanship, and commitment to quality that sets
+        us apart. Schedule a visit today to explore our capabilities and meet
+        our dedicated team of experts who are ready to turn your ideas into
+        reality.
       </div>
       <div className="justify-around flex flex-wrap text-amBlue font-khula lg:text-xl font-semibold sm:leading-9 tracking-wide text-center gap-y-6 container mx-auto lg:px-20 md:px-10 px-6">
         <div className="w-fit sm:space-y-8 space-y-4 px-2">
@@ -25,9 +26,10 @@ const Visit = () => {
         <div className="w-fit sm:space-y-8 space-y-4 px-2">
           <img src={location} alt="Location" className="mx-auto h-16 w-16" />
           <p className="">
-            Ampec Technologies Pty Ltd Unit 1, <br /> 63-79 Parramatta Road
-            Silverwater <br />
-            NSW 2128, Australia
+            Ampec Technologies Pty Ltd
+            <br /> Unit 1, 63-79 Parramatta Road
+            <br />
+            Silverwater NSW 2128, Australia
           </p>
         </div>
         <div className="w-fit sm:space-y-8 space-y-4 px-2">

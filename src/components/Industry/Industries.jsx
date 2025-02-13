@@ -19,7 +19,7 @@ const Industries = () => {
     },
     {
       id: 2,
-      title: "defence Industry",
+      title: "Defence Industry",
       image: defence,
       description:
         "Ampec Technologies is a pioneering company that specializes in the design and manufacturing of cable harness and box assemblies tailored specifically for the defence industry. With a commitment to precision and reliability, our expert team engineers custom solutions that meet the stringent demands of defence applications.",

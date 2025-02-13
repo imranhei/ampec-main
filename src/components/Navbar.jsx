@@ -6,18 +6,22 @@ import { Button, Collapse } from "@material-tailwind/react";
 
 const Nav = () => {
   const location = useLocation();
+  const [visited, setVisited] = useState(false);
   const options = [
     {
       label: "Home",
       link: "/",
+      className: "",
     },
     {
       label: "About Us",
       link: "/about-us",
+      className: "",
     },
     {
       label: "Services",
       link: "/services",
+      className: "",
       submenu: [
         { label: "Cable Assembly", link: "/services/cable-assembly" },
         { label: "Box Build Assembly", link: "/services/box-build" },
@@ -28,6 +32,7 @@ const Nav = () => {
     {
       label: "Industries",
       link: "/industries",
+      className: "",
       submenu: [
         { label: "Mining Industry", link: "/industries/mining-industry" },
         { label: "Defence Industry", link: "/industries/defence-industry" },
@@ -40,6 +45,7 @@ const Nav = () => {
     {
       label: "Projects",
       link: "/projects",
+      className: "",
       submenu: [
         { label: "Case Study 1", link: "/projects/case-study-1" },
         { label: "Case Study 2", link: "/projects/#" },
@@ -50,13 +56,30 @@ const Nav = () => {
       ],
     },
     {
+      label: "Quality",
+      link: "/quality",
+      className: "",
+    },
+    {
       label: "Contact Us",
       link: "/contact",
+      className: "",
     },
     {
       label: "FAQ",
       link: "/faq",
+      className: "",
     },
+    {
+      label: "News",
+      link: "/news",
+      className: "",
+    },
+    {
+      label: "Terms and Conditions",
+      link: "/terms-and-conditions",
+      className: "hidden",
+    }
   ];
 
   const [search, setSearch] = useState("");
@@ -73,6 +96,12 @@ const Nav = () => {
   };
 
   useEffect(() => {
+    if (!visited && location.pathname === "/news") {
+      setVisited(true);
+    }
+  }, [location]);
+
+  useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 1280 && (setOpenNav(false) || setSubmenuOpen(false))
@@ -80,15 +109,15 @@ const Nav = () => {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-4 z-40 font-lato tracking-wider text-sm sm:text-base">
+    <ul className="mb-4 mt-2 flex flex-col xl:mb-0 xl:mt-0 xl:flex-row xl:items-center 2xl:gap-4 xl:gap-3 gap-2 z-40 font-lato tracking-wider text-sm sm:text-base">
       {/* lg converted to xl */}
       {options.map((option, index) => (
         <div key={index} className="relative group">
           <div className="flex items-center xl:px-2 px-6 py-1 cursor-pointer w-fit">
             <Link
               to={option.link}
-              className={`sm:font-semibold xl:py-4 hover:text-amYellow ${
-                location.pathname.includes(option.link) &&
+              className={`relative sm:font-semibold xl:py-4 hover:text-amYellow ${option.className === "hidden" ? "xl:hidden" : ""} ${
+                location.pathname.includes(option.link) && 
                 (location.pathname === option.link || option.link !== "/")
                   ? "text-amYellow"
                   : "text-amBlue"
@@ -96,13 +125,17 @@ const Nav = () => {
               onClick={() => setOpenNav(false)}
             >
               {option.label}{" "}
+              {option.label === "News" && !visited && (
+                <span className="absolute xl:top-1 -top-2 -right-3 bg-red-500 text-xs text-white font-semibold rounded-full px-1.5 py-px">
+                  1
+                  </span>)}
             </Link>
             {option.submenu && (
               <svg
-                className="group-hover:xl:rotate-0 rotate-180 duration-300 w-10"
+                className="group-hover:xl:rotate-0 rotate-180 duration-300 ml-2 w-4 text-amBlue"
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                // width="20px"
+                // height="16"
                 viewBox="0 0 1024 1024"
                 onClick={() => handleSubmenuToggle(option.label)}
               >
@@ -187,7 +220,7 @@ const Nav = () => {
           {/* lg converted to xl */}
           <div className="relative sm:h-12 h-8 mr-3 sm:mr-10 lg:mr-0">
             <input
-              className="xl:w-64 sm:w-56 w-44 h-full border rounded-2xl placeholder:italic placeholder:text-xs outline-none pl-4 tracking-widest pr-10 text-base"
+              className="2xl:w-64 lg:w-60 sm:w-56 w-44 h-full border rounded-2xl placeholder:italic placeholder:text-xs outline-none pl-4 tracking-widest pr-10 text-base"
               type="text"
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search here"

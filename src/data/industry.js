@@ -169,9 +169,9 @@ const data = {
   },
 
   "defence-industry": {
-    title: "defence Industry",
+    title: "Defence Industry",
     description:
-      "Our cable harnesses are manufactured using the highest quality materials, adhering to strict industry standards. We prioritize excellence and reliability, ensuring that our products consistently meet and exceed your expectations. So we provide the ultimate cable harness and box-assembly solution for the defence Industry",
+      "Our cable harnesses are manufactured using the highest quality materials, adhering to strict industry standards. We prioritize excellence and reliability, ensuring that our products consistently meet and exceed your expectations. So we provide the ultimate cable harness and box-assembly solution for the Defence Industry",
     banner: banner_defence,
     card: [
       {

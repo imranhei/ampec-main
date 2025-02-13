@@ -23,8 +23,10 @@ const Footer = () => {
         <div className="lg:text-center block">
           <p className="font-medium pb-4">Hongkong</p>
           <p className="w-64">
-            Unit 2007, Peninsula Tower 538 Castle Peak Road, Lai Chi Kok,
-            Kowloon, Hong Kong <br /> Phone: +852 3520 1746 <br />{" "}
+            Unit 2007, Peninsula Tower, <br />
+            538 Castle Peak Road, Lai Chi Kok, <br />
+            Kowloon, Hong Kong<br />
+            Phone: +852 3520 1746 <br />{" "}
             www.routech.com.hk
           </p>
         </div>
@@ -117,14 +119,18 @@ const Footer = () => {
           Contact Us
         </Link>
         <p className="text-shadow">|</p>
+        <Link to="/terms-and-conditions" className="text-shadow hover:text-amYellow">
+          Standard Terms and Conditions
+        </Link>
+        <p className="text-shadow">|</p>
         <Link to="/faq" className="text-shadow hover:text-amYellow">
           FAQ
         </Link>
       </div>
       {/* <div className="w-screen h-px bg-amYellow opacity-25"/> */}
       <p className="text-xs text-slate-400">
-        &copy; Copyright Ampec {new Date().getFullYear()} | All Rights Reserved | All other logos are
-        the property of their respective owners
+        &copy; Copyright Ampec {new Date().getFullYear()} | All Rights Reserved
+        | All other logos are the property of their respective owners
       </p>
     </div>
   );

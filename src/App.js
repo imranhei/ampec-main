@@ -15,21 +15,10 @@ import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
 import FAQ from "./components/FAQ/Index";
 import Footer from "./components/Footer";
+import News from "./components/News/Index";
+import TermsAndConditions from "./components/Terms/TermsAndConditions";
 
 function App() {
-  useEffect(() => {
-    const handleResize = () => {
-      // document.title = window.innerWidth;
-    };
-
-    // Add event listener for window resize
-    window.addEventListener("resize", handleResize);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   return (
     <div className="relative">
@@ -70,7 +59,9 @@ function App() {
           <Route path="/manufacturing" element={<Manufacturing />} />
           {/* <Route path="/projects/:projectId" element={<Project />} /> */}
           <Route path="projects/case-study-1" element={<Project />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/news" element={<News />} />
         </Routes>
         <Footer />
       </div>
