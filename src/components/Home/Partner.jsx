@@ -62,7 +62,7 @@ const Partner = () => {
           </div>
           <div className="w-full h-full">
             <img
-              className="w-full h-full object-cover sm:scale-50 scale-75"
+              className="w-24 mx-auto object-cover sm:scale-50 scale-75"
               src={oupiin_logo}
               alt="watlow_logo"
             />
