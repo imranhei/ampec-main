@@ -5,7 +5,7 @@ import time_management from "../../assets/Projects/Time management.png";
 import financial_growth from "../../assets/Projects/Financial growth.png";
 import CallUs from "../Shared/CallUs";
 
-const Project = () => {
+const CaseStudy1 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -114,4 +114,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default CaseStudy1;

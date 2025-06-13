@@ -32,7 +32,7 @@ const Contact = () => {
     //   .catch((error) => {
     //     console.log(error);
     //   });
-  }; 
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -49,7 +49,7 @@ const Contact = () => {
         team is here to assist you with any questions, concerns, or suggestions
         you may have about our technology products and services.
       </h2>
-      <div className="space-y-6 sm:mt-4 font-exo text-amBlue">
+      {/* <div className="space-y-6 sm:mt-4 font-exo text-amBlue">
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
             <p className="lg:text-2xl sm:text-xl tracking-wide">
@@ -120,6 +120,15 @@ const Contact = () => {
             </svg>
           </button>
         </div>
+      </div> */}
+
+      <div className="flex gap-2 text-amBlue lg:text-2xl sm:text-xl text-lg font-semibold">
+        <h2>Contact us at:</h2>
+        <a href="mailto:sales@ampec.com.au">
+        <h2>
+          sales@ampec.com.au
+        </h2>
+      </a>
       </div>
     </div>
   );

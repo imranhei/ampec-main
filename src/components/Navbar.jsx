@@ -48,7 +48,7 @@ const Nav = () => {
       className: "",
       submenu: [
         { label: "Case Study 1", link: "/projects/case-study-1" },
-        { label: "Case Study 2", link: "/projects/#" },
+        { label: "Case Study 2", link: "/projects/case-study-2" },
         { label: "Case Study 3", link: "/projects/#" },
         { label: "Case Study 4", link: "/projects/#" },
         { label: "Case Study 5", link: "/projects/#" },

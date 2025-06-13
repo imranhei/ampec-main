@@ -9,7 +9,7 @@ import Service from "./components/Services/Service";
 import Industries from "./components/Industry/Index";
 import Industry from "./components/Industry/Industry";
 import Projects from "./components/Projects/Index";
-import Project from "./components/Projects/Project";
+import CaseStudy1 from "./components/Projects/CaseStudy1";
 import Contact from "./components/Contact/Index";
 import Quality from "./components/Quality/Index";
 import Manufacturing from "./components/Manufacturing/Index";
@@ -17,6 +17,7 @@ import FAQ from "./components/FAQ/Index";
 import Footer from "./components/Footer";
 import News from "./components/News/Index";
 import TermsAndConditions from "./components/Terms/TermsAndConditions";
+import CaseStudy2 from "./components/Projects/CaseStudy2";
 
 function App() {
 
@@ -58,7 +59,8 @@ function App() {
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
           {/* <Route path="/projects/:projectId" element={<Project />} /> */}
-          <Route path="projects/case-study-1" element={<Project />} />
+          <Route path="projects/case-study-1" element={<CaseStudy1 />} />
+          <Route path="projects/case-study-2" element={<CaseStudy2 />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/news" element={<News />} />
