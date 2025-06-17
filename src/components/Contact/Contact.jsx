@@ -125,10 +125,8 @@ const Contact = () => {
       <div className="flex gap-2 text-amBlue lg:text-2xl sm:text-xl text-lg font-semibold">
         <h2>Contact us at:</h2>
         <a href="mailto:sales@ampec.com.au">
-        <h2>
-          sales@ampec.com.au
-        </h2>
-      </a>
+          <h2>sales@ampec.com.au</h2>
+        </a>
       </div>
     </div>
   );

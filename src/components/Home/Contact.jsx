@@ -14,14 +14,20 @@ const Contact = () => {
         shaping a connected future. Join us as we revolutionize the world with
         technology.
       </p>
-      <div className="text-center">
+      {/* <div className="text-center">
         <div className="sm:h-32 h-24 sm:w-32 w-24 rounded-full mx-auto mb-4 overflow-hidden"><img src={ceo} alt="" className="w-full h-full object-cover"/></div>
         <p className="font-medium text-lg">Fayezur Rahman</p>
         <p className="text-gray-500 sm:text-base text-sm">
           Managing Director of Ampec
         </p>
+      </div> */}
+      <div className="flex gap-2 text-amBlue lg:text-2xl sm:text-xl text-lg font-semibold">
+        <h2>Contact us at:</h2>
+        <a href="mailto:sales@ampec.com.au">
+          <h2>sales@ampec.com.au</h2>
+        </a>
       </div>
-      <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6 text-amBlue font-exo">
+      {/* <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6 text-amBlue font-exo">
         <div className="sm:space-y-4 space-y-2 flex-1 px-5">
           <p className="lg:text-2xl sm:text-xl tracking-wide">
             First Name :
@@ -69,7 +75,7 @@ const Contact = () => {
       </div>
       <div className="sm:pt-6">
         <ButtonSubmit />
-      </div>
+      </div> */}
     </div>
   );
 };
