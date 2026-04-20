@@ -46,7 +46,7 @@ const TermsAndConditions = () => {
         </div>
         <div className="text-amBlue font-khula sm:font-semibold">
           <h3 className="lg:text-3xl sm:text-2xl text-xl font-semibold tracking-wide lg:pb-10 sm:pb-8 pb-4">
-            1. Ruggedized for Mining Environments :
+            1. Definitions :
           </h3>
           <p className="py-4 sm:font-bold font-semibold">
             In these Terms and Conditions:
