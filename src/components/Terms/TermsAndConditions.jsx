@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const TermsAndConditions = () => {
   useEffect(() => {
@@ -8,12 +8,42 @@ const TermsAndConditions = () => {
   return (
     <div className="w-full relative z-10 lg:pt-44 sm:pt-36 pt-24 lg:pb-40 sm:pb-28 pb-20">
       <div className="flex flex-col container mx-auto lg:px-20 md:px-10 px-6">
-        <h1 className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:pb-4 sm:pb-2 pb-0 text-amBlue">
-          Terms and Conditions:
-        </h1>
-        <h2 className="lg:text-xl sm:text-lg text-sm sm:font-semibold tracking-wide font-exo lg:pb-16 sm:pb-14 pb-8 text-amBlue">
-          Updated: Feb 12,2025
-        </h2>
+        <div className="mb-12 border-b border-amBlue/10 pb-8 sm:pb-10">
+          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <div className="max-w-3xl">
+              <h1 className="mt-4 lg:text-5xl sm:text-4xl text-[30px] font-bold tracking-tight font-exo text-amBlue leading-[1.1]">
+                Terms & Conditions
+              </h1>
+
+              <p className="mt-3 lg:text-xl sm:text-lg text-sm sm:font-semibold tracking-wide font-exo text-amBlue">
+                Updated: February 12, 2025
+              </p>
+            </div>
+
+            <a
+              href="/Ampec_Standard_Terms_and_Conditions_v1.1.pdf"
+              download
+              className="group inline-flex h-11 sm:h-12 items-center justify-center gap-2 rounded-full border border-yellow-500/70 bg-yellow-400 px-6 text-sm sm:text-base font-semibold text-amBlue shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-md"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.9"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-[1px]"
+              >
+                <path d="M12 4v10" />
+                <path d="M8.5 11.5L12 15l3.5-3.5" />
+                <path d="M5 19h14" />
+              </svg>
+
+              <span>Download PDF</span>
+            </a>
+          </div>
+        </div>
         <div className="text-amBlue font-khula sm:font-semibold">
           <h3 className="lg:text-3xl sm:text-2xl text-xl font-semibold tracking-wide lg:pb-10 sm:pb-8 pb-4">
             1. Ruggedized for Mining Environments :
