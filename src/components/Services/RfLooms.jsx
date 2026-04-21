@@ -558,7 +558,7 @@ export default function RFLooms() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="/contact-us"
+              href="#contact"
               className="font-exo inline-block cursor-pointer border-none bg-[#ffd020] px-8 py-[14px] text-[14px] font-bold tracking-[1px] text-[#093f68] transition hover:-translate-y-[1px] hover:bg-[#e6b800]"
             >
               Request a Quote
