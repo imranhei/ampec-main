@@ -50,7 +50,7 @@ const Products = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[440px] h-96 lg:w-[580px] w-[300px] text-center"
+            className="flex items-center flex-col lg:p-10 p-6 shadow-lg rounded-lg bg-amCard sm:h-[400px] h-80 lg:w-[580px] w-[300px] text-center"
           >
             <img
               className="lg:h-28 h-20 w-auto mx-auto p-4 lg:m-2"
@@ -60,7 +60,7 @@ const Products = () => {
             <p className="lg:h-40 sm:h-60 h-52 text-amBlue sm:text-base text-sm font-lato font-semibold lg:leading-8 leading-7">
               {item.detail}
             </p>
-            <Button />
+            {/* <Button /> */}
           </div>
         ))}
       </div>

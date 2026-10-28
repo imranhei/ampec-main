@@ -1,4 +1,3 @@
-import React from "react";
 import hero from "../../assets/hero.webp";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
@@ -15,7 +14,7 @@ const Hero = () => {
           Australia, Specializing in Cable Harness and Box Build Assembly
         </h2>
         <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10">
-          <Button />
+          {/* <Button /> */}
           <ButtonSolution />
         </div>
       </div>

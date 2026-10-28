@@ -84,7 +84,7 @@ const Projects = () => {
         box/panel builds, contact us or order from our online catalogue.
       </h2>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center sm:pb-20 pb-10 lg:px-20 md:px-10 px-6">
-        <Button />
+        {/* <Button /> */}
         <ButtonSolution />
       </div>
       <div>

@@ -34,7 +34,7 @@ const Footer = () => {
           <p className="font-medium pb-4">Dhaka</p>
           <p className="w-64">
             Uttara Tower, level 5 <br />
-            Jasimuddn Avenue, Sector-3 Uttara, <br />
+            Jashimuddin Avenue, Sector-3 <br /> Uttara,
             Dhaka-1230, Bangladesh
           </p>
         </div>

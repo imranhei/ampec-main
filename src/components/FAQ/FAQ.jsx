@@ -129,7 +129,15 @@ const FAQ = () => {
         are met. Whether you're seeking custom solutions, have project-specific
         questions, or require additional information, we're here to help.
       </div>
-      <div className="space-y-6 mt-4 font-exo text-amBlue">
+
+      <div className="flex gap-2 text-amBlue lg:text-2xl sm:text-xl text-lg font-semibold">
+        <h2>Contact us at:</h2>
+        <a href="mailto:sales@ampec.com.au">
+          <h2>sales@ampec.com.au</h2>
+        </a>
+      </div>
+
+      {/* <div className="space-y-6 mt-4 font-exo text-amBlue">
         <div className="flex lg:w-[850px] sm:w-[700px] w-[360px] justify-between lg:pt-10 pt-6">
           <div className="sm:space-y-4 space-y-2 flex-1 px-5">
             <p className="lg:text-2xl sm:text-xl tracking-wide">First Name :</p>
@@ -190,7 +198,7 @@ const FAQ = () => {
             </svg>
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

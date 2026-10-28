@@ -36,7 +36,7 @@ const Index = () => {
       <Contact />
       <CallUs />
       <MediaPlatform />
-      <Quotation id="quotation" />
+      {/* <Quotation id="quotation" /> */}
       <Visit />
     </div>
   );

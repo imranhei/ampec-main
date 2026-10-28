@@ -83,24 +83,9 @@ const Home = () => {
   return (
     <div className="w-full overflow-hidden relative z-10">
       <Hero />
-      {/* <Slider
-        {...settings}
-        className="card container mx-auto pb-10 overflow-hidden -mt-10 lg:hidden"
-      >
-        {engage.map((item, index) => (
-          <div key={index} className="w-full h-full flex justify-center">
-            <div className="flex justify-center">
-              <Card key={index} props={item} index={index} />
-            </div>
-          </div>
-        ))}
-      </Slider>
-      <div className="lg:flex justify-center gap-10 mx-auto container hidden -mt-10 pb-24">
-        {engage.map((item, index) => (
-          <Card key={index} props={item} index={index} />
-        ))}
-      </div> */}
+
       <Specialties />
+      
       <div className="flex w-full flex-col items-center container mx-auto lg:px-20 md:px-10 px-6">
         <p className="lg:text-5xl sm:text-4xl text-[28px] font-bold tracking-wide font-exo lg:py-16 sm:py-14 py-8 text-amBlue text-center">
           Certifications and Compliance

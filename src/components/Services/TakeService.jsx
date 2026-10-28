@@ -1,8 +1,7 @@
-import React from "react";
 import take_service from "../../assets/Services/service_take.webp";
 import Button from "../Custom/ButtonBuy";
 import ButtonSolution from "../Custom/ButtonSolution";
-// container mx-auto lg:px-20 md:px-10 px-6
+
 const TakeService = () => {
   return (
     <div className="lg:py-24 sm:py-20 py-10 flex flex-col items-center overflow-hidden mx-auto">
@@ -17,7 +16,7 @@ const TakeService = () => {
         our online catalogue for all your Cable Harness Sydney needs.
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:font-semibold font-lato lg:px-20 md:px-10 px-6 sm:pb-20 pb-10">
-        <Button />
+        {/* <Button /> */}
         <ButtonSolution />
       </div>
       <img

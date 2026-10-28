@@ -18,7 +18,7 @@ const PartnerWithUs = () => {
         new ventures.
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base sm:pb-24 pb-10">
-        <Button />
+        {/* <Button /> */}
         <ButtonSolution />
       </div>
     </div>

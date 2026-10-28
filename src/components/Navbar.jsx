@@ -216,8 +216,8 @@ const Nav = () => {
           )}
         </Button>
         <div className="hidden xl:block">{navList}</div>
-        <div className="xl:relative absolute w-full xl:w-fit flex justify-center">
-          {/* lg converted to xl */}
+
+        {/* <div className="xl:relative absolute w-full xl:w-fit flex justify-center">
           <div className="relative sm:h-12 h-8 mr-3 sm:mr-10 lg:mr-0">
             <input
               className="2xl:w-64 lg:w-60 sm:w-56 w-44 h-full border rounded-2xl placeholder:italic placeholder:text-xs outline-none pl-4 tracking-widest pr-10 text-base"
@@ -266,7 +266,8 @@ const Nav = () => {
               </g>
             </svg>
           </div>
-        </div>
+        </div> */}
+
         <div className="z-50">
           <Link to="/">
             <img

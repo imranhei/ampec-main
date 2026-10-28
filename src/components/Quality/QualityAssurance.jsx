@@ -49,7 +49,7 @@ const QualityAssurance = () => {
         at the forefront of technological advancements and industry standards.
       </div>
       <div className="flex flex-wrap sm:gap-10 gap-5 justify-center items-center text-sm sm:text-base">
-        <Button />
+        {/* <Button /> */}
         <ButtonSolution />
       </div>
       <div className="flex flex-wrap justify-center lg:gap-10 gap-5 lg:py-24 py-10">
