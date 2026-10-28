@@ -1,26 +1,26 @@
-import React, { useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
 import bg from "./assets/background.webp";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import Service from "./components/Services/Service";
-import Industries from "./components/Industry/Index";
-import Industry from "./components/Industry/Industry";
-import Projects from "./components/Projects/Index";
-import CaseStudy1 from "./components/Projects/CaseStudy1";
 import Contact from "./components/Contact/Index";
-import Quality from "./components/Quality/Index";
-import Manufacturing from "./components/Manufacturing/Index";
 import FAQ from "./components/FAQ/Index";
 import Footer from "./components/Footer";
+import Home from "./components/Home/Home";
+import Industries from "./components/Industry/Index";
+import Industry from "./components/Industry/Industry";
+import Manufacturing from "./components/Manufacturing/Index";
+import Navbar from "./components/Navbar";
 import News from "./components/News/Index";
-import TermsAndConditions from "./components/Terms/TermsAndConditions";
+import CaseStudy1 from "./components/Projects/CaseStudy1";
 import CaseStudy2 from "./components/Projects/CaseStudy2";
+import Projects from "./components/Projects/Index";
+import Quality from "./components/Quality/Index";
+import FibreOpticLooms from "./components/Services/FiberOpticLooms";
+import RFLooms from "./components/Services/RfLooms";
+import Service from "./components/Services/Service";
+import Services from "./components/Services/Services";
+import TermsAndConditions from "./components/Terms/TermsAndConditions";
 
 function App() {
-
   return (
     <div className="relative">
       {/* chat bot */}
@@ -52,6 +52,11 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<Service />} />
+          <Route path="/services/rf-looms" element={<RFLooms />} />
+          <Route
+            path="/services/fiber-optic-looms"
+            element={<FibreOpticLooms />}
+          />
           <Route path="/industries" element={<Industries />} />
           <Route path="/industries/:industryId" element={<Industry />} />
           <Route path="/projects" element={<Projects />} />
@@ -61,7 +66,10 @@ function App() {
           {/* <Route path="/projects/:projectId" element={<Project />} /> */}
           <Route path="projects/case-study-1" element={<CaseStudy1 />} />
           <Route path="projects/case-study-2" element={<CaseStudy2 />} />
-          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditions />}
+          />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/news" element={<News />} />
         </Routes>

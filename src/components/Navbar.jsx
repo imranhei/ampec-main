@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { Button, Collapse } from "@material-tailwind/react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 import logo_phone from "../assets/logo_phone.jpg";
-import { Button, Collapse } from "@material-tailwind/react";
 
 const Nav = () => {
   const location = useLocation();
@@ -23,6 +23,8 @@ const Nav = () => {
       link: "/services",
       className: "",
       submenu: [
+        { label: "RF Looms", link: "/services/rf-looms" },
+        { label: "Fiber Optic Looms", link: "/services/fiber-optic-looms" },
         { label: "Cable Assembly", link: "/services/cable-assembly" },
         { label: "Box Build Assembly", link: "/services/box-build" },
         { label: "Engineering Design", link: "/services/engineering-design" },
@@ -79,7 +81,7 @@ const Nav = () => {
       label: "Terms and Conditions",
       link: "/terms-and-conditions",
       className: "hidden",
-    }
+    },
   ];
 
   const [search, setSearch] = useState("");
@@ -89,8 +91,7 @@ const Nav = () => {
   const handleSubmenuToggle = (submenu) => {
     if (submenuOpen === submenu) {
       setSubmenuOpen(false);
-    }
-    else {
+    } else {
       setSubmenuOpen(submenu);
     }
   };
@@ -104,7 +105,9 @@ const Nav = () => {
   useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 1280 && (setOpenNav(false) || setSubmenuOpen(false))
+      () =>
+        window.innerWidth >= 1280 &&
+        (setOpenNav(false) || setSubmenuOpen(false)),
     );
   }, []);
 
@@ -117,7 +120,7 @@ const Nav = () => {
             <Link
               to={option.link}
               className={`relative sm:font-semibold xl:py-4 hover:text-amYellow ${option.className === "hidden" ? "xl:hidden" : ""} ${
-                location.pathname.includes(option.link) && 
+                location.pathname.includes(option.link) &&
                 (location.pathname === option.link || option.link !== "/")
                   ? "text-amYellow"
                   : "text-amBlue"
@@ -128,7 +131,8 @@ const Nav = () => {
               {option.label === "News" && !visited && (
                 <span className="absolute xl:top-1 -top-2 -right-3 bg-red-500 text-xs text-white font-semibold rounded-full px-1.5 py-px">
                   1
-                  </span>)}
+                </span>
+              )}
             </Link>
             {option.submenu && (
               <svg
@@ -153,7 +157,10 @@ const Nav = () => {
               >
                 {/* lg converted to xl */}
                 {option.submenu.map((subItem, subIndex) => (
-                  <li key={subIndex} className="xl:border-none border-b xl:w-52 w-80">
+                  <li
+                    key={subIndex}
+                    className="xl:border-none border-b xl:w-52 w-80"
+                  >
                     <Link
                       to={subItem.link}
                       className={`block px-4 py-1 hover:text-amYellow sm:font-semibold ${
