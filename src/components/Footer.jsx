@@ -129,7 +129,8 @@ const Footer = () => {
       </div>
       {/* <div className="w-screen h-px bg-amYellow opacity-25"/> */}
       <p className="text-xs text-slate-400">
-        &copy; Copyright Ampec {new Date().getFullYear()} | All Rights Reserved
+        © {new Date().getFullYear()} AMPEC Technologies Pty Ltd.
+          All rights reserved.
         | All other logos are the property of their respective owners
       </p>
     </div>

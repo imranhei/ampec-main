@@ -1,6 +1,7 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import bg from "./assets/background.webp";
 import About from "./components/About/About";
+import ContactCard from "./components/Contact/ContactCard";
 import Contact from "./components/Contact/Index";
 import FAQ from "./components/FAQ/Index";
 import Footer from "./components/Footer";
@@ -21,6 +22,11 @@ import Services from "./components/Services/Services";
 import TermsAndConditions from "./components/Terms/TermsAndConditions";
 
 function App() {
+  const location = useLocation();
+
+  const isContactCardPage =
+    location.pathname.replace(/\/+$/, "") === "/contact-card";
+
   return (
     <div className="relative">
       {/* chat bot */}
@@ -35,18 +41,19 @@ function App() {
         </svg>
       </div> */}
       <div
-        className="absolute inset-0"
+        className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage: `url(${bg})`,
           opacity: "0.015",
           backgroundPosition: "center",
-          zIndex: "1",
+          // zIndex: "1",
         }}
+        aria-hidden="true"
       ></div>
 
-      <div className="bg-nav">
-        {/* <Scroll /> */}
-        <Navbar />
+      <div className={isContactCardPage ? "" : "bg-nav"}>
+        {!isContactCardPage && <Navbar />}
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
@@ -63,17 +70,20 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/manufacturing" element={<Manufacturing />} />
-          {/* <Route path="/projects/:projectId" element={<Project />} /> */}
-          <Route path="projects/case-study-1" element={<CaseStudy1 />} />
-          <Route path="projects/case-study-2" element={<CaseStudy2 />} />
+          <Route path="/projects/case-study-1" element={<CaseStudy1 />} />
+          <Route path="/projects/case-study-2" element={<CaseStudy2 />} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}
           />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/news" element={<News />} />
+
+          {/* Standalone Digital Contact Card */}
+          <Route path="/contact-card" element={<ContactCard />} />
         </Routes>
-        <Footer />
+
+        {!isContactCardPage && <Footer />}
       </div>
     </div>
   );
